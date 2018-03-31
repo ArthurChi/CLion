@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/cjfire/Desktop/CLionProjects
+CMAKE_SOURCE_DIR = /Users/cjfire/Documents/code/CLion/CLionProjects
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/cjfire/Desktop/CLionProjects
+CMAKE_BINARY_DIR = /Users/cjfire/Documents/code/CLion/CLionProjects
 
 # Include any dependencies generated for this target.
 include libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/depend.make
@@ -59,16 +59,16 @@ include libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/file/cocoa/SDL_rwopsbundlesupport.m.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/file/cocoa/SDL_rwopsbundlesupport.m.o: libs/SDL2-2.0.7/src/file/cocoa/SDL_rwopsbundlesupport.m
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/file/cocoa/SDL_rwopsbundlesupport.m.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/file/cocoa/SDL_rwopsbundlesupport.m.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/file/cocoa/SDL_rwopsbundlesupport.m
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/file/cocoa/SDL_rwopsbundlesupport.m.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/file/cocoa/SDL_rwopsbundlesupport.m.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/file/cocoa/SDL_rwopsbundlesupport.m
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/file/cocoa/SDL_rwopsbundlesupport.m.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/file/cocoa/SDL_rwopsbundlesupport.m.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/file/cocoa/SDL_rwopsbundlesupport.m > CMakeFiles/SDL2-static.dir/src/file/cocoa/SDL_rwopsbundlesupport.m.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/file/cocoa/SDL_rwopsbundlesupport.m > CMakeFiles/SDL2-static.dir/src/file/cocoa/SDL_rwopsbundlesupport.m.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/file/cocoa/SDL_rwopsbundlesupport.m.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/file/cocoa/SDL_rwopsbundlesupport.m.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/file/cocoa/SDL_rwopsbundlesupport.m -o CMakeFiles/SDL2-static.dir/src/file/cocoa/SDL_rwopsbundlesupport.m.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/file/cocoa/SDL_rwopsbundlesupport.m -o CMakeFiles/SDL2-static.dir/src/file/cocoa/SDL_rwopsbundlesupport.m.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/file/cocoa/SDL_rwopsbundlesupport.m.o.requires:
 
@@ -83,16 +83,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/file/cocoa/SDL_rwopsbundlesupport
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/SDL.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/SDL.c.o: libs/SDL2-2.0.7/src/SDL.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/SDL.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/SDL.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/SDL.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/SDL.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/SDL.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/SDL.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/SDL.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/SDL.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/SDL.c > CMakeFiles/SDL2-static.dir/src/SDL.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/SDL.c > CMakeFiles/SDL2-static.dir/src/SDL.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/SDL.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/SDL.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/SDL.c -o CMakeFiles/SDL2-static.dir/src/SDL.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/SDL.c -o CMakeFiles/SDL2-static.dir/src/SDL.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/SDL.c.o.requires:
 
@@ -107,16 +107,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/SDL.c.o.provides.build: libs/SDL2
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/SDL_assert.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/SDL_assert.c.o: libs/SDL2-2.0.7/src/SDL_assert.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/SDL_assert.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/SDL_assert.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/SDL_assert.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/SDL_assert.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/SDL_assert.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/SDL_assert.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/SDL_assert.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/SDL_assert.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/SDL_assert.c > CMakeFiles/SDL2-static.dir/src/SDL_assert.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/SDL_assert.c > CMakeFiles/SDL2-static.dir/src/SDL_assert.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/SDL_assert.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/SDL_assert.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/SDL_assert.c -o CMakeFiles/SDL2-static.dir/src/SDL_assert.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/SDL_assert.c -o CMakeFiles/SDL2-static.dir/src/SDL_assert.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/SDL_assert.c.o.requires:
 
@@ -131,16 +131,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/SDL_assert.c.o.provides.build: li
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/SDL_dataqueue.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/SDL_dataqueue.c.o: libs/SDL2-2.0.7/src/SDL_dataqueue.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/SDL_dataqueue.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/SDL_dataqueue.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/SDL_dataqueue.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/SDL_dataqueue.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/SDL_dataqueue.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/SDL_dataqueue.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/SDL_dataqueue.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/SDL_dataqueue.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/SDL_dataqueue.c > CMakeFiles/SDL2-static.dir/src/SDL_dataqueue.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/SDL_dataqueue.c > CMakeFiles/SDL2-static.dir/src/SDL_dataqueue.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/SDL_dataqueue.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/SDL_dataqueue.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/SDL_dataqueue.c -o CMakeFiles/SDL2-static.dir/src/SDL_dataqueue.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/SDL_dataqueue.c -o CMakeFiles/SDL2-static.dir/src/SDL_dataqueue.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/SDL_dataqueue.c.o.requires:
 
@@ -155,16 +155,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/SDL_dataqueue.c.o.provides.build:
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/SDL_error.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/SDL_error.c.o: libs/SDL2-2.0.7/src/SDL_error.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/SDL_error.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/SDL_error.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/SDL_error.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/SDL_error.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/SDL_error.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/SDL_error.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/SDL_error.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/SDL_error.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/SDL_error.c > CMakeFiles/SDL2-static.dir/src/SDL_error.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/SDL_error.c > CMakeFiles/SDL2-static.dir/src/SDL_error.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/SDL_error.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/SDL_error.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/SDL_error.c -o CMakeFiles/SDL2-static.dir/src/SDL_error.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/SDL_error.c -o CMakeFiles/SDL2-static.dir/src/SDL_error.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/SDL_error.c.o.requires:
 
@@ -179,16 +179,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/SDL_error.c.o.provides.build: lib
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/SDL_hints.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/SDL_hints.c.o: libs/SDL2-2.0.7/src/SDL_hints.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/SDL_hints.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/SDL_hints.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/SDL_hints.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/SDL_hints.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/SDL_hints.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/SDL_hints.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/SDL_hints.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/SDL_hints.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/SDL_hints.c > CMakeFiles/SDL2-static.dir/src/SDL_hints.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/SDL_hints.c > CMakeFiles/SDL2-static.dir/src/SDL_hints.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/SDL_hints.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/SDL_hints.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/SDL_hints.c -o CMakeFiles/SDL2-static.dir/src/SDL_hints.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/SDL_hints.c -o CMakeFiles/SDL2-static.dir/src/SDL_hints.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/SDL_hints.c.o.requires:
 
@@ -203,16 +203,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/SDL_hints.c.o.provides.build: lib
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/SDL_log.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/SDL_log.c.o: libs/SDL2-2.0.7/src/SDL_log.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/SDL_log.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/SDL_log.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/SDL_log.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/SDL_log.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/SDL_log.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/SDL_log.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/SDL_log.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/SDL_log.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/SDL_log.c > CMakeFiles/SDL2-static.dir/src/SDL_log.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/SDL_log.c > CMakeFiles/SDL2-static.dir/src/SDL_log.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/SDL_log.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/SDL_log.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/SDL_log.c -o CMakeFiles/SDL2-static.dir/src/SDL_log.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/SDL_log.c -o CMakeFiles/SDL2-static.dir/src/SDL_log.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/SDL_log.c.o.requires:
 
@@ -227,16 +227,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/SDL_log.c.o.provides.build: libs/
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/atomic/SDL_atomic.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/atomic/SDL_atomic.c.o: libs/SDL2-2.0.7/src/atomic/SDL_atomic.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/atomic/SDL_atomic.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/atomic/SDL_atomic.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/atomic/SDL_atomic.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/atomic/SDL_atomic.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/atomic/SDL_atomic.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/atomic/SDL_atomic.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/atomic/SDL_atomic.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/atomic/SDL_atomic.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/atomic/SDL_atomic.c > CMakeFiles/SDL2-static.dir/src/atomic/SDL_atomic.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/atomic/SDL_atomic.c > CMakeFiles/SDL2-static.dir/src/atomic/SDL_atomic.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/atomic/SDL_atomic.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/atomic/SDL_atomic.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/atomic/SDL_atomic.c -o CMakeFiles/SDL2-static.dir/src/atomic/SDL_atomic.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/atomic/SDL_atomic.c -o CMakeFiles/SDL2-static.dir/src/atomic/SDL_atomic.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/atomic/SDL_atomic.c.o.requires:
 
@@ -251,16 +251,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/atomic/SDL_atomic.c.o.provides.bu
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/atomic/SDL_spinlock.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/atomic/SDL_spinlock.c.o: libs/SDL2-2.0.7/src/atomic/SDL_spinlock.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/atomic/SDL_spinlock.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/atomic/SDL_spinlock.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/atomic/SDL_spinlock.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/atomic/SDL_spinlock.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/atomic/SDL_spinlock.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/atomic/SDL_spinlock.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/atomic/SDL_spinlock.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/atomic/SDL_spinlock.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/atomic/SDL_spinlock.c > CMakeFiles/SDL2-static.dir/src/atomic/SDL_spinlock.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/atomic/SDL_spinlock.c > CMakeFiles/SDL2-static.dir/src/atomic/SDL_spinlock.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/atomic/SDL_spinlock.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/atomic/SDL_spinlock.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/atomic/SDL_spinlock.c -o CMakeFiles/SDL2-static.dir/src/atomic/SDL_spinlock.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/atomic/SDL_spinlock.c -o CMakeFiles/SDL2-static.dir/src/atomic/SDL_spinlock.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/atomic/SDL_spinlock.c.o.requires:
 
@@ -275,16 +275,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/atomic/SDL_spinlock.c.o.provides.
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/SDL_audio.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/SDL_audio.c.o: libs/SDL2-2.0.7/src/audio/SDL_audio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/SDL_audio.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/audio/SDL_audio.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/audio/SDL_audio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/SDL_audio.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/audio/SDL_audio.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/audio/SDL_audio.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/SDL_audio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/audio/SDL_audio.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/audio/SDL_audio.c > CMakeFiles/SDL2-static.dir/src/audio/SDL_audio.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/audio/SDL_audio.c > CMakeFiles/SDL2-static.dir/src/audio/SDL_audio.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/SDL_audio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/audio/SDL_audio.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/audio/SDL_audio.c -o CMakeFiles/SDL2-static.dir/src/audio/SDL_audio.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/audio/SDL_audio.c -o CMakeFiles/SDL2-static.dir/src/audio/SDL_audio.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/SDL_audio.c.o.requires:
 
@@ -299,16 +299,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/SDL_audio.c.o.provides.buil
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/SDL_audiocvt.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/SDL_audiocvt.c.o: libs/SDL2-2.0.7/src/audio/SDL_audiocvt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/SDL_audiocvt.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/audio/SDL_audiocvt.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/audio/SDL_audiocvt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/SDL_audiocvt.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/audio/SDL_audiocvt.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/audio/SDL_audiocvt.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/SDL_audiocvt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/audio/SDL_audiocvt.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/audio/SDL_audiocvt.c > CMakeFiles/SDL2-static.dir/src/audio/SDL_audiocvt.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/audio/SDL_audiocvt.c > CMakeFiles/SDL2-static.dir/src/audio/SDL_audiocvt.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/SDL_audiocvt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/audio/SDL_audiocvt.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/audio/SDL_audiocvt.c -o CMakeFiles/SDL2-static.dir/src/audio/SDL_audiocvt.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/audio/SDL_audiocvt.c -o CMakeFiles/SDL2-static.dir/src/audio/SDL_audiocvt.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/SDL_audiocvt.c.o.requires:
 
@@ -323,16 +323,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/SDL_audiocvt.c.o.provides.b
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/SDL_audiodev.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/SDL_audiodev.c.o: libs/SDL2-2.0.7/src/audio/SDL_audiodev.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/SDL_audiodev.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/audio/SDL_audiodev.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/audio/SDL_audiodev.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/SDL_audiodev.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/audio/SDL_audiodev.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/audio/SDL_audiodev.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/SDL_audiodev.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/audio/SDL_audiodev.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/audio/SDL_audiodev.c > CMakeFiles/SDL2-static.dir/src/audio/SDL_audiodev.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/audio/SDL_audiodev.c > CMakeFiles/SDL2-static.dir/src/audio/SDL_audiodev.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/SDL_audiodev.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/audio/SDL_audiodev.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/audio/SDL_audiodev.c -o CMakeFiles/SDL2-static.dir/src/audio/SDL_audiodev.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/audio/SDL_audiodev.c -o CMakeFiles/SDL2-static.dir/src/audio/SDL_audiodev.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/SDL_audiodev.c.o.requires:
 
@@ -347,16 +347,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/SDL_audiodev.c.o.provides.b
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/SDL_audiotypecvt.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/SDL_audiotypecvt.c.o: libs/SDL2-2.0.7/src/audio/SDL_audiotypecvt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/SDL_audiotypecvt.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/audio/SDL_audiotypecvt.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/audio/SDL_audiotypecvt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/SDL_audiotypecvt.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/audio/SDL_audiotypecvt.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/audio/SDL_audiotypecvt.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/SDL_audiotypecvt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/audio/SDL_audiotypecvt.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/audio/SDL_audiotypecvt.c > CMakeFiles/SDL2-static.dir/src/audio/SDL_audiotypecvt.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/audio/SDL_audiotypecvt.c > CMakeFiles/SDL2-static.dir/src/audio/SDL_audiotypecvt.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/SDL_audiotypecvt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/audio/SDL_audiotypecvt.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/audio/SDL_audiotypecvt.c -o CMakeFiles/SDL2-static.dir/src/audio/SDL_audiotypecvt.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/audio/SDL_audiotypecvt.c -o CMakeFiles/SDL2-static.dir/src/audio/SDL_audiotypecvt.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/SDL_audiotypecvt.c.o.requires:
 
@@ -371,16 +371,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/SDL_audiotypecvt.c.o.provid
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/SDL_mixer.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/SDL_mixer.c.o: libs/SDL2-2.0.7/src/audio/SDL_mixer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/SDL_mixer.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/audio/SDL_mixer.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/audio/SDL_mixer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/SDL_mixer.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/audio/SDL_mixer.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/audio/SDL_mixer.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/SDL_mixer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/audio/SDL_mixer.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/audio/SDL_mixer.c > CMakeFiles/SDL2-static.dir/src/audio/SDL_mixer.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/audio/SDL_mixer.c > CMakeFiles/SDL2-static.dir/src/audio/SDL_mixer.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/SDL_mixer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/audio/SDL_mixer.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/audio/SDL_mixer.c -o CMakeFiles/SDL2-static.dir/src/audio/SDL_mixer.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/audio/SDL_mixer.c -o CMakeFiles/SDL2-static.dir/src/audio/SDL_mixer.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/SDL_mixer.c.o.requires:
 
@@ -395,16 +395,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/SDL_mixer.c.o.provides.buil
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/SDL_wave.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/SDL_wave.c.o: libs/SDL2-2.0.7/src/audio/SDL_wave.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/SDL_wave.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/audio/SDL_wave.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/audio/SDL_wave.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/SDL_wave.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/audio/SDL_wave.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/audio/SDL_wave.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/SDL_wave.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/audio/SDL_wave.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/audio/SDL_wave.c > CMakeFiles/SDL2-static.dir/src/audio/SDL_wave.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/audio/SDL_wave.c > CMakeFiles/SDL2-static.dir/src/audio/SDL_wave.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/SDL_wave.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/audio/SDL_wave.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/audio/SDL_wave.c -o CMakeFiles/SDL2-static.dir/src/audio/SDL_wave.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/audio/SDL_wave.c -o CMakeFiles/SDL2-static.dir/src/audio/SDL_wave.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/SDL_wave.c.o.requires:
 
@@ -419,16 +419,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/SDL_wave.c.o.provides.build
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/cpuinfo/SDL_cpuinfo.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/cpuinfo/SDL_cpuinfo.c.o: libs/SDL2-2.0.7/src/cpuinfo/SDL_cpuinfo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/cpuinfo/SDL_cpuinfo.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/cpuinfo/SDL_cpuinfo.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/cpuinfo/SDL_cpuinfo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/cpuinfo/SDL_cpuinfo.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/cpuinfo/SDL_cpuinfo.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/cpuinfo/SDL_cpuinfo.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/cpuinfo/SDL_cpuinfo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/cpuinfo/SDL_cpuinfo.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/cpuinfo/SDL_cpuinfo.c > CMakeFiles/SDL2-static.dir/src/cpuinfo/SDL_cpuinfo.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/cpuinfo/SDL_cpuinfo.c > CMakeFiles/SDL2-static.dir/src/cpuinfo/SDL_cpuinfo.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/cpuinfo/SDL_cpuinfo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/cpuinfo/SDL_cpuinfo.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/cpuinfo/SDL_cpuinfo.c -o CMakeFiles/SDL2-static.dir/src/cpuinfo/SDL_cpuinfo.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/cpuinfo/SDL_cpuinfo.c -o CMakeFiles/SDL2-static.dir/src/cpuinfo/SDL_cpuinfo.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/cpuinfo/SDL_cpuinfo.c.o.requires:
 
@@ -443,16 +443,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/cpuinfo/SDL_cpuinfo.c.o.provides.
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/dynapi/SDL_dynapi.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/dynapi/SDL_dynapi.c.o: libs/SDL2-2.0.7/src/dynapi/SDL_dynapi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/dynapi/SDL_dynapi.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/dynapi/SDL_dynapi.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/dynapi/SDL_dynapi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/dynapi/SDL_dynapi.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/dynapi/SDL_dynapi.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/dynapi/SDL_dynapi.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/dynapi/SDL_dynapi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/dynapi/SDL_dynapi.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/dynapi/SDL_dynapi.c > CMakeFiles/SDL2-static.dir/src/dynapi/SDL_dynapi.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/dynapi/SDL_dynapi.c > CMakeFiles/SDL2-static.dir/src/dynapi/SDL_dynapi.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/dynapi/SDL_dynapi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/dynapi/SDL_dynapi.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/dynapi/SDL_dynapi.c -o CMakeFiles/SDL2-static.dir/src/dynapi/SDL_dynapi.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/dynapi/SDL_dynapi.c -o CMakeFiles/SDL2-static.dir/src/dynapi/SDL_dynapi.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/dynapi/SDL_dynapi.c.o.requires:
 
@@ -467,16 +467,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/dynapi/SDL_dynapi.c.o.provides.bu
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_clipboardevents.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_clipboardevents.c.o: libs/SDL2-2.0.7/src/events/SDL_clipboardevents.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_clipboardevents.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/events/SDL_clipboardevents.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/events/SDL_clipboardevents.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_clipboardevents.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/events/SDL_clipboardevents.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/events/SDL_clipboardevents.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_clipboardevents.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/events/SDL_clipboardevents.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/events/SDL_clipboardevents.c > CMakeFiles/SDL2-static.dir/src/events/SDL_clipboardevents.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/events/SDL_clipboardevents.c > CMakeFiles/SDL2-static.dir/src/events/SDL_clipboardevents.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_clipboardevents.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/events/SDL_clipboardevents.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/events/SDL_clipboardevents.c -o CMakeFiles/SDL2-static.dir/src/events/SDL_clipboardevents.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/events/SDL_clipboardevents.c -o CMakeFiles/SDL2-static.dir/src/events/SDL_clipboardevents.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_clipboardevents.c.o.requires:
 
@@ -491,16 +491,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_clipboardevents.c.o.pr
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_dropevents.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_dropevents.c.o: libs/SDL2-2.0.7/src/events/SDL_dropevents.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_dropevents.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/events/SDL_dropevents.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/events/SDL_dropevents.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_dropevents.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/events/SDL_dropevents.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/events/SDL_dropevents.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_dropevents.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/events/SDL_dropevents.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/events/SDL_dropevents.c > CMakeFiles/SDL2-static.dir/src/events/SDL_dropevents.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/events/SDL_dropevents.c > CMakeFiles/SDL2-static.dir/src/events/SDL_dropevents.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_dropevents.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/events/SDL_dropevents.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/events/SDL_dropevents.c -o CMakeFiles/SDL2-static.dir/src/events/SDL_dropevents.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/events/SDL_dropevents.c -o CMakeFiles/SDL2-static.dir/src/events/SDL_dropevents.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_dropevents.c.o.requires:
 
@@ -515,16 +515,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_dropevents.c.o.provide
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_events.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_events.c.o: libs/SDL2-2.0.7/src/events/SDL_events.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_events.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/events/SDL_events.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/events/SDL_events.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_events.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/events/SDL_events.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/events/SDL_events.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_events.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/events/SDL_events.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/events/SDL_events.c > CMakeFiles/SDL2-static.dir/src/events/SDL_events.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/events/SDL_events.c > CMakeFiles/SDL2-static.dir/src/events/SDL_events.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_events.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/events/SDL_events.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/events/SDL_events.c -o CMakeFiles/SDL2-static.dir/src/events/SDL_events.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/events/SDL_events.c -o CMakeFiles/SDL2-static.dir/src/events/SDL_events.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_events.c.o.requires:
 
@@ -539,16 +539,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_events.c.o.provides.bu
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_gesture.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_gesture.c.o: libs/SDL2-2.0.7/src/events/SDL_gesture.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_gesture.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/events/SDL_gesture.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/events/SDL_gesture.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_gesture.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/events/SDL_gesture.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/events/SDL_gesture.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_gesture.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/events/SDL_gesture.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/events/SDL_gesture.c > CMakeFiles/SDL2-static.dir/src/events/SDL_gesture.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/events/SDL_gesture.c > CMakeFiles/SDL2-static.dir/src/events/SDL_gesture.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_gesture.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/events/SDL_gesture.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/events/SDL_gesture.c -o CMakeFiles/SDL2-static.dir/src/events/SDL_gesture.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/events/SDL_gesture.c -o CMakeFiles/SDL2-static.dir/src/events/SDL_gesture.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_gesture.c.o.requires:
 
@@ -563,16 +563,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_gesture.c.o.provides.b
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_keyboard.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_keyboard.c.o: libs/SDL2-2.0.7/src/events/SDL_keyboard.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_keyboard.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/events/SDL_keyboard.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/events/SDL_keyboard.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_keyboard.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/events/SDL_keyboard.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/events/SDL_keyboard.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_keyboard.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/events/SDL_keyboard.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/events/SDL_keyboard.c > CMakeFiles/SDL2-static.dir/src/events/SDL_keyboard.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/events/SDL_keyboard.c > CMakeFiles/SDL2-static.dir/src/events/SDL_keyboard.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_keyboard.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/events/SDL_keyboard.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/events/SDL_keyboard.c -o CMakeFiles/SDL2-static.dir/src/events/SDL_keyboard.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/events/SDL_keyboard.c -o CMakeFiles/SDL2-static.dir/src/events/SDL_keyboard.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_keyboard.c.o.requires:
 
@@ -587,16 +587,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_keyboard.c.o.provides.
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_mouse.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_mouse.c.o: libs/SDL2-2.0.7/src/events/SDL_mouse.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_mouse.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/events/SDL_mouse.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/events/SDL_mouse.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_mouse.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/events/SDL_mouse.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/events/SDL_mouse.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_mouse.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/events/SDL_mouse.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/events/SDL_mouse.c > CMakeFiles/SDL2-static.dir/src/events/SDL_mouse.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/events/SDL_mouse.c > CMakeFiles/SDL2-static.dir/src/events/SDL_mouse.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_mouse.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/events/SDL_mouse.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/events/SDL_mouse.c -o CMakeFiles/SDL2-static.dir/src/events/SDL_mouse.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/events/SDL_mouse.c -o CMakeFiles/SDL2-static.dir/src/events/SDL_mouse.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_mouse.c.o.requires:
 
@@ -611,16 +611,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_mouse.c.o.provides.bui
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_quit.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_quit.c.o: libs/SDL2-2.0.7/src/events/SDL_quit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_quit.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/events/SDL_quit.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/events/SDL_quit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_quit.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/events/SDL_quit.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/events/SDL_quit.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_quit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/events/SDL_quit.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/events/SDL_quit.c > CMakeFiles/SDL2-static.dir/src/events/SDL_quit.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/events/SDL_quit.c > CMakeFiles/SDL2-static.dir/src/events/SDL_quit.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_quit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/events/SDL_quit.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/events/SDL_quit.c -o CMakeFiles/SDL2-static.dir/src/events/SDL_quit.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/events/SDL_quit.c -o CMakeFiles/SDL2-static.dir/src/events/SDL_quit.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_quit.c.o.requires:
 
@@ -635,16 +635,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_quit.c.o.provides.buil
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_touch.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_touch.c.o: libs/SDL2-2.0.7/src/events/SDL_touch.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_touch.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/events/SDL_touch.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/events/SDL_touch.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_touch.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/events/SDL_touch.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/events/SDL_touch.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_touch.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/events/SDL_touch.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/events/SDL_touch.c > CMakeFiles/SDL2-static.dir/src/events/SDL_touch.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/events/SDL_touch.c > CMakeFiles/SDL2-static.dir/src/events/SDL_touch.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_touch.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/events/SDL_touch.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/events/SDL_touch.c -o CMakeFiles/SDL2-static.dir/src/events/SDL_touch.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/events/SDL_touch.c -o CMakeFiles/SDL2-static.dir/src/events/SDL_touch.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_touch.c.o.requires:
 
@@ -659,16 +659,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_touch.c.o.provides.bui
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_windowevents.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_windowevents.c.o: libs/SDL2-2.0.7/src/events/SDL_windowevents.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_windowevents.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/events/SDL_windowevents.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/events/SDL_windowevents.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_windowevents.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/events/SDL_windowevents.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/events/SDL_windowevents.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_windowevents.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/events/SDL_windowevents.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/events/SDL_windowevents.c > CMakeFiles/SDL2-static.dir/src/events/SDL_windowevents.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/events/SDL_windowevents.c > CMakeFiles/SDL2-static.dir/src/events/SDL_windowevents.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_windowevents.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/events/SDL_windowevents.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/events/SDL_windowevents.c -o CMakeFiles/SDL2-static.dir/src/events/SDL_windowevents.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/events/SDL_windowevents.c -o CMakeFiles/SDL2-static.dir/src/events/SDL_windowevents.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_windowevents.c.o.requires:
 
@@ -683,16 +683,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/events/SDL_windowevents.c.o.provi
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/file/SDL_rwops.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/file/SDL_rwops.c.o: libs/SDL2-2.0.7/src/file/SDL_rwops.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/file/SDL_rwops.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/file/SDL_rwops.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/file/SDL_rwops.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/file/SDL_rwops.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/file/SDL_rwops.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/file/SDL_rwops.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/file/SDL_rwops.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/file/SDL_rwops.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/file/SDL_rwops.c > CMakeFiles/SDL2-static.dir/src/file/SDL_rwops.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/file/SDL_rwops.c > CMakeFiles/SDL2-static.dir/src/file/SDL_rwops.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/file/SDL_rwops.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/file/SDL_rwops.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/file/SDL_rwops.c -o CMakeFiles/SDL2-static.dir/src/file/SDL_rwops.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/file/SDL_rwops.c -o CMakeFiles/SDL2-static.dir/src/file/SDL_rwops.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/file/SDL_rwops.c.o.requires:
 
@@ -707,16 +707,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/file/SDL_rwops.c.o.provides.build
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/e_atan2.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/e_atan2.c.o: libs/SDL2-2.0.7/src/libm/e_atan2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/e_atan2.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/libm/e_atan2.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/libm/e_atan2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/e_atan2.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/libm/e_atan2.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/libm/e_atan2.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/e_atan2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/libm/e_atan2.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/libm/e_atan2.c > CMakeFiles/SDL2-static.dir/src/libm/e_atan2.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/libm/e_atan2.c > CMakeFiles/SDL2-static.dir/src/libm/e_atan2.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/e_atan2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/libm/e_atan2.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/libm/e_atan2.c -o CMakeFiles/SDL2-static.dir/src/libm/e_atan2.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/libm/e_atan2.c -o CMakeFiles/SDL2-static.dir/src/libm/e_atan2.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/e_atan2.c.o.requires:
 
@@ -731,16 +731,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/e_atan2.c.o.provides.build: 
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/e_log.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/e_log.c.o: libs/SDL2-2.0.7/src/libm/e_log.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/e_log.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/libm/e_log.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/libm/e_log.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/e_log.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/libm/e_log.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/libm/e_log.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/e_log.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/libm/e_log.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/libm/e_log.c > CMakeFiles/SDL2-static.dir/src/libm/e_log.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/libm/e_log.c > CMakeFiles/SDL2-static.dir/src/libm/e_log.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/e_log.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/libm/e_log.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/libm/e_log.c -o CMakeFiles/SDL2-static.dir/src/libm/e_log.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/libm/e_log.c -o CMakeFiles/SDL2-static.dir/src/libm/e_log.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/e_log.c.o.requires:
 
@@ -755,16 +755,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/e_log.c.o.provides.build: li
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/e_pow.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/e_pow.c.o: libs/SDL2-2.0.7/src/libm/e_pow.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/e_pow.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/libm/e_pow.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/libm/e_pow.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/e_pow.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/libm/e_pow.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/libm/e_pow.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/e_pow.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/libm/e_pow.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/libm/e_pow.c > CMakeFiles/SDL2-static.dir/src/libm/e_pow.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/libm/e_pow.c > CMakeFiles/SDL2-static.dir/src/libm/e_pow.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/e_pow.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/libm/e_pow.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/libm/e_pow.c -o CMakeFiles/SDL2-static.dir/src/libm/e_pow.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/libm/e_pow.c -o CMakeFiles/SDL2-static.dir/src/libm/e_pow.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/e_pow.c.o.requires:
 
@@ -779,16 +779,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/e_pow.c.o.provides.build: li
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/e_rem_pio2.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/e_rem_pio2.c.o: libs/SDL2-2.0.7/src/libm/e_rem_pio2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/e_rem_pio2.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/libm/e_rem_pio2.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/libm/e_rem_pio2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/e_rem_pio2.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/libm/e_rem_pio2.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/libm/e_rem_pio2.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/e_rem_pio2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/libm/e_rem_pio2.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/libm/e_rem_pio2.c > CMakeFiles/SDL2-static.dir/src/libm/e_rem_pio2.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/libm/e_rem_pio2.c > CMakeFiles/SDL2-static.dir/src/libm/e_rem_pio2.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/e_rem_pio2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/libm/e_rem_pio2.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/libm/e_rem_pio2.c -o CMakeFiles/SDL2-static.dir/src/libm/e_rem_pio2.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/libm/e_rem_pio2.c -o CMakeFiles/SDL2-static.dir/src/libm/e_rem_pio2.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/e_rem_pio2.c.o.requires:
 
@@ -803,16 +803,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/e_rem_pio2.c.o.provides.buil
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/e_sqrt.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/e_sqrt.c.o: libs/SDL2-2.0.7/src/libm/e_sqrt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/e_sqrt.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/libm/e_sqrt.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/libm/e_sqrt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/e_sqrt.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/libm/e_sqrt.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/libm/e_sqrt.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/e_sqrt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/libm/e_sqrt.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/libm/e_sqrt.c > CMakeFiles/SDL2-static.dir/src/libm/e_sqrt.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/libm/e_sqrt.c > CMakeFiles/SDL2-static.dir/src/libm/e_sqrt.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/e_sqrt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/libm/e_sqrt.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/libm/e_sqrt.c -o CMakeFiles/SDL2-static.dir/src/libm/e_sqrt.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/libm/e_sqrt.c -o CMakeFiles/SDL2-static.dir/src/libm/e_sqrt.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/e_sqrt.c.o.requires:
 
@@ -827,16 +827,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/e_sqrt.c.o.provides.build: l
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/k_cos.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/k_cos.c.o: libs/SDL2-2.0.7/src/libm/k_cos.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/k_cos.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/libm/k_cos.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/libm/k_cos.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/k_cos.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/libm/k_cos.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/libm/k_cos.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/k_cos.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/libm/k_cos.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/libm/k_cos.c > CMakeFiles/SDL2-static.dir/src/libm/k_cos.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/libm/k_cos.c > CMakeFiles/SDL2-static.dir/src/libm/k_cos.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/k_cos.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/libm/k_cos.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/libm/k_cos.c -o CMakeFiles/SDL2-static.dir/src/libm/k_cos.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/libm/k_cos.c -o CMakeFiles/SDL2-static.dir/src/libm/k_cos.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/k_cos.c.o.requires:
 
@@ -851,16 +851,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/k_cos.c.o.provides.build: li
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/k_rem_pio2.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/k_rem_pio2.c.o: libs/SDL2-2.0.7/src/libm/k_rem_pio2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/k_rem_pio2.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/libm/k_rem_pio2.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/libm/k_rem_pio2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/k_rem_pio2.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/libm/k_rem_pio2.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/libm/k_rem_pio2.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/k_rem_pio2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/libm/k_rem_pio2.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/libm/k_rem_pio2.c > CMakeFiles/SDL2-static.dir/src/libm/k_rem_pio2.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/libm/k_rem_pio2.c > CMakeFiles/SDL2-static.dir/src/libm/k_rem_pio2.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/k_rem_pio2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/libm/k_rem_pio2.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/libm/k_rem_pio2.c -o CMakeFiles/SDL2-static.dir/src/libm/k_rem_pio2.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/libm/k_rem_pio2.c -o CMakeFiles/SDL2-static.dir/src/libm/k_rem_pio2.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/k_rem_pio2.c.o.requires:
 
@@ -875,16 +875,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/k_rem_pio2.c.o.provides.buil
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/k_sin.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/k_sin.c.o: libs/SDL2-2.0.7/src/libm/k_sin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/k_sin.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/libm/k_sin.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/libm/k_sin.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/k_sin.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/libm/k_sin.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/libm/k_sin.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/k_sin.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/libm/k_sin.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/libm/k_sin.c > CMakeFiles/SDL2-static.dir/src/libm/k_sin.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/libm/k_sin.c > CMakeFiles/SDL2-static.dir/src/libm/k_sin.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/k_sin.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/libm/k_sin.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/libm/k_sin.c -o CMakeFiles/SDL2-static.dir/src/libm/k_sin.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/libm/k_sin.c -o CMakeFiles/SDL2-static.dir/src/libm/k_sin.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/k_sin.c.o.requires:
 
@@ -899,16 +899,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/k_sin.c.o.provides.build: li
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/k_tan.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/k_tan.c.o: libs/SDL2-2.0.7/src/libm/k_tan.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/k_tan.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/libm/k_tan.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/libm/k_tan.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/k_tan.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/libm/k_tan.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/libm/k_tan.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/k_tan.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/libm/k_tan.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/libm/k_tan.c > CMakeFiles/SDL2-static.dir/src/libm/k_tan.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/libm/k_tan.c > CMakeFiles/SDL2-static.dir/src/libm/k_tan.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/k_tan.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/libm/k_tan.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/libm/k_tan.c -o CMakeFiles/SDL2-static.dir/src/libm/k_tan.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/libm/k_tan.c -o CMakeFiles/SDL2-static.dir/src/libm/k_tan.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/k_tan.c.o.requires:
 
@@ -923,16 +923,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/k_tan.c.o.provides.build: li
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/s_atan.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/s_atan.c.o: libs/SDL2-2.0.7/src/libm/s_atan.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/s_atan.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/libm/s_atan.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/libm/s_atan.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/s_atan.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/libm/s_atan.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/libm/s_atan.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/s_atan.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/libm/s_atan.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/libm/s_atan.c > CMakeFiles/SDL2-static.dir/src/libm/s_atan.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/libm/s_atan.c > CMakeFiles/SDL2-static.dir/src/libm/s_atan.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/s_atan.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/libm/s_atan.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/libm/s_atan.c -o CMakeFiles/SDL2-static.dir/src/libm/s_atan.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/libm/s_atan.c -o CMakeFiles/SDL2-static.dir/src/libm/s_atan.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/s_atan.c.o.requires:
 
@@ -947,16 +947,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/s_atan.c.o.provides.build: l
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/s_copysign.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/s_copysign.c.o: libs/SDL2-2.0.7/src/libm/s_copysign.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/s_copysign.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/libm/s_copysign.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/libm/s_copysign.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/s_copysign.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/libm/s_copysign.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/libm/s_copysign.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/s_copysign.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/libm/s_copysign.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/libm/s_copysign.c > CMakeFiles/SDL2-static.dir/src/libm/s_copysign.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/libm/s_copysign.c > CMakeFiles/SDL2-static.dir/src/libm/s_copysign.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/s_copysign.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/libm/s_copysign.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/libm/s_copysign.c -o CMakeFiles/SDL2-static.dir/src/libm/s_copysign.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/libm/s_copysign.c -o CMakeFiles/SDL2-static.dir/src/libm/s_copysign.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/s_copysign.c.o.requires:
 
@@ -971,16 +971,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/s_copysign.c.o.provides.buil
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/s_cos.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/s_cos.c.o: libs/SDL2-2.0.7/src/libm/s_cos.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/s_cos.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/libm/s_cos.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/libm/s_cos.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/s_cos.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/libm/s_cos.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/libm/s_cos.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/s_cos.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/libm/s_cos.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/libm/s_cos.c > CMakeFiles/SDL2-static.dir/src/libm/s_cos.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/libm/s_cos.c > CMakeFiles/SDL2-static.dir/src/libm/s_cos.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/s_cos.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/libm/s_cos.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/libm/s_cos.c -o CMakeFiles/SDL2-static.dir/src/libm/s_cos.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/libm/s_cos.c -o CMakeFiles/SDL2-static.dir/src/libm/s_cos.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/s_cos.c.o.requires:
 
@@ -995,16 +995,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/s_cos.c.o.provides.build: li
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/s_fabs.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/s_fabs.c.o: libs/SDL2-2.0.7/src/libm/s_fabs.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/s_fabs.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/libm/s_fabs.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/libm/s_fabs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/s_fabs.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/libm/s_fabs.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/libm/s_fabs.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/s_fabs.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/libm/s_fabs.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/libm/s_fabs.c > CMakeFiles/SDL2-static.dir/src/libm/s_fabs.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/libm/s_fabs.c > CMakeFiles/SDL2-static.dir/src/libm/s_fabs.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/s_fabs.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/libm/s_fabs.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/libm/s_fabs.c -o CMakeFiles/SDL2-static.dir/src/libm/s_fabs.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/libm/s_fabs.c -o CMakeFiles/SDL2-static.dir/src/libm/s_fabs.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/s_fabs.c.o.requires:
 
@@ -1019,16 +1019,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/s_fabs.c.o.provides.build: l
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/s_floor.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/s_floor.c.o: libs/SDL2-2.0.7/src/libm/s_floor.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/s_floor.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/libm/s_floor.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/libm/s_floor.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/s_floor.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/libm/s_floor.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/libm/s_floor.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/s_floor.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/libm/s_floor.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/libm/s_floor.c > CMakeFiles/SDL2-static.dir/src/libm/s_floor.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/libm/s_floor.c > CMakeFiles/SDL2-static.dir/src/libm/s_floor.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/s_floor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/libm/s_floor.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/libm/s_floor.c -o CMakeFiles/SDL2-static.dir/src/libm/s_floor.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/libm/s_floor.c -o CMakeFiles/SDL2-static.dir/src/libm/s_floor.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/s_floor.c.o.requires:
 
@@ -1043,16 +1043,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/s_floor.c.o.provides.build: 
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/s_scalbn.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/s_scalbn.c.o: libs/SDL2-2.0.7/src/libm/s_scalbn.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/s_scalbn.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/libm/s_scalbn.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/libm/s_scalbn.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/s_scalbn.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/libm/s_scalbn.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/libm/s_scalbn.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/s_scalbn.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/libm/s_scalbn.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/libm/s_scalbn.c > CMakeFiles/SDL2-static.dir/src/libm/s_scalbn.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/libm/s_scalbn.c > CMakeFiles/SDL2-static.dir/src/libm/s_scalbn.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/s_scalbn.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/libm/s_scalbn.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/libm/s_scalbn.c -o CMakeFiles/SDL2-static.dir/src/libm/s_scalbn.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/libm/s_scalbn.c -o CMakeFiles/SDL2-static.dir/src/libm/s_scalbn.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/s_scalbn.c.o.requires:
 
@@ -1067,16 +1067,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/s_scalbn.c.o.provides.build:
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/s_sin.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/s_sin.c.o: libs/SDL2-2.0.7/src/libm/s_sin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/s_sin.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/libm/s_sin.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/libm/s_sin.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/s_sin.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/libm/s_sin.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/libm/s_sin.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/s_sin.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/libm/s_sin.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/libm/s_sin.c > CMakeFiles/SDL2-static.dir/src/libm/s_sin.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/libm/s_sin.c > CMakeFiles/SDL2-static.dir/src/libm/s_sin.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/s_sin.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/libm/s_sin.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/libm/s_sin.c -o CMakeFiles/SDL2-static.dir/src/libm/s_sin.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/libm/s_sin.c -o CMakeFiles/SDL2-static.dir/src/libm/s_sin.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/s_sin.c.o.requires:
 
@@ -1091,16 +1091,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/s_sin.c.o.provides.build: li
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/s_tan.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/s_tan.c.o: libs/SDL2-2.0.7/src/libm/s_tan.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/s_tan.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/libm/s_tan.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/libm/s_tan.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/s_tan.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/libm/s_tan.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/libm/s_tan.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/s_tan.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/libm/s_tan.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/libm/s_tan.c > CMakeFiles/SDL2-static.dir/src/libm/s_tan.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/libm/s_tan.c > CMakeFiles/SDL2-static.dir/src/libm/s_tan.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/s_tan.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/libm/s_tan.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/libm/s_tan.c -o CMakeFiles/SDL2-static.dir/src/libm/s_tan.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/libm/s_tan.c -o CMakeFiles/SDL2-static.dir/src/libm/s_tan.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/s_tan.c.o.requires:
 
@@ -1115,16 +1115,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/libm/s_tan.c.o.provides.build: li
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/SDL_d3dmath.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/SDL_d3dmath.c.o: libs/SDL2-2.0.7/src/render/SDL_d3dmath.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/SDL_d3dmath.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/render/SDL_d3dmath.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/render/SDL_d3dmath.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/SDL_d3dmath.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/render/SDL_d3dmath.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/render/SDL_d3dmath.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/SDL_d3dmath.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/render/SDL_d3dmath.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/render/SDL_d3dmath.c > CMakeFiles/SDL2-static.dir/src/render/SDL_d3dmath.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/render/SDL_d3dmath.c > CMakeFiles/SDL2-static.dir/src/render/SDL_d3dmath.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/SDL_d3dmath.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/render/SDL_d3dmath.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/render/SDL_d3dmath.c -o CMakeFiles/SDL2-static.dir/src/render/SDL_d3dmath.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/render/SDL_d3dmath.c -o CMakeFiles/SDL2-static.dir/src/render/SDL_d3dmath.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/SDL_d3dmath.c.o.requires:
 
@@ -1139,16 +1139,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/SDL_d3dmath.c.o.provides.b
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/SDL_render.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/SDL_render.c.o: libs/SDL2-2.0.7/src/render/SDL_render.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/SDL_render.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/render/SDL_render.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/render/SDL_render.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/SDL_render.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/render/SDL_render.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/render/SDL_render.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/SDL_render.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/render/SDL_render.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/render/SDL_render.c > CMakeFiles/SDL2-static.dir/src/render/SDL_render.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/render/SDL_render.c > CMakeFiles/SDL2-static.dir/src/render/SDL_render.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/SDL_render.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/render/SDL_render.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/render/SDL_render.c -o CMakeFiles/SDL2-static.dir/src/render/SDL_render.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/render/SDL_render.c -o CMakeFiles/SDL2-static.dir/src/render/SDL_render.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/SDL_render.c.o.requires:
 
@@ -1163,16 +1163,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/SDL_render.c.o.provides.bu
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/SDL_yuv_mmx.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/SDL_yuv_mmx.c.o: libs/SDL2-2.0.7/src/render/SDL_yuv_mmx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/SDL_yuv_mmx.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/render/SDL_yuv_mmx.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/render/SDL_yuv_mmx.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/SDL_yuv_mmx.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/render/SDL_yuv_mmx.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/render/SDL_yuv_mmx.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/SDL_yuv_mmx.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/render/SDL_yuv_mmx.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/render/SDL_yuv_mmx.c > CMakeFiles/SDL2-static.dir/src/render/SDL_yuv_mmx.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/render/SDL_yuv_mmx.c > CMakeFiles/SDL2-static.dir/src/render/SDL_yuv_mmx.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/SDL_yuv_mmx.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/render/SDL_yuv_mmx.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/render/SDL_yuv_mmx.c -o CMakeFiles/SDL2-static.dir/src/render/SDL_yuv_mmx.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/render/SDL_yuv_mmx.c -o CMakeFiles/SDL2-static.dir/src/render/SDL_yuv_mmx.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/SDL_yuv_mmx.c.o.requires:
 
@@ -1187,16 +1187,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/SDL_yuv_mmx.c.o.provides.b
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/SDL_yuv_sw.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/SDL_yuv_sw.c.o: libs/SDL2-2.0.7/src/render/SDL_yuv_sw.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/SDL_yuv_sw.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/render/SDL_yuv_sw.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/render/SDL_yuv_sw.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/SDL_yuv_sw.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/render/SDL_yuv_sw.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/render/SDL_yuv_sw.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/SDL_yuv_sw.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/render/SDL_yuv_sw.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/render/SDL_yuv_sw.c > CMakeFiles/SDL2-static.dir/src/render/SDL_yuv_sw.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/render/SDL_yuv_sw.c > CMakeFiles/SDL2-static.dir/src/render/SDL_yuv_sw.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/SDL_yuv_sw.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/render/SDL_yuv_sw.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/render/SDL_yuv_sw.c -o CMakeFiles/SDL2-static.dir/src/render/SDL_yuv_sw.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/render/SDL_yuv_sw.c -o CMakeFiles/SDL2-static.dir/src/render/SDL_yuv_sw.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/SDL_yuv_sw.c.o.requires:
 
@@ -1211,16 +1211,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/SDL_yuv_sw.c.o.provides.bu
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/direct3d/SDL_render_d3d.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/direct3d/SDL_render_d3d.c.o: libs/SDL2-2.0.7/src/render/direct3d/SDL_render_d3d.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/direct3d/SDL_render_d3d.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/render/direct3d/SDL_render_d3d.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/render/direct3d/SDL_render_d3d.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/direct3d/SDL_render_d3d.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/render/direct3d/SDL_render_d3d.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/render/direct3d/SDL_render_d3d.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/direct3d/SDL_render_d3d.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/render/direct3d/SDL_render_d3d.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/render/direct3d/SDL_render_d3d.c > CMakeFiles/SDL2-static.dir/src/render/direct3d/SDL_render_d3d.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/render/direct3d/SDL_render_d3d.c > CMakeFiles/SDL2-static.dir/src/render/direct3d/SDL_render_d3d.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/direct3d/SDL_render_d3d.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/render/direct3d/SDL_render_d3d.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/render/direct3d/SDL_render_d3d.c -o CMakeFiles/SDL2-static.dir/src/render/direct3d/SDL_render_d3d.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/render/direct3d/SDL_render_d3d.c -o CMakeFiles/SDL2-static.dir/src/render/direct3d/SDL_render_d3d.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/direct3d/SDL_render_d3d.c.o.requires:
 
@@ -1235,16 +1235,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/direct3d/SDL_render_d3d.c.
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/direct3d11/SDL_render_d3d11.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/direct3d11/SDL_render_d3d11.c.o: libs/SDL2-2.0.7/src/render/direct3d11/SDL_render_d3d11.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/direct3d11/SDL_render_d3d11.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/render/direct3d11/SDL_render_d3d11.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/render/direct3d11/SDL_render_d3d11.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/direct3d11/SDL_render_d3d11.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/render/direct3d11/SDL_render_d3d11.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/render/direct3d11/SDL_render_d3d11.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/direct3d11/SDL_render_d3d11.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/render/direct3d11/SDL_render_d3d11.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/render/direct3d11/SDL_render_d3d11.c > CMakeFiles/SDL2-static.dir/src/render/direct3d11/SDL_render_d3d11.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/render/direct3d11/SDL_render_d3d11.c > CMakeFiles/SDL2-static.dir/src/render/direct3d11/SDL_render_d3d11.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/direct3d11/SDL_render_d3d11.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/render/direct3d11/SDL_render_d3d11.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/render/direct3d11/SDL_render_d3d11.c -o CMakeFiles/SDL2-static.dir/src/render/direct3d11/SDL_render_d3d11.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/render/direct3d11/SDL_render_d3d11.c -o CMakeFiles/SDL2-static.dir/src/render/direct3d11/SDL_render_d3d11.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/direct3d11/SDL_render_d3d11.c.o.requires:
 
@@ -1259,16 +1259,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/direct3d11/SDL_render_d3d1
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/opengl/SDL_render_gl.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/opengl/SDL_render_gl.c.o: libs/SDL2-2.0.7/src/render/opengl/SDL_render_gl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/opengl/SDL_render_gl.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/render/opengl/SDL_render_gl.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/render/opengl/SDL_render_gl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/opengl/SDL_render_gl.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/render/opengl/SDL_render_gl.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/render/opengl/SDL_render_gl.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/opengl/SDL_render_gl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/render/opengl/SDL_render_gl.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/render/opengl/SDL_render_gl.c > CMakeFiles/SDL2-static.dir/src/render/opengl/SDL_render_gl.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/render/opengl/SDL_render_gl.c > CMakeFiles/SDL2-static.dir/src/render/opengl/SDL_render_gl.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/opengl/SDL_render_gl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/render/opengl/SDL_render_gl.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/render/opengl/SDL_render_gl.c -o CMakeFiles/SDL2-static.dir/src/render/opengl/SDL_render_gl.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/render/opengl/SDL_render_gl.c -o CMakeFiles/SDL2-static.dir/src/render/opengl/SDL_render_gl.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/opengl/SDL_render_gl.c.o.requires:
 
@@ -1283,16 +1283,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/opengl/SDL_render_gl.c.o.p
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/opengl/SDL_shaders_gl.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/opengl/SDL_shaders_gl.c.o: libs/SDL2-2.0.7/src/render/opengl/SDL_shaders_gl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/opengl/SDL_shaders_gl.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/render/opengl/SDL_shaders_gl.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/render/opengl/SDL_shaders_gl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/opengl/SDL_shaders_gl.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/render/opengl/SDL_shaders_gl.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/render/opengl/SDL_shaders_gl.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/opengl/SDL_shaders_gl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/render/opengl/SDL_shaders_gl.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/render/opengl/SDL_shaders_gl.c > CMakeFiles/SDL2-static.dir/src/render/opengl/SDL_shaders_gl.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/render/opengl/SDL_shaders_gl.c > CMakeFiles/SDL2-static.dir/src/render/opengl/SDL_shaders_gl.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/opengl/SDL_shaders_gl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/render/opengl/SDL_shaders_gl.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/render/opengl/SDL_shaders_gl.c -o CMakeFiles/SDL2-static.dir/src/render/opengl/SDL_shaders_gl.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/render/opengl/SDL_shaders_gl.c -o CMakeFiles/SDL2-static.dir/src/render/opengl/SDL_shaders_gl.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/opengl/SDL_shaders_gl.c.o.requires:
 
@@ -1307,16 +1307,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/opengl/SDL_shaders_gl.c.o.
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/opengles/SDL_render_gles.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/opengles/SDL_render_gles.c.o: libs/SDL2-2.0.7/src/render/opengles/SDL_render_gles.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/opengles/SDL_render_gles.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/render/opengles/SDL_render_gles.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/render/opengles/SDL_render_gles.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/opengles/SDL_render_gles.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/render/opengles/SDL_render_gles.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/render/opengles/SDL_render_gles.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/opengles/SDL_render_gles.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/render/opengles/SDL_render_gles.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/render/opengles/SDL_render_gles.c > CMakeFiles/SDL2-static.dir/src/render/opengles/SDL_render_gles.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/render/opengles/SDL_render_gles.c > CMakeFiles/SDL2-static.dir/src/render/opengles/SDL_render_gles.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/opengles/SDL_render_gles.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/render/opengles/SDL_render_gles.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/render/opengles/SDL_render_gles.c -o CMakeFiles/SDL2-static.dir/src/render/opengles/SDL_render_gles.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/render/opengles/SDL_render_gles.c -o CMakeFiles/SDL2-static.dir/src/render/opengles/SDL_render_gles.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/opengles/SDL_render_gles.c.o.requires:
 
@@ -1331,16 +1331,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/opengles/SDL_render_gles.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/opengles2/SDL_render_gles2.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/opengles2/SDL_render_gles2.c.o: libs/SDL2-2.0.7/src/render/opengles2/SDL_render_gles2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/opengles2/SDL_render_gles2.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/render/opengles2/SDL_render_gles2.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/render/opengles2/SDL_render_gles2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/opengles2/SDL_render_gles2.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/render/opengles2/SDL_render_gles2.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/render/opengles2/SDL_render_gles2.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/opengles2/SDL_render_gles2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/render/opengles2/SDL_render_gles2.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/render/opengles2/SDL_render_gles2.c > CMakeFiles/SDL2-static.dir/src/render/opengles2/SDL_render_gles2.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/render/opengles2/SDL_render_gles2.c > CMakeFiles/SDL2-static.dir/src/render/opengles2/SDL_render_gles2.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/opengles2/SDL_render_gles2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/render/opengles2/SDL_render_gles2.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/render/opengles2/SDL_render_gles2.c -o CMakeFiles/SDL2-static.dir/src/render/opengles2/SDL_render_gles2.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/render/opengles2/SDL_render_gles2.c -o CMakeFiles/SDL2-static.dir/src/render/opengles2/SDL_render_gles2.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/opengles2/SDL_render_gles2.c.o.requires:
 
@@ -1355,16 +1355,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/opengles2/SDL_render_gles2
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/opengles2/SDL_shaders_gles2.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/opengles2/SDL_shaders_gles2.c.o: libs/SDL2-2.0.7/src/render/opengles2/SDL_shaders_gles2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/opengles2/SDL_shaders_gles2.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/render/opengles2/SDL_shaders_gles2.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/render/opengles2/SDL_shaders_gles2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/opengles2/SDL_shaders_gles2.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/render/opengles2/SDL_shaders_gles2.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/render/opengles2/SDL_shaders_gles2.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/opengles2/SDL_shaders_gles2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/render/opengles2/SDL_shaders_gles2.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/render/opengles2/SDL_shaders_gles2.c > CMakeFiles/SDL2-static.dir/src/render/opengles2/SDL_shaders_gles2.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/render/opengles2/SDL_shaders_gles2.c > CMakeFiles/SDL2-static.dir/src/render/opengles2/SDL_shaders_gles2.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/opengles2/SDL_shaders_gles2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/render/opengles2/SDL_shaders_gles2.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/render/opengles2/SDL_shaders_gles2.c -o CMakeFiles/SDL2-static.dir/src/render/opengles2/SDL_shaders_gles2.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/render/opengles2/SDL_shaders_gles2.c -o CMakeFiles/SDL2-static.dir/src/render/opengles2/SDL_shaders_gles2.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/opengles2/SDL_shaders_gles2.c.o.requires:
 
@@ -1379,16 +1379,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/opengles2/SDL_shaders_gles
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/psp/SDL_render_psp.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/psp/SDL_render_psp.c.o: libs/SDL2-2.0.7/src/render/psp/SDL_render_psp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/psp/SDL_render_psp.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/render/psp/SDL_render_psp.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/render/psp/SDL_render_psp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/psp/SDL_render_psp.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/render/psp/SDL_render_psp.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/render/psp/SDL_render_psp.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/psp/SDL_render_psp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/render/psp/SDL_render_psp.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/render/psp/SDL_render_psp.c > CMakeFiles/SDL2-static.dir/src/render/psp/SDL_render_psp.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/render/psp/SDL_render_psp.c > CMakeFiles/SDL2-static.dir/src/render/psp/SDL_render_psp.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/psp/SDL_render_psp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/render/psp/SDL_render_psp.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/render/psp/SDL_render_psp.c -o CMakeFiles/SDL2-static.dir/src/render/psp/SDL_render_psp.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/render/psp/SDL_render_psp.c -o CMakeFiles/SDL2-static.dir/src/render/psp/SDL_render_psp.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/psp/SDL_render_psp.c.o.requires:
 
@@ -1403,16 +1403,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/psp/SDL_render_psp.c.o.pro
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendfillrect.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendfillrect.c.o: libs/SDL2-2.0.7/src/render/software/SDL_blendfillrect.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendfillrect.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendfillrect.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/render/software/SDL_blendfillrect.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendfillrect.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendfillrect.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/render/software/SDL_blendfillrect.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendfillrect.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendfillrect.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/render/software/SDL_blendfillrect.c > CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendfillrect.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/render/software/SDL_blendfillrect.c > CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendfillrect.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendfillrect.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendfillrect.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/render/software/SDL_blendfillrect.c -o CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendfillrect.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/render/software/SDL_blendfillrect.c -o CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendfillrect.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendfillrect.c.o.requires:
 
@@ -1427,16 +1427,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendfillrect
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendline.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendline.c.o: libs/SDL2-2.0.7/src/render/software/SDL_blendline.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendline.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendline.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/render/software/SDL_blendline.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendline.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendline.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/render/software/SDL_blendline.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendline.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendline.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/render/software/SDL_blendline.c > CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendline.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/render/software/SDL_blendline.c > CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendline.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendline.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendline.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/render/software/SDL_blendline.c -o CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendline.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/render/software/SDL_blendline.c -o CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendline.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendline.c.o.requires:
 
@@ -1451,16 +1451,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendline.c.o
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendpoint.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendpoint.c.o: libs/SDL2-2.0.7/src/render/software/SDL_blendpoint.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendpoint.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendpoint.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/render/software/SDL_blendpoint.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendpoint.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendpoint.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/render/software/SDL_blendpoint.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendpoint.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendpoint.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/render/software/SDL_blendpoint.c > CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendpoint.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/render/software/SDL_blendpoint.c > CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendpoint.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendpoint.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendpoint.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/render/software/SDL_blendpoint.c -o CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendpoint.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/render/software/SDL_blendpoint.c -o CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendpoint.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendpoint.c.o.requires:
 
@@ -1475,16 +1475,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendpoint.c.
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/software/SDL_drawline.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/software/SDL_drawline.c.o: libs/SDL2-2.0.7/src/render/software/SDL_drawline.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/software/SDL_drawline.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/render/software/SDL_drawline.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/render/software/SDL_drawline.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/software/SDL_drawline.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/render/software/SDL_drawline.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/render/software/SDL_drawline.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/software/SDL_drawline.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/render/software/SDL_drawline.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/render/software/SDL_drawline.c > CMakeFiles/SDL2-static.dir/src/render/software/SDL_drawline.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/render/software/SDL_drawline.c > CMakeFiles/SDL2-static.dir/src/render/software/SDL_drawline.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/software/SDL_drawline.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/render/software/SDL_drawline.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/render/software/SDL_drawline.c -o CMakeFiles/SDL2-static.dir/src/render/software/SDL_drawline.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/render/software/SDL_drawline.c -o CMakeFiles/SDL2-static.dir/src/render/software/SDL_drawline.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/software/SDL_drawline.c.o.requires:
 
@@ -1499,16 +1499,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/software/SDL_drawline.c.o.
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/software/SDL_drawpoint.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/software/SDL_drawpoint.c.o: libs/SDL2-2.0.7/src/render/software/SDL_drawpoint.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/software/SDL_drawpoint.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/render/software/SDL_drawpoint.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/render/software/SDL_drawpoint.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/software/SDL_drawpoint.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/render/software/SDL_drawpoint.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/render/software/SDL_drawpoint.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/software/SDL_drawpoint.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/render/software/SDL_drawpoint.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/render/software/SDL_drawpoint.c > CMakeFiles/SDL2-static.dir/src/render/software/SDL_drawpoint.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/render/software/SDL_drawpoint.c > CMakeFiles/SDL2-static.dir/src/render/software/SDL_drawpoint.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/software/SDL_drawpoint.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/render/software/SDL_drawpoint.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/render/software/SDL_drawpoint.c -o CMakeFiles/SDL2-static.dir/src/render/software/SDL_drawpoint.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/render/software/SDL_drawpoint.c -o CMakeFiles/SDL2-static.dir/src/render/software/SDL_drawpoint.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/software/SDL_drawpoint.c.o.requires:
 
@@ -1523,16 +1523,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/software/SDL_drawpoint.c.o
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/software/SDL_render_sw.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/software/SDL_render_sw.c.o: libs/SDL2-2.0.7/src/render/software/SDL_render_sw.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/software/SDL_render_sw.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/render/software/SDL_render_sw.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/render/software/SDL_render_sw.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/software/SDL_render_sw.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/render/software/SDL_render_sw.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/render/software/SDL_render_sw.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/software/SDL_render_sw.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/render/software/SDL_render_sw.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/render/software/SDL_render_sw.c > CMakeFiles/SDL2-static.dir/src/render/software/SDL_render_sw.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/render/software/SDL_render_sw.c > CMakeFiles/SDL2-static.dir/src/render/software/SDL_render_sw.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/software/SDL_render_sw.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/render/software/SDL_render_sw.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/render/software/SDL_render_sw.c -o CMakeFiles/SDL2-static.dir/src/render/software/SDL_render_sw.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/render/software/SDL_render_sw.c -o CMakeFiles/SDL2-static.dir/src/render/software/SDL_render_sw.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/software/SDL_render_sw.c.o.requires:
 
@@ -1547,16 +1547,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/software/SDL_render_sw.c.o
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/software/SDL_rotate.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/software/SDL_rotate.c.o: libs/SDL2-2.0.7/src/render/software/SDL_rotate.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/software/SDL_rotate.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/render/software/SDL_rotate.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/render/software/SDL_rotate.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/software/SDL_rotate.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/render/software/SDL_rotate.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/render/software/SDL_rotate.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/software/SDL_rotate.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/render/software/SDL_rotate.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/render/software/SDL_rotate.c > CMakeFiles/SDL2-static.dir/src/render/software/SDL_rotate.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/render/software/SDL_rotate.c > CMakeFiles/SDL2-static.dir/src/render/software/SDL_rotate.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/software/SDL_rotate.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/render/software/SDL_rotate.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/render/software/SDL_rotate.c -o CMakeFiles/SDL2-static.dir/src/render/software/SDL_rotate.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/render/software/SDL_rotate.c -o CMakeFiles/SDL2-static.dir/src/render/software/SDL_rotate.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/software/SDL_rotate.c.o.requires:
 
@@ -1571,16 +1571,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/render/software/SDL_rotate.c.o.pr
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_getenv.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_getenv.c.o: libs/SDL2-2.0.7/src/stdlib/SDL_getenv.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_getenv.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/stdlib/SDL_getenv.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/stdlib/SDL_getenv.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_getenv.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/stdlib/SDL_getenv.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/stdlib/SDL_getenv.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_getenv.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/stdlib/SDL_getenv.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/stdlib/SDL_getenv.c > CMakeFiles/SDL2-static.dir/src/stdlib/SDL_getenv.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/stdlib/SDL_getenv.c > CMakeFiles/SDL2-static.dir/src/stdlib/SDL_getenv.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_getenv.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/stdlib/SDL_getenv.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/stdlib/SDL_getenv.c -o CMakeFiles/SDL2-static.dir/src/stdlib/SDL_getenv.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/stdlib/SDL_getenv.c -o CMakeFiles/SDL2-static.dir/src/stdlib/SDL_getenv.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_getenv.c.o.requires:
 
@@ -1595,16 +1595,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_getenv.c.o.provides.bu
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_iconv.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_iconv.c.o: libs/SDL2-2.0.7/src/stdlib/SDL_iconv.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_iconv.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/stdlib/SDL_iconv.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/stdlib/SDL_iconv.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_iconv.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/stdlib/SDL_iconv.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/stdlib/SDL_iconv.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_iconv.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/stdlib/SDL_iconv.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/stdlib/SDL_iconv.c > CMakeFiles/SDL2-static.dir/src/stdlib/SDL_iconv.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/stdlib/SDL_iconv.c > CMakeFiles/SDL2-static.dir/src/stdlib/SDL_iconv.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_iconv.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/stdlib/SDL_iconv.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/stdlib/SDL_iconv.c -o CMakeFiles/SDL2-static.dir/src/stdlib/SDL_iconv.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/stdlib/SDL_iconv.c -o CMakeFiles/SDL2-static.dir/src/stdlib/SDL_iconv.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_iconv.c.o.requires:
 
@@ -1619,16 +1619,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_iconv.c.o.provides.bui
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_malloc.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_malloc.c.o: libs/SDL2-2.0.7/src/stdlib/SDL_malloc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_malloc.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/stdlib/SDL_malloc.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/stdlib/SDL_malloc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_malloc.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/stdlib/SDL_malloc.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/stdlib/SDL_malloc.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_malloc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/stdlib/SDL_malloc.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/stdlib/SDL_malloc.c > CMakeFiles/SDL2-static.dir/src/stdlib/SDL_malloc.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/stdlib/SDL_malloc.c > CMakeFiles/SDL2-static.dir/src/stdlib/SDL_malloc.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_malloc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/stdlib/SDL_malloc.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/stdlib/SDL_malloc.c -o CMakeFiles/SDL2-static.dir/src/stdlib/SDL_malloc.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/stdlib/SDL_malloc.c -o CMakeFiles/SDL2-static.dir/src/stdlib/SDL_malloc.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_malloc.c.o.requires:
 
@@ -1643,16 +1643,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_malloc.c.o.provides.bu
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_qsort.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_qsort.c.o: libs/SDL2-2.0.7/src/stdlib/SDL_qsort.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_qsort.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/stdlib/SDL_qsort.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/stdlib/SDL_qsort.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_qsort.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/stdlib/SDL_qsort.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/stdlib/SDL_qsort.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_qsort.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/stdlib/SDL_qsort.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/stdlib/SDL_qsort.c > CMakeFiles/SDL2-static.dir/src/stdlib/SDL_qsort.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/stdlib/SDL_qsort.c > CMakeFiles/SDL2-static.dir/src/stdlib/SDL_qsort.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_qsort.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/stdlib/SDL_qsort.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/stdlib/SDL_qsort.c -o CMakeFiles/SDL2-static.dir/src/stdlib/SDL_qsort.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/stdlib/SDL_qsort.c -o CMakeFiles/SDL2-static.dir/src/stdlib/SDL_qsort.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_qsort.c.o.requires:
 
@@ -1667,16 +1667,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_qsort.c.o.provides.bui
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_stdlib.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_stdlib.c.o: libs/SDL2-2.0.7/src/stdlib/SDL_stdlib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_stdlib.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/stdlib/SDL_stdlib.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/stdlib/SDL_stdlib.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_stdlib.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/stdlib/SDL_stdlib.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/stdlib/SDL_stdlib.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_stdlib.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/stdlib/SDL_stdlib.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/stdlib/SDL_stdlib.c > CMakeFiles/SDL2-static.dir/src/stdlib/SDL_stdlib.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/stdlib/SDL_stdlib.c > CMakeFiles/SDL2-static.dir/src/stdlib/SDL_stdlib.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_stdlib.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/stdlib/SDL_stdlib.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/stdlib/SDL_stdlib.c -o CMakeFiles/SDL2-static.dir/src/stdlib/SDL_stdlib.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/stdlib/SDL_stdlib.c -o CMakeFiles/SDL2-static.dir/src/stdlib/SDL_stdlib.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_stdlib.c.o.requires:
 
@@ -1691,16 +1691,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_stdlib.c.o.provides.bu
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_string.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_string.c.o: libs/SDL2-2.0.7/src/stdlib/SDL_string.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_string.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/stdlib/SDL_string.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/stdlib/SDL_string.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_string.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/stdlib/SDL_string.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/stdlib/SDL_string.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_string.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/stdlib/SDL_string.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/stdlib/SDL_string.c > CMakeFiles/SDL2-static.dir/src/stdlib/SDL_string.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/stdlib/SDL_string.c > CMakeFiles/SDL2-static.dir/src/stdlib/SDL_string.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_string.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/stdlib/SDL_string.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/stdlib/SDL_string.c -o CMakeFiles/SDL2-static.dir/src/stdlib/SDL_string.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/stdlib/SDL_string.c -o CMakeFiles/SDL2-static.dir/src/stdlib/SDL_string.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_string.c.o.requires:
 
@@ -1715,16 +1715,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_string.c.o.provides.bu
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/thread/SDL_thread.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/thread/SDL_thread.c.o: libs/SDL2-2.0.7/src/thread/SDL_thread.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/thread/SDL_thread.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/thread/SDL_thread.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/thread/SDL_thread.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/thread/SDL_thread.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/thread/SDL_thread.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/thread/SDL_thread.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/thread/SDL_thread.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/thread/SDL_thread.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/thread/SDL_thread.c > CMakeFiles/SDL2-static.dir/src/thread/SDL_thread.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/thread/SDL_thread.c > CMakeFiles/SDL2-static.dir/src/thread/SDL_thread.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/thread/SDL_thread.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/thread/SDL_thread.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/thread/SDL_thread.c -o CMakeFiles/SDL2-static.dir/src/thread/SDL_thread.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/thread/SDL_thread.c -o CMakeFiles/SDL2-static.dir/src/thread/SDL_thread.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/thread/SDL_thread.c.o.requires:
 
@@ -1739,16 +1739,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/thread/SDL_thread.c.o.provides.bu
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/timer/SDL_timer.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/timer/SDL_timer.c.o: libs/SDL2-2.0.7/src/timer/SDL_timer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/timer/SDL_timer.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/timer/SDL_timer.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/timer/SDL_timer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/timer/SDL_timer.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/timer/SDL_timer.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/timer/SDL_timer.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/timer/SDL_timer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/timer/SDL_timer.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/timer/SDL_timer.c > CMakeFiles/SDL2-static.dir/src/timer/SDL_timer.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/timer/SDL_timer.c > CMakeFiles/SDL2-static.dir/src/timer/SDL_timer.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/timer/SDL_timer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/timer/SDL_timer.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/timer/SDL_timer.c -o CMakeFiles/SDL2-static.dir/src/timer/SDL_timer.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/timer/SDL_timer.c -o CMakeFiles/SDL2-static.dir/src/timer/SDL_timer.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/timer/SDL_timer.c.o.requires:
 
@@ -1763,16 +1763,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/timer/SDL_timer.c.o.provides.buil
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_RLEaccel.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_RLEaccel.c.o: libs/SDL2-2.0.7/src/video/SDL_RLEaccel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_RLEaccel.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/SDL_RLEaccel.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_RLEaccel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_RLEaccel.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/SDL_RLEaccel.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_RLEaccel.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_RLEaccel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/video/SDL_RLEaccel.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_RLEaccel.c > CMakeFiles/SDL2-static.dir/src/video/SDL_RLEaccel.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_RLEaccel.c > CMakeFiles/SDL2-static.dir/src/video/SDL_RLEaccel.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_RLEaccel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/video/SDL_RLEaccel.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_RLEaccel.c -o CMakeFiles/SDL2-static.dir/src/video/SDL_RLEaccel.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_RLEaccel.c -o CMakeFiles/SDL2-static.dir/src/video/SDL_RLEaccel.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_RLEaccel.c.o.requires:
 
@@ -1787,16 +1787,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_RLEaccel.c.o.provides.b
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_blit.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_blit.c.o: libs/SDL2-2.0.7/src/video/SDL_blit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_blit.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/SDL_blit.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_blit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_blit.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/SDL_blit.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_blit.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_blit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/video/SDL_blit.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_blit.c > CMakeFiles/SDL2-static.dir/src/video/SDL_blit.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_blit.c > CMakeFiles/SDL2-static.dir/src/video/SDL_blit.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_blit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/video/SDL_blit.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_blit.c -o CMakeFiles/SDL2-static.dir/src/video/SDL_blit.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_blit.c -o CMakeFiles/SDL2-static.dir/src/video/SDL_blit.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_blit.c.o.requires:
 
@@ -1811,16 +1811,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_blit.c.o.provides.build
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_0.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_0.c.o: libs/SDL2-2.0.7/src/video/SDL_blit_0.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_0.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/SDL_blit_0.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_blit_0.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_0.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/SDL_blit_0.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_blit_0.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_0.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/video/SDL_blit_0.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_blit_0.c > CMakeFiles/SDL2-static.dir/src/video/SDL_blit_0.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_blit_0.c > CMakeFiles/SDL2-static.dir/src/video/SDL_blit_0.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_0.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/video/SDL_blit_0.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_blit_0.c -o CMakeFiles/SDL2-static.dir/src/video/SDL_blit_0.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_blit_0.c -o CMakeFiles/SDL2-static.dir/src/video/SDL_blit_0.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_0.c.o.requires:
 
@@ -1835,16 +1835,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_0.c.o.provides.bui
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_1.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_1.c.o: libs/SDL2-2.0.7/src/video/SDL_blit_1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_1.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/SDL_blit_1.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_blit_1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_1.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/SDL_blit_1.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_blit_1.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_1.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/video/SDL_blit_1.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_blit_1.c > CMakeFiles/SDL2-static.dir/src/video/SDL_blit_1.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_blit_1.c > CMakeFiles/SDL2-static.dir/src/video/SDL_blit_1.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_1.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/video/SDL_blit_1.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_blit_1.c -o CMakeFiles/SDL2-static.dir/src/video/SDL_blit_1.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_blit_1.c -o CMakeFiles/SDL2-static.dir/src/video/SDL_blit_1.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_1.c.o.requires:
 
@@ -1859,16 +1859,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_1.c.o.provides.bui
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_A.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_A.c.o: libs/SDL2-2.0.7/src/video/SDL_blit_A.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_A.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/SDL_blit_A.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_blit_A.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_A.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/SDL_blit_A.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_blit_A.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_A.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/video/SDL_blit_A.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_blit_A.c > CMakeFiles/SDL2-static.dir/src/video/SDL_blit_A.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_blit_A.c > CMakeFiles/SDL2-static.dir/src/video/SDL_blit_A.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_A.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/video/SDL_blit_A.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_blit_A.c -o CMakeFiles/SDL2-static.dir/src/video/SDL_blit_A.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_blit_A.c -o CMakeFiles/SDL2-static.dir/src/video/SDL_blit_A.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_A.c.o.requires:
 
@@ -1883,16 +1883,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_A.c.o.provides.bui
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_N.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_N.c.o: libs/SDL2-2.0.7/src/video/SDL_blit_N.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_N.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/SDL_blit_N.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_blit_N.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_N.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/SDL_blit_N.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_blit_N.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_N.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/video/SDL_blit_N.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_blit_N.c > CMakeFiles/SDL2-static.dir/src/video/SDL_blit_N.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_blit_N.c > CMakeFiles/SDL2-static.dir/src/video/SDL_blit_N.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_N.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/video/SDL_blit_N.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_blit_N.c -o CMakeFiles/SDL2-static.dir/src/video/SDL_blit_N.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_blit_N.c -o CMakeFiles/SDL2-static.dir/src/video/SDL_blit_N.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_N.c.o.requires:
 
@@ -1907,16 +1907,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_N.c.o.provides.bui
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_auto.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_auto.c.o: libs/SDL2-2.0.7/src/video/SDL_blit_auto.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_auto.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/SDL_blit_auto.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_blit_auto.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_auto.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/SDL_blit_auto.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_blit_auto.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_auto.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/video/SDL_blit_auto.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_blit_auto.c > CMakeFiles/SDL2-static.dir/src/video/SDL_blit_auto.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_blit_auto.c > CMakeFiles/SDL2-static.dir/src/video/SDL_blit_auto.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_auto.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/video/SDL_blit_auto.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_blit_auto.c -o CMakeFiles/SDL2-static.dir/src/video/SDL_blit_auto.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_blit_auto.c -o CMakeFiles/SDL2-static.dir/src/video/SDL_blit_auto.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_auto.c.o.requires:
 
@@ -1931,16 +1931,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_auto.c.o.provides.
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_copy.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_copy.c.o: libs/SDL2-2.0.7/src/video/SDL_blit_copy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_copy.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/SDL_blit_copy.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_blit_copy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_copy.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/SDL_blit_copy.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_blit_copy.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_copy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/video/SDL_blit_copy.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_blit_copy.c > CMakeFiles/SDL2-static.dir/src/video/SDL_blit_copy.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_blit_copy.c > CMakeFiles/SDL2-static.dir/src/video/SDL_blit_copy.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_copy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/video/SDL_blit_copy.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_blit_copy.c -o CMakeFiles/SDL2-static.dir/src/video/SDL_blit_copy.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_blit_copy.c -o CMakeFiles/SDL2-static.dir/src/video/SDL_blit_copy.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_copy.c.o.requires:
 
@@ -1955,16 +1955,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_copy.c.o.provides.
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_slow.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_slow.c.o: libs/SDL2-2.0.7/src/video/SDL_blit_slow.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_slow.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/SDL_blit_slow.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_blit_slow.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_slow.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/SDL_blit_slow.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_blit_slow.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_slow.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/video/SDL_blit_slow.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_blit_slow.c > CMakeFiles/SDL2-static.dir/src/video/SDL_blit_slow.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_blit_slow.c > CMakeFiles/SDL2-static.dir/src/video/SDL_blit_slow.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_slow.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/video/SDL_blit_slow.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_blit_slow.c -o CMakeFiles/SDL2-static.dir/src/video/SDL_blit_slow.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_blit_slow.c -o CMakeFiles/SDL2-static.dir/src/video/SDL_blit_slow.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_slow.c.o.requires:
 
@@ -1979,16 +1979,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_slow.c.o.provides.
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_bmp.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_bmp.c.o: libs/SDL2-2.0.7/src/video/SDL_bmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_bmp.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/SDL_bmp.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_bmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_bmp.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/SDL_bmp.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_bmp.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_bmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/video/SDL_bmp.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_bmp.c > CMakeFiles/SDL2-static.dir/src/video/SDL_bmp.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_bmp.c > CMakeFiles/SDL2-static.dir/src/video/SDL_bmp.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_bmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/video/SDL_bmp.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_bmp.c -o CMakeFiles/SDL2-static.dir/src/video/SDL_bmp.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_bmp.c -o CMakeFiles/SDL2-static.dir/src/video/SDL_bmp.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_bmp.c.o.requires:
 
@@ -2003,16 +2003,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_bmp.c.o.provides.build:
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_clipboard.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_clipboard.c.o: libs/SDL2-2.0.7/src/video/SDL_clipboard.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_clipboard.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/SDL_clipboard.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_clipboard.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_clipboard.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/SDL_clipboard.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_clipboard.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_clipboard.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/video/SDL_clipboard.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_clipboard.c > CMakeFiles/SDL2-static.dir/src/video/SDL_clipboard.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_clipboard.c > CMakeFiles/SDL2-static.dir/src/video/SDL_clipboard.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_clipboard.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/video/SDL_clipboard.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_clipboard.c -o CMakeFiles/SDL2-static.dir/src/video/SDL_clipboard.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_clipboard.c -o CMakeFiles/SDL2-static.dir/src/video/SDL_clipboard.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_clipboard.c.o.requires:
 
@@ -2027,16 +2027,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_clipboard.c.o.provides.
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_egl.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_egl.c.o: libs/SDL2-2.0.7/src/video/SDL_egl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_egl.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/SDL_egl.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_egl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_egl.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/SDL_egl.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_egl.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_egl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/video/SDL_egl.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_egl.c > CMakeFiles/SDL2-static.dir/src/video/SDL_egl.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_egl.c > CMakeFiles/SDL2-static.dir/src/video/SDL_egl.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_egl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/video/SDL_egl.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_egl.c -o CMakeFiles/SDL2-static.dir/src/video/SDL_egl.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_egl.c -o CMakeFiles/SDL2-static.dir/src/video/SDL_egl.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_egl.c.o.requires:
 
@@ -2051,16 +2051,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_egl.c.o.provides.build:
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_fillrect.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_fillrect.c.o: libs/SDL2-2.0.7/src/video/SDL_fillrect.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_fillrect.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/SDL_fillrect.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_fillrect.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_fillrect.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/SDL_fillrect.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_fillrect.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_fillrect.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/video/SDL_fillrect.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_fillrect.c > CMakeFiles/SDL2-static.dir/src/video/SDL_fillrect.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_fillrect.c > CMakeFiles/SDL2-static.dir/src/video/SDL_fillrect.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_fillrect.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/video/SDL_fillrect.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_fillrect.c -o CMakeFiles/SDL2-static.dir/src/video/SDL_fillrect.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_fillrect.c -o CMakeFiles/SDL2-static.dir/src/video/SDL_fillrect.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_fillrect.c.o.requires:
 
@@ -2075,16 +2075,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_fillrect.c.o.provides.b
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_pixels.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_pixels.c.o: libs/SDL2-2.0.7/src/video/SDL_pixels.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_pixels.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/SDL_pixels.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_pixels.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_pixels.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/SDL_pixels.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_pixels.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_pixels.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/video/SDL_pixels.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_pixels.c > CMakeFiles/SDL2-static.dir/src/video/SDL_pixels.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_pixels.c > CMakeFiles/SDL2-static.dir/src/video/SDL_pixels.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_pixels.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/video/SDL_pixels.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_pixels.c -o CMakeFiles/SDL2-static.dir/src/video/SDL_pixels.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_pixels.c -o CMakeFiles/SDL2-static.dir/src/video/SDL_pixels.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_pixels.c.o.requires:
 
@@ -2099,16 +2099,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_pixels.c.o.provides.bui
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_rect.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_rect.c.o: libs/SDL2-2.0.7/src/video/SDL_rect.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_rect.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/SDL_rect.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_rect.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_rect.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/SDL_rect.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_rect.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_rect.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/video/SDL_rect.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_rect.c > CMakeFiles/SDL2-static.dir/src/video/SDL_rect.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_rect.c > CMakeFiles/SDL2-static.dir/src/video/SDL_rect.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_rect.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/video/SDL_rect.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_rect.c -o CMakeFiles/SDL2-static.dir/src/video/SDL_rect.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_rect.c -o CMakeFiles/SDL2-static.dir/src/video/SDL_rect.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_rect.c.o.requires:
 
@@ -2123,16 +2123,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_rect.c.o.provides.build
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_shape.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_shape.c.o: libs/SDL2-2.0.7/src/video/SDL_shape.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_shape.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/SDL_shape.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_shape.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_shape.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/SDL_shape.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_shape.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_shape.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/video/SDL_shape.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_shape.c > CMakeFiles/SDL2-static.dir/src/video/SDL_shape.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_shape.c > CMakeFiles/SDL2-static.dir/src/video/SDL_shape.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_shape.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/video/SDL_shape.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_shape.c -o CMakeFiles/SDL2-static.dir/src/video/SDL_shape.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_shape.c -o CMakeFiles/SDL2-static.dir/src/video/SDL_shape.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_shape.c.o.requires:
 
@@ -2147,16 +2147,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_shape.c.o.provides.buil
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_stretch.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_stretch.c.o: libs/SDL2-2.0.7/src/video/SDL_stretch.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_stretch.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/SDL_stretch.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_stretch.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_stretch.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/SDL_stretch.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_stretch.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_stretch.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/video/SDL_stretch.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_stretch.c > CMakeFiles/SDL2-static.dir/src/video/SDL_stretch.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_stretch.c > CMakeFiles/SDL2-static.dir/src/video/SDL_stretch.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_stretch.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/video/SDL_stretch.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_stretch.c -o CMakeFiles/SDL2-static.dir/src/video/SDL_stretch.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_stretch.c -o CMakeFiles/SDL2-static.dir/src/video/SDL_stretch.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_stretch.c.o.requires:
 
@@ -2171,16 +2171,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_stretch.c.o.provides.bu
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_surface.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_surface.c.o: libs/SDL2-2.0.7/src/video/SDL_surface.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_surface.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/SDL_surface.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_surface.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_surface.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/SDL_surface.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_surface.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_surface.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/video/SDL_surface.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_surface.c > CMakeFiles/SDL2-static.dir/src/video/SDL_surface.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_surface.c > CMakeFiles/SDL2-static.dir/src/video/SDL_surface.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_surface.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/video/SDL_surface.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_surface.c -o CMakeFiles/SDL2-static.dir/src/video/SDL_surface.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_surface.c -o CMakeFiles/SDL2-static.dir/src/video/SDL_surface.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_surface.c.o.requires:
 
@@ -2195,16 +2195,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_surface.c.o.provides.bu
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_video.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_video.c.o: libs/SDL2-2.0.7/src/video/SDL_video.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_video.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/SDL_video.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_video.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_video.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/SDL_video.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_video.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_video.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/video/SDL_video.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_video.c > CMakeFiles/SDL2-static.dir/src/video/SDL_video.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_video.c > CMakeFiles/SDL2-static.dir/src/video/SDL_video.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_video.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/video/SDL_video.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_video.c -o CMakeFiles/SDL2-static.dir/src/video/SDL_video.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_video.c -o CMakeFiles/SDL2-static.dir/src/video/SDL_video.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_video.c.o.requires:
 
@@ -2219,16 +2219,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_video.c.o.provides.buil
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_vulkan_utils.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_vulkan_utils.c.o: libs/SDL2-2.0.7/src/video/SDL_vulkan_utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_vulkan_utils.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/SDL_vulkan_utils.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_vulkan_utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_vulkan_utils.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/SDL_vulkan_utils.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_vulkan_utils.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_vulkan_utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/video/SDL_vulkan_utils.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_vulkan_utils.c > CMakeFiles/SDL2-static.dir/src/video/SDL_vulkan_utils.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_vulkan_utils.c > CMakeFiles/SDL2-static.dir/src/video/SDL_vulkan_utils.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_vulkan_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/video/SDL_vulkan_utils.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_vulkan_utils.c -o CMakeFiles/SDL2-static.dir/src/video/SDL_vulkan_utils.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/SDL_vulkan_utils.c -o CMakeFiles/SDL2-static.dir/src/video/SDL_vulkan_utils.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_vulkan_utils.c.o.requires:
 
@@ -2243,16 +2243,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/SDL_vulkan_utils.c.o.provid
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/joystick/SDL_gamecontroller.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/joystick/SDL_gamecontroller.c.o: libs/SDL2-2.0.7/src/joystick/SDL_gamecontroller.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/joystick/SDL_gamecontroller.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/joystick/SDL_gamecontroller.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/joystick/SDL_gamecontroller.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/joystick/SDL_gamecontroller.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/joystick/SDL_gamecontroller.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/joystick/SDL_gamecontroller.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/joystick/SDL_gamecontroller.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/joystick/SDL_gamecontroller.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/joystick/SDL_gamecontroller.c > CMakeFiles/SDL2-static.dir/src/joystick/SDL_gamecontroller.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/joystick/SDL_gamecontroller.c > CMakeFiles/SDL2-static.dir/src/joystick/SDL_gamecontroller.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/joystick/SDL_gamecontroller.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/joystick/SDL_gamecontroller.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/joystick/SDL_gamecontroller.c -o CMakeFiles/SDL2-static.dir/src/joystick/SDL_gamecontroller.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/joystick/SDL_gamecontroller.c -o CMakeFiles/SDL2-static.dir/src/joystick/SDL_gamecontroller.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/joystick/SDL_gamecontroller.c.o.requires:
 
@@ -2267,16 +2267,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/joystick/SDL_gamecontroller.c.o.p
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/joystick/SDL_joystick.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/joystick/SDL_joystick.c.o: libs/SDL2-2.0.7/src/joystick/SDL_joystick.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/joystick/SDL_joystick.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/joystick/SDL_joystick.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/joystick/SDL_joystick.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/joystick/SDL_joystick.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/joystick/SDL_joystick.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/joystick/SDL_joystick.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/joystick/SDL_joystick.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/joystick/SDL_joystick.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/joystick/SDL_joystick.c > CMakeFiles/SDL2-static.dir/src/joystick/SDL_joystick.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/joystick/SDL_joystick.c > CMakeFiles/SDL2-static.dir/src/joystick/SDL_joystick.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/joystick/SDL_joystick.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/joystick/SDL_joystick.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/joystick/SDL_joystick.c -o CMakeFiles/SDL2-static.dir/src/joystick/SDL_joystick.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/joystick/SDL_joystick.c -o CMakeFiles/SDL2-static.dir/src/joystick/SDL_joystick.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/joystick/SDL_joystick.c.o.requires:
 
@@ -2291,16 +2291,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/joystick/SDL_joystick.c.o.provide
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/haptic/SDL_haptic.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/haptic/SDL_haptic.c.o: libs/SDL2-2.0.7/src/haptic/SDL_haptic.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/haptic/SDL_haptic.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/haptic/SDL_haptic.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/haptic/SDL_haptic.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/haptic/SDL_haptic.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/haptic/SDL_haptic.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/haptic/SDL_haptic.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/haptic/SDL_haptic.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/haptic/SDL_haptic.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/haptic/SDL_haptic.c > CMakeFiles/SDL2-static.dir/src/haptic/SDL_haptic.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/haptic/SDL_haptic.c > CMakeFiles/SDL2-static.dir/src/haptic/SDL_haptic.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/haptic/SDL_haptic.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/haptic/SDL_haptic.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/haptic/SDL_haptic.c -o CMakeFiles/SDL2-static.dir/src/haptic/SDL_haptic.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/haptic/SDL_haptic.c -o CMakeFiles/SDL2-static.dir/src/haptic/SDL_haptic.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/haptic/SDL_haptic.c.o.requires:
 
@@ -2315,16 +2315,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/haptic/SDL_haptic.c.o.provides.bu
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/power/SDL_power.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/power/SDL_power.c.o: libs/SDL2-2.0.7/src/power/SDL_power.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/power/SDL_power.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/power/SDL_power.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/power/SDL_power.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/power/SDL_power.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/power/SDL_power.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/power/SDL_power.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/power/SDL_power.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/power/SDL_power.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/power/SDL_power.c > CMakeFiles/SDL2-static.dir/src/power/SDL_power.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/power/SDL_power.c > CMakeFiles/SDL2-static.dir/src/power/SDL_power.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/power/SDL_power.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/power/SDL_power.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/power/SDL_power.c -o CMakeFiles/SDL2-static.dir/src/power/SDL_power.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/power/SDL_power.c -o CMakeFiles/SDL2-static.dir/src/power/SDL_power.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/power/SDL_power.c.o.requires:
 
@@ -2339,16 +2339,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/power/SDL_power.c.o.provides.buil
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/dummy/SDL_dummyaudio.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/dummy/SDL_dummyaudio.c.o: libs/SDL2-2.0.7/src/audio/dummy/SDL_dummyaudio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/dummy/SDL_dummyaudio.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/audio/dummy/SDL_dummyaudio.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/audio/dummy/SDL_dummyaudio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/dummy/SDL_dummyaudio.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/audio/dummy/SDL_dummyaudio.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/audio/dummy/SDL_dummyaudio.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/dummy/SDL_dummyaudio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/audio/dummy/SDL_dummyaudio.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/audio/dummy/SDL_dummyaudio.c > CMakeFiles/SDL2-static.dir/src/audio/dummy/SDL_dummyaudio.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/audio/dummy/SDL_dummyaudio.c > CMakeFiles/SDL2-static.dir/src/audio/dummy/SDL_dummyaudio.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/dummy/SDL_dummyaudio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/audio/dummy/SDL_dummyaudio.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/audio/dummy/SDL_dummyaudio.c -o CMakeFiles/SDL2-static.dir/src/audio/dummy/SDL_dummyaudio.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/audio/dummy/SDL_dummyaudio.c -o CMakeFiles/SDL2-static.dir/src/audio/dummy/SDL_dummyaudio.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/dummy/SDL_dummyaudio.c.o.requires:
 
@@ -2363,16 +2363,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/dummy/SDL_dummyaudio.c.o.pr
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/disk/SDL_diskaudio.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/disk/SDL_diskaudio.c.o: libs/SDL2-2.0.7/src/audio/disk/SDL_diskaudio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/disk/SDL_diskaudio.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/audio/disk/SDL_diskaudio.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/audio/disk/SDL_diskaudio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/disk/SDL_diskaudio.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/audio/disk/SDL_diskaudio.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/audio/disk/SDL_diskaudio.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/disk/SDL_diskaudio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/audio/disk/SDL_diskaudio.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/audio/disk/SDL_diskaudio.c > CMakeFiles/SDL2-static.dir/src/audio/disk/SDL_diskaudio.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/audio/disk/SDL_diskaudio.c > CMakeFiles/SDL2-static.dir/src/audio/disk/SDL_diskaudio.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/disk/SDL_diskaudio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/audio/disk/SDL_diskaudio.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/audio/disk/SDL_diskaudio.c -o CMakeFiles/SDL2-static.dir/src/audio/disk/SDL_diskaudio.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/audio/disk/SDL_diskaudio.c -o CMakeFiles/SDL2-static.dir/src/audio/disk/SDL_diskaudio.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/disk/SDL_diskaudio.c.o.requires:
 
@@ -2387,16 +2387,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/disk/SDL_diskaudio.c.o.prov
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/loadso/dlopen/SDL_sysloadso.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/loadso/dlopen/SDL_sysloadso.c.o: libs/SDL2-2.0.7/src/loadso/dlopen/SDL_sysloadso.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/loadso/dlopen/SDL_sysloadso.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/loadso/dlopen/SDL_sysloadso.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/loadso/dlopen/SDL_sysloadso.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/loadso/dlopen/SDL_sysloadso.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/loadso/dlopen/SDL_sysloadso.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/loadso/dlopen/SDL_sysloadso.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/loadso/dlopen/SDL_sysloadso.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/loadso/dlopen/SDL_sysloadso.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/loadso/dlopen/SDL_sysloadso.c > CMakeFiles/SDL2-static.dir/src/loadso/dlopen/SDL_sysloadso.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/loadso/dlopen/SDL_sysloadso.c > CMakeFiles/SDL2-static.dir/src/loadso/dlopen/SDL_sysloadso.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/loadso/dlopen/SDL_sysloadso.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/loadso/dlopen/SDL_sysloadso.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/loadso/dlopen/SDL_sysloadso.c -o CMakeFiles/SDL2-static.dir/src/loadso/dlopen/SDL_sysloadso.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/loadso/dlopen/SDL_sysloadso.c -o CMakeFiles/SDL2-static.dir/src/loadso/dlopen/SDL_sysloadso.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/loadso/dlopen/SDL_sysloadso.c.o.requires:
 
@@ -2411,16 +2411,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/loadso/dlopen/SDL_sysloadso.c.o.p
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullevents.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullevents.c.o: libs/SDL2-2.0.7/src/video/dummy/SDL_nullevents.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullevents.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullevents.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/dummy/SDL_nullevents.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullevents.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullevents.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/dummy/SDL_nullevents.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullevents.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullevents.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/dummy/SDL_nullevents.c > CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullevents.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/dummy/SDL_nullevents.c > CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullevents.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullevents.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullevents.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/dummy/SDL_nullevents.c -o CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullevents.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/dummy/SDL_nullevents.c -o CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullevents.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullevents.c.o.requires:
 
@@ -2435,16 +2435,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullevents.c.o.pr
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullframebuffer.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullframebuffer.c.o: libs/SDL2-2.0.7/src/video/dummy/SDL_nullframebuffer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullframebuffer.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullframebuffer.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/dummy/SDL_nullframebuffer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullframebuffer.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullframebuffer.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/dummy/SDL_nullframebuffer.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullframebuffer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullframebuffer.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/dummy/SDL_nullframebuffer.c > CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullframebuffer.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/dummy/SDL_nullframebuffer.c > CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullframebuffer.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullframebuffer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullframebuffer.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/dummy/SDL_nullframebuffer.c -o CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullframebuffer.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/dummy/SDL_nullframebuffer.c -o CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullframebuffer.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullframebuffer.c.o.requires:
 
@@ -2459,16 +2459,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullframebuffer.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullvideo.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullvideo.c.o: libs/SDL2-2.0.7/src/video/dummy/SDL_nullvideo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullvideo.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullvideo.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/dummy/SDL_nullvideo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullvideo.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullvideo.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/dummy/SDL_nullvideo.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullvideo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullvideo.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/dummy/SDL_nullvideo.c > CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullvideo.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/dummy/SDL_nullvideo.c > CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullvideo.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullvideo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullvideo.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/dummy/SDL_nullvideo.c -o CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullvideo.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/dummy/SDL_nullvideo.c -o CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullvideo.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullvideo.c.o.requires:
 
@@ -2483,16 +2483,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullvideo.c.o.pro
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/coreaudio/SDL_coreaudio.m.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/coreaudio/SDL_coreaudio.m.o: libs/SDL2-2.0.7/src/audio/coreaudio/SDL_coreaudio.m
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/coreaudio/SDL_coreaudio.m.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/audio/coreaudio/SDL_coreaudio.m.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/audio/coreaudio/SDL_coreaudio.m
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/coreaudio/SDL_coreaudio.m.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/audio/coreaudio/SDL_coreaudio.m.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/audio/coreaudio/SDL_coreaudio.m
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/coreaudio/SDL_coreaudio.m.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/audio/coreaudio/SDL_coreaudio.m.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/audio/coreaudio/SDL_coreaudio.m > CMakeFiles/SDL2-static.dir/src/audio/coreaudio/SDL_coreaudio.m.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/audio/coreaudio/SDL_coreaudio.m > CMakeFiles/SDL2-static.dir/src/audio/coreaudio/SDL_coreaudio.m.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/coreaudio/SDL_coreaudio.m.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/audio/coreaudio/SDL_coreaudio.m.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/audio/coreaudio/SDL_coreaudio.m -o CMakeFiles/SDL2-static.dir/src/audio/coreaudio/SDL_coreaudio.m.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/audio/coreaudio/SDL_coreaudio.m -o CMakeFiles/SDL2-static.dir/src/audio/coreaudio/SDL_coreaudio.m.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/coreaudio/SDL_coreaudio.m.o.requires:
 
@@ -2507,16 +2507,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/audio/coreaudio/SDL_coreaudio.m.o
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/joystick/darwin/SDL_sysjoystick.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/joystick/darwin/SDL_sysjoystick.c.o: libs/SDL2-2.0.7/src/joystick/darwin/SDL_sysjoystick.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/joystick/darwin/SDL_sysjoystick.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/joystick/darwin/SDL_sysjoystick.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/joystick/darwin/SDL_sysjoystick.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/joystick/darwin/SDL_sysjoystick.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/joystick/darwin/SDL_sysjoystick.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/joystick/darwin/SDL_sysjoystick.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/joystick/darwin/SDL_sysjoystick.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/joystick/darwin/SDL_sysjoystick.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/joystick/darwin/SDL_sysjoystick.c > CMakeFiles/SDL2-static.dir/src/joystick/darwin/SDL_sysjoystick.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/joystick/darwin/SDL_sysjoystick.c > CMakeFiles/SDL2-static.dir/src/joystick/darwin/SDL_sysjoystick.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/joystick/darwin/SDL_sysjoystick.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/joystick/darwin/SDL_sysjoystick.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/joystick/darwin/SDL_sysjoystick.c -o CMakeFiles/SDL2-static.dir/src/joystick/darwin/SDL_sysjoystick.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/joystick/darwin/SDL_sysjoystick.c -o CMakeFiles/SDL2-static.dir/src/joystick/darwin/SDL_sysjoystick.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/joystick/darwin/SDL_sysjoystick.c.o.requires:
 
@@ -2531,16 +2531,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/joystick/darwin/SDL_sysjoystick.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/haptic/darwin/SDL_syshaptic.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/haptic/darwin/SDL_syshaptic.c.o: libs/SDL2-2.0.7/src/haptic/darwin/SDL_syshaptic.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/haptic/darwin/SDL_syshaptic.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/haptic/darwin/SDL_syshaptic.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/haptic/darwin/SDL_syshaptic.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/haptic/darwin/SDL_syshaptic.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/haptic/darwin/SDL_syshaptic.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/haptic/darwin/SDL_syshaptic.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/haptic/darwin/SDL_syshaptic.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/haptic/darwin/SDL_syshaptic.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/haptic/darwin/SDL_syshaptic.c > CMakeFiles/SDL2-static.dir/src/haptic/darwin/SDL_syshaptic.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/haptic/darwin/SDL_syshaptic.c > CMakeFiles/SDL2-static.dir/src/haptic/darwin/SDL_syshaptic.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/haptic/darwin/SDL_syshaptic.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/haptic/darwin/SDL_syshaptic.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/haptic/darwin/SDL_syshaptic.c -o CMakeFiles/SDL2-static.dir/src/haptic/darwin/SDL_syshaptic.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/haptic/darwin/SDL_syshaptic.c -o CMakeFiles/SDL2-static.dir/src/haptic/darwin/SDL_syshaptic.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/haptic/darwin/SDL_syshaptic.c.o.requires:
 
@@ -2555,16 +2555,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/haptic/darwin/SDL_syshaptic.c.o.p
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/power/macosx/SDL_syspower.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/power/macosx/SDL_syspower.c.o: libs/SDL2-2.0.7/src/power/macosx/SDL_syspower.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/power/macosx/SDL_syspower.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/power/macosx/SDL_syspower.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/power/macosx/SDL_syspower.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/power/macosx/SDL_syspower.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/power/macosx/SDL_syspower.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/power/macosx/SDL_syspower.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/power/macosx/SDL_syspower.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/power/macosx/SDL_syspower.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/power/macosx/SDL_syspower.c > CMakeFiles/SDL2-static.dir/src/power/macosx/SDL_syspower.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/power/macosx/SDL_syspower.c > CMakeFiles/SDL2-static.dir/src/power/macosx/SDL_syspower.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/power/macosx/SDL_syspower.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/power/macosx/SDL_syspower.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/power/macosx/SDL_syspower.c -o CMakeFiles/SDL2-static.dir/src/power/macosx/SDL_syspower.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/power/macosx/SDL_syspower.c -o CMakeFiles/SDL2-static.dir/src/power/macosx/SDL_syspower.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/power/macosx/SDL_syspower.c.o.requires:
 
@@ -2579,16 +2579,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/power/macosx/SDL_syspower.c.o.pro
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/timer/unix/SDL_systimer.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/timer/unix/SDL_systimer.c.o: libs/SDL2-2.0.7/src/timer/unix/SDL_systimer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/timer/unix/SDL_systimer.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/timer/unix/SDL_systimer.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/timer/unix/SDL_systimer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/timer/unix/SDL_systimer.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/timer/unix/SDL_systimer.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/timer/unix/SDL_systimer.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/timer/unix/SDL_systimer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/timer/unix/SDL_systimer.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/timer/unix/SDL_systimer.c > CMakeFiles/SDL2-static.dir/src/timer/unix/SDL_systimer.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/timer/unix/SDL_systimer.c > CMakeFiles/SDL2-static.dir/src/timer/unix/SDL_systimer.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/timer/unix/SDL_systimer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/timer/unix/SDL_systimer.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/timer/unix/SDL_systimer.c -o CMakeFiles/SDL2-static.dir/src/timer/unix/SDL_systimer.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/timer/unix/SDL_systimer.c -o CMakeFiles/SDL2-static.dir/src/timer/unix/SDL_systimer.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/timer/unix/SDL_systimer.c.o.requires:
 
@@ -2603,16 +2603,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/timer/unix/SDL_systimer.c.o.provi
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/filesystem/cocoa/SDL_sysfilesystem.m.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/filesystem/cocoa/SDL_sysfilesystem.m.o: libs/SDL2-2.0.7/src/filesystem/cocoa/SDL_sysfilesystem.m
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/filesystem/cocoa/SDL_sysfilesystem.m.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/filesystem/cocoa/SDL_sysfilesystem.m.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/filesystem/cocoa/SDL_sysfilesystem.m
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/filesystem/cocoa/SDL_sysfilesystem.m.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/filesystem/cocoa/SDL_sysfilesystem.m.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/filesystem/cocoa/SDL_sysfilesystem.m
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/filesystem/cocoa/SDL_sysfilesystem.m.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/filesystem/cocoa/SDL_sysfilesystem.m.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/filesystem/cocoa/SDL_sysfilesystem.m > CMakeFiles/SDL2-static.dir/src/filesystem/cocoa/SDL_sysfilesystem.m.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/filesystem/cocoa/SDL_sysfilesystem.m > CMakeFiles/SDL2-static.dir/src/filesystem/cocoa/SDL_sysfilesystem.m.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/filesystem/cocoa/SDL_sysfilesystem.m.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/filesystem/cocoa/SDL_sysfilesystem.m.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/filesystem/cocoa/SDL_sysfilesystem.m -o CMakeFiles/SDL2-static.dir/src/filesystem/cocoa/SDL_sysfilesystem.m.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/filesystem/cocoa/SDL_sysfilesystem.m -o CMakeFiles/SDL2-static.dir/src/filesystem/cocoa/SDL_sysfilesystem.m.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/filesystem/cocoa/SDL_sysfilesystem.m.o.requires:
 
@@ -2627,16 +2627,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/filesystem/cocoa/SDL_sysfilesyste
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoaclipboard.m.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoaclipboard.m.o: libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoaclipboard.m
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoaclipboard.m.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoaclipboard.m.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoaclipboard.m
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoaclipboard.m.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoaclipboard.m.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoaclipboard.m
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoaclipboard.m.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoaclipboard.m.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoaclipboard.m > CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoaclipboard.m.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoaclipboard.m > CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoaclipboard.m.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoaclipboard.m.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoaclipboard.m.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoaclipboard.m -o CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoaclipboard.m.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoaclipboard.m -o CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoaclipboard.m.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoaclipboard.m.o.requires:
 
@@ -2651,16 +2651,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoaclipboard.m.
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoaevents.m.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoaevents.m.o: libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoaevents.m
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoaevents.m.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoaevents.m.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoaevents.m
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoaevents.m.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoaevents.m.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoaevents.m
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoaevents.m.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoaevents.m.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoaevents.m > CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoaevents.m.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoaevents.m > CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoaevents.m.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoaevents.m.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoaevents.m.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoaevents.m -o CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoaevents.m.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoaevents.m -o CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoaevents.m.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoaevents.m.o.requires:
 
@@ -2675,16 +2675,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoaevents.m.o.p
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoakeyboard.m.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoakeyboard.m.o: libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoakeyboard.m
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoakeyboard.m.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoakeyboard.m.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoakeyboard.m
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoakeyboard.m.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoakeyboard.m.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoakeyboard.m
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoakeyboard.m.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoakeyboard.m.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoakeyboard.m > CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoakeyboard.m.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoakeyboard.m > CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoakeyboard.m.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoakeyboard.m.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoakeyboard.m.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoakeyboard.m -o CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoakeyboard.m.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoakeyboard.m -o CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoakeyboard.m.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoakeyboard.m.o.requires:
 
@@ -2699,16 +2699,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoakeyboard.m.o
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoamessagebox.m.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoamessagebox.m.o: libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoamessagebox.m
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoamessagebox.m.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoamessagebox.m.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoamessagebox.m
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoamessagebox.m.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoamessagebox.m.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoamessagebox.m
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoamessagebox.m.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoamessagebox.m.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoamessagebox.m > CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoamessagebox.m.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoamessagebox.m > CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoamessagebox.m.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoamessagebox.m.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoamessagebox.m.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoamessagebox.m -o CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoamessagebox.m.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoamessagebox.m -o CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoamessagebox.m.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoamessagebox.m.o.requires:
 
@@ -2723,16 +2723,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoamessagebox.m
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoametalview.m.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoametalview.m.o: libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoametalview.m
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoametalview.m.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoametalview.m.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoametalview.m
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoametalview.m.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoametalview.m.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoametalview.m
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoametalview.m.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoametalview.m.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoametalview.m > CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoametalview.m.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoametalview.m > CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoametalview.m.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoametalview.m.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoametalview.m.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoametalview.m -o CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoametalview.m.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoametalview.m -o CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoametalview.m.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoametalview.m.o.requires:
 
@@ -2747,16 +2747,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoametalview.m.
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoamodes.m.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoamodes.m.o: libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoamodes.m
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoamodes.m.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoamodes.m.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoamodes.m
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoamodes.m.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoamodes.m.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoamodes.m
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoamodes.m.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoamodes.m.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoamodes.m > CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoamodes.m.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoamodes.m > CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoamodes.m.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoamodes.m.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoamodes.m.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoamodes.m -o CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoamodes.m.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoamodes.m -o CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoamodes.m.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoamodes.m.o.requires:
 
@@ -2771,16 +2771,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoamodes.m.o.pr
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoamouse.m.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoamouse.m.o: libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoamouse.m
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoamouse.m.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoamouse.m.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoamouse.m
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoamouse.m.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoamouse.m.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoamouse.m
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoamouse.m.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoamouse.m.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoamouse.m > CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoamouse.m.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoamouse.m > CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoamouse.m.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoamouse.m.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoamouse.m.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoamouse.m -o CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoamouse.m.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoamouse.m -o CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoamouse.m.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoamouse.m.o.requires:
 
@@ -2795,16 +2795,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoamouse.m.o.pr
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoamousetap.m.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoamousetap.m.o: libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoamousetap.m
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoamousetap.m.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoamousetap.m.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoamousetap.m
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoamousetap.m.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoamousetap.m.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoamousetap.m
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoamousetap.m.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoamousetap.m.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoamousetap.m > CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoamousetap.m.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoamousetap.m > CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoamousetap.m.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoamousetap.m.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoamousetap.m.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoamousetap.m -o CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoamousetap.m.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoamousetap.m -o CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoamousetap.m.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoamousetap.m.o.requires:
 
@@ -2819,16 +2819,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoamousetap.m.o
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoaopengl.m.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoaopengl.m.o: libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoaopengl.m
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoaopengl.m.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoaopengl.m.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoaopengl.m
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoaopengl.m.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoaopengl.m.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoaopengl.m
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoaopengl.m.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoaopengl.m.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoaopengl.m > CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoaopengl.m.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoaopengl.m > CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoaopengl.m.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoaopengl.m.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoaopengl.m.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoaopengl.m -o CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoaopengl.m.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoaopengl.m -o CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoaopengl.m.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoaopengl.m.o.requires:
 
@@ -2843,16 +2843,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoaopengl.m.o.p
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoashape.m.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoashape.m.o: libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoashape.m
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoashape.m.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoashape.m.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoashape.m
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoashape.m.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoashape.m.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoashape.m
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoashape.m.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoashape.m.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoashape.m > CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoashape.m.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoashape.m > CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoashape.m.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoashape.m.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoashape.m.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoashape.m -o CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoashape.m.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoashape.m -o CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoashape.m.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoashape.m.o.requires:
 
@@ -2867,16 +2867,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoashape.m.o.pr
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoavideo.m.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoavideo.m.o: libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoavideo.m
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoavideo.m.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoavideo.m.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoavideo.m
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoavideo.m.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoavideo.m.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoavideo.m
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoavideo.m.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoavideo.m.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoavideo.m > CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoavideo.m.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoavideo.m > CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoavideo.m.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoavideo.m.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoavideo.m.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoavideo.m -o CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoavideo.m.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoavideo.m -o CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoavideo.m.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoavideo.m.o.requires:
 
@@ -2891,16 +2891,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoavideo.m.o.pr
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoavulkan.m.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoavulkan.m.o: libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoavulkan.m
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoavulkan.m.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoavulkan.m.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoavulkan.m
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoavulkan.m.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoavulkan.m.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoavulkan.m
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoavulkan.m.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoavulkan.m.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoavulkan.m > CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoavulkan.m.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoavulkan.m > CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoavulkan.m.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoavulkan.m.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoavulkan.m.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoavulkan.m -o CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoavulkan.m.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoavulkan.m -o CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoavulkan.m.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoavulkan.m.o.requires:
 
@@ -2915,16 +2915,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoavulkan.m.o.p
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoawindow.m.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoawindow.m.o: libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoawindow.m
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoawindow.m.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoawindow.m.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoawindow.m
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoawindow.m.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoawindow.m.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoawindow.m
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoawindow.m.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoawindow.m.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoawindow.m > CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoawindow.m.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoawindow.m > CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoawindow.m.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoawindow.m.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoawindow.m.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoawindow.m -o CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoawindow.m.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/video/cocoa/SDL_cocoawindow.m -o CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoawindow.m.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoawindow.m.o.requires:
 
@@ -2939,16 +2939,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/video/cocoa/SDL_cocoawindow.m.o.p
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_systhread.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_systhread.c.o: libs/SDL2-2.0.7/src/thread/pthread/SDL_systhread.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_systhread.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_systhread.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/thread/pthread/SDL_systhread.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_systhread.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_systhread.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/thread/pthread/SDL_systhread.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_systhread.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_systhread.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/thread/pthread/SDL_systhread.c > CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_systhread.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/thread/pthread/SDL_systhread.c > CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_systhread.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_systhread.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_systhread.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/thread/pthread/SDL_systhread.c -o CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_systhread.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/thread/pthread/SDL_systhread.c -o CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_systhread.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_systhread.c.o.requires:
 
@@ -2963,16 +2963,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_systhread.c.o.
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_sysmutex.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_sysmutex.c.o: libs/SDL2-2.0.7/src/thread/pthread/SDL_sysmutex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_sysmutex.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_sysmutex.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/thread/pthread/SDL_sysmutex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_sysmutex.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_sysmutex.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/thread/pthread/SDL_sysmutex.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_sysmutex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_sysmutex.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/thread/pthread/SDL_sysmutex.c > CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_sysmutex.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/thread/pthread/SDL_sysmutex.c > CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_sysmutex.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_sysmutex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_sysmutex.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/thread/pthread/SDL_sysmutex.c -o CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_sysmutex.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/thread/pthread/SDL_sysmutex.c -o CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_sysmutex.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_sysmutex.c.o.requires:
 
@@ -2987,16 +2987,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_sysmutex.c.o.p
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_syscond.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_syscond.c.o: libs/SDL2-2.0.7/src/thread/pthread/SDL_syscond.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_syscond.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_syscond.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/thread/pthread/SDL_syscond.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_syscond.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_syscond.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/thread/pthread/SDL_syscond.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_syscond.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_syscond.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/thread/pthread/SDL_syscond.c > CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_syscond.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/thread/pthread/SDL_syscond.c > CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_syscond.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_syscond.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_syscond.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/thread/pthread/SDL_syscond.c -o CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_syscond.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/thread/pthread/SDL_syscond.c -o CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_syscond.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_syscond.c.o.requires:
 
@@ -3011,16 +3011,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_syscond.c.o.pr
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_systls.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_systls.c.o: libs/SDL2-2.0.7/src/thread/pthread/SDL_systls.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_systls.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_systls.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/thread/pthread/SDL_systls.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_systls.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_systls.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/thread/pthread/SDL_systls.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_systls.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_systls.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/thread/pthread/SDL_systls.c > CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_systls.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/thread/pthread/SDL_systls.c > CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_systls.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_systls.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_systls.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/thread/pthread/SDL_systls.c -o CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_systls.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/thread/pthread/SDL_systls.c -o CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_systls.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_systls.c.o.requires:
 
@@ -3035,16 +3035,16 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_systls.c.o.pro
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_syssem.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_syssem.c.o: libs/SDL2-2.0.7/src/thread/pthread/SDL_syssem.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_syssem.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_syssem.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/thread/pthread/SDL_syssem.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_syssem.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_syssem.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/thread/pthread/SDL_syssem.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_syssem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_syssem.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/thread/pthread/SDL_syssem.c > CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_syssem.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/thread/pthread/SDL_syssem.c > CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_syssem.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_syssem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_syssem.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/thread/pthread/SDL_syssem.c -o CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_syssem.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/thread/pthread/SDL_syssem.c -o CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_syssem.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_syssem.c.o.requires:
 
@@ -3315,9 +3315,9 @@ libs/SDL2-2.0.7/libSDL2.a: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/thread
 libs/SDL2-2.0.7/libSDL2.a: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_syssem.c.o
 libs/SDL2-2.0.7/libSDL2.a: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/build.make
 libs/SDL2-2.0.7/libSDL2.a: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Linking C static library libSDL2.a"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && $(CMAKE_COMMAND) -P CMakeFiles/SDL2-static.dir/cmake_clean_target.cmake
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SDL2-static.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Linking C static library libSDL2.a"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && $(CMAKE_COMMAND) -P CMakeFiles/SDL2-static.dir/cmake_clean_target.cmake
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SDL2-static.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/build: libs/SDL2-2.0.7/libSDL2.a
@@ -3453,10 +3453,10 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/requires: libs/SDL2-2.0.7/CMakeFiles/
 .PHONY : libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/requires
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/clean:
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && $(CMAKE_COMMAND) -P CMakeFiles/SDL2-static.dir/cmake_clean.cmake
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && $(CMAKE_COMMAND) -P CMakeFiles/SDL2-static.dir/cmake_clean.cmake
 .PHONY : libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/clean
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/depend:
-	cd /Users/cjfire/Desktop/CLionProjects && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/cjfire/Desktop/CLionProjects /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 /Users/cjfire/Desktop/CLionProjects /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/cjfire/Documents/code/CLion/CLionProjects /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 /Users/cjfire/Documents/code/CLion/CLionProjects /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/depend
 

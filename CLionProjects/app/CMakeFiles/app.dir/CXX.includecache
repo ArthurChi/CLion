@@ -6,21 +6,35 @@
 
 #IncludeRegexTransform: 
 
-/Users/cjfire/Desktop/CLionProjects/app/main.cpp
+/Users/cjfire/Documents/code/CLion/CLionProjects/app/Shader.cpp
+string
+-
+iostream
+-
+Shader.h
+/Users/cjfire/Documents/code/CLion/CLionProjects/app/Shader.h
+
+/Users/cjfire/Documents/code/CLion/CLionProjects/app/Shader.h
+GL/glew.h
+/Users/cjfire/Documents/code/CLion/CLionProjects/app/GL/glew.h
+
+/Users/cjfire/Documents/code/CLion/CLionProjects/app/main.cpp
 iostream
 -
 calculater.h
-/Users/cjfire/Desktop/CLionProjects/app/calculater.h
+/Users/cjfire/Documents/code/CLion/CLionProjects/app/calculater.h
 GL/glew.h
-/Users/cjfire/Desktop/CLionProjects/app/GL/glew.h
+/Users/cjfire/Documents/code/CLion/CLionProjects/app/GL/glew.h
 GLFW/glfw3.h
-/Users/cjfire/Desktop/CLionProjects/app/GLFW/glfw3.h
+/Users/cjfire/Documents/code/CLion/CLionProjects/app/GLFW/glfw3.h
 math.h
 -
 vector
 -
 stb_image.h
-/Users/cjfire/Desktop/CLionProjects/app/stb_image.h
+/Users/cjfire/Documents/code/CLion/CLionProjects/app/stb_image.h
+Shader.h
+/Users/cjfire/Documents/code/CLion/CLionProjects/app/Shader.h
 glm/glm.hpp
 -
 glm/gtc/matrix_transform.hpp
@@ -28,9 +42,9 @@ glm/gtc/matrix_transform.hpp
 glm/gtc/type_ptr.hpp
 -
 
-/Users/cjfire/Desktop/CLionProjects/app/stb_image.h
+/Users/cjfire/Documents/code/CLion/CLionProjects/app/stb_image.h
 stb_image.h
-/Users/cjfire/Desktop/CLionProjects/app/stb_image.h
+/Users/cjfire/Documents/code/CLion/CLionProjects/app/stb_image.h
 stdio.h
 -
 stdarg.h

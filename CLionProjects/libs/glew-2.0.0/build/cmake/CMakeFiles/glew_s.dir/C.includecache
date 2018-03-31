@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/cjfire/Desktop/CLionProjects/libs/glew-2.0.0/src/glew.c
+/Users/cjfire/Documents/code/CLion/CLionProjects/libs/glew-2.0.0/src/glew.c
 GL/glew.h
 -
 GL/osmesa.h

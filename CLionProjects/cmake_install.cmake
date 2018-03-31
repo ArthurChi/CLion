@@ -1,4 +1,4 @@
-# Install script for directory: /Users/cjfire/Desktop/CLionProjects
+# Install script for directory: /Users/cjfire/Documents/code/CLion/CLionProjects
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,9 +29,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/cjfire/Desktop/CLionProjects/app/cmake_install.cmake")
-  include("/Users/cjfire/Desktop/CLionProjects/sdlapp/cmake_install.cmake")
-  include("/Users/cjfire/Desktop/CLionProjects/libs/cmake_install.cmake")
+  include("/Users/cjfire/Documents/code/CLion/CLionProjects/app/cmake_install.cmake")
+  include("/Users/cjfire/Documents/code/CLion/CLionProjects/sdlapp/cmake_install.cmake")
+  include("/Users/cjfire/Documents/code/CLion/CLionProjects/libs/cmake_install.cmake")
 
 endif()
 
@@ -43,5 +43,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/cjfire/Desktop/CLionProjects/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/cjfire/Documents/code/CLion/CLionProjects/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

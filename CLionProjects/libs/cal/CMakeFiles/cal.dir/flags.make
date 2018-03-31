@@ -6,5 +6,5 @@ CXX_FLAGS =  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacO
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/cjfire/Desktop/CLionProjects/libs/cal 
+CXX_INCLUDES = -I/Users/cjfire/Documents/code/CLion/CLionProjects/libs/cal 
 

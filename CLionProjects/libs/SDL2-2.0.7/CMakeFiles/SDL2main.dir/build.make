@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/cjfire/Desktop/CLionProjects
+CMAKE_SOURCE_DIR = /Users/cjfire/Documents/code/CLion/CLionProjects
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/cjfire/Desktop/CLionProjects
+CMAKE_BINARY_DIR = /Users/cjfire/Documents/code/CLion/CLionProjects
 
 # Include any dependencies generated for this target.
 include libs/SDL2-2.0.7/CMakeFiles/SDL2main.dir/depend.make
@@ -59,16 +59,16 @@ include libs/SDL2-2.0.7/CMakeFiles/SDL2main.dir/flags.make
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2main.dir/src/main/dummy/SDL_dummy_main.c.o: libs/SDL2-2.0.7/CMakeFiles/SDL2main.dir/flags.make
 libs/SDL2-2.0.7/CMakeFiles/SDL2main.dir/src/main/dummy/SDL_dummy_main.c.o: libs/SDL2-2.0.7/src/main/dummy/SDL_dummy_main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2main.dir/src/main/dummy/SDL_dummy_main.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2main.dir/src/main/dummy/SDL_dummy_main.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/main/dummy/SDL_dummy_main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object libs/SDL2-2.0.7/CMakeFiles/SDL2main.dir/src/main/dummy/SDL_dummy_main.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2main.dir/src/main/dummy/SDL_dummy_main.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/main/dummy/SDL_dummy_main.c
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2main.dir/src/main/dummy/SDL_dummy_main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2main.dir/src/main/dummy/SDL_dummy_main.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/main/dummy/SDL_dummy_main.c > CMakeFiles/SDL2main.dir/src/main/dummy/SDL_dummy_main.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/main/dummy/SDL_dummy_main.c > CMakeFiles/SDL2main.dir/src/main/dummy/SDL_dummy_main.c.i
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2main.dir/src/main/dummy/SDL_dummy_main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2main.dir/src/main/dummy/SDL_dummy_main.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/main/dummy/SDL_dummy_main.c -o CMakeFiles/SDL2main.dir/src/main/dummy/SDL_dummy_main.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/main/dummy/SDL_dummy_main.c -o CMakeFiles/SDL2main.dir/src/main/dummy/SDL_dummy_main.c.s
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2main.dir/src/main/dummy/SDL_dummy_main.c.o.requires:
 
@@ -91,9 +91,9 @@ SDL2main_EXTERNAL_OBJECTS =
 libs/SDL2-2.0.7/libSDL2main.a: libs/SDL2-2.0.7/CMakeFiles/SDL2main.dir/src/main/dummy/SDL_dummy_main.c.o
 libs/SDL2-2.0.7/libSDL2main.a: libs/SDL2-2.0.7/CMakeFiles/SDL2main.dir/build.make
 libs/SDL2-2.0.7/libSDL2main.a: libs/SDL2-2.0.7/CMakeFiles/SDL2main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libSDL2main.a"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && $(CMAKE_COMMAND) -P CMakeFiles/SDL2main.dir/cmake_clean_target.cmake
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SDL2main.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libSDL2main.a"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && $(CMAKE_COMMAND) -P CMakeFiles/SDL2main.dir/cmake_clean_target.cmake
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SDL2main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 libs/SDL2-2.0.7/CMakeFiles/SDL2main.dir/build: libs/SDL2-2.0.7/libSDL2main.a
@@ -105,10 +105,10 @@ libs/SDL2-2.0.7/CMakeFiles/SDL2main.dir/requires: libs/SDL2-2.0.7/CMakeFiles/SDL
 .PHONY : libs/SDL2-2.0.7/CMakeFiles/SDL2main.dir/requires
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2main.dir/clean:
-	cd /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 && $(CMAKE_COMMAND) -P CMakeFiles/SDL2main.dir/cmake_clean.cmake
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 && $(CMAKE_COMMAND) -P CMakeFiles/SDL2main.dir/cmake_clean.cmake
 .PHONY : libs/SDL2-2.0.7/CMakeFiles/SDL2main.dir/clean
 
 libs/SDL2-2.0.7/CMakeFiles/SDL2main.dir/depend:
-	cd /Users/cjfire/Desktop/CLionProjects && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/cjfire/Desktop/CLionProjects /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 /Users/cjfire/Desktop/CLionProjects /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7 /Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/CMakeFiles/SDL2main.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/cjfire/Documents/code/CLion/CLionProjects /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 /Users/cjfire/Documents/code/CLion/CLionProjects /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7 /Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/CMakeFiles/SDL2main.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : libs/SDL2-2.0.7/CMakeFiles/SDL2main.dir/depend
 

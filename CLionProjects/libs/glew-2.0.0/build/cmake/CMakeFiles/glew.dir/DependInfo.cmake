@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/cjfire/Desktop/CLionProjects/libs/glew-2.0.0/src/glew.c" "/Users/cjfire/Desktop/CLionProjects/libs/glew-2.0.0/build/cmake/CMakeFiles/glew.dir/__/__/src/glew.c.o"
+  "/Users/cjfire/Documents/code/CLion/CLionProjects/libs/glew-2.0.0/src/glew.c" "/Users/cjfire/Documents/code/CLion/CLionProjects/libs/glew-2.0.0/build/cmake/CMakeFiles/glew.dir/__/__/src/glew.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

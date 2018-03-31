@@ -54,10 +54,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/cjfire/Desktop/CLionProjects
+CMAKE_SOURCE_DIR = /Users/cjfire/Documents/code/CLion/CLionProjects
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/cjfire/Desktop/CLionProjects
+CMAKE_BINARY_DIR = /Users/cjfire/Documents/code/CLion/CLionProjects
 
 #=============================================================================
 # Directory level rules for directory app
@@ -81,12 +81,12 @@ app/preinstall:
 # Target rules for target app/CMakeFiles/app.dir
 
 # All Build rule for target.
+app/CMakeFiles/app.dir/all: libs/glew-2.0.0/build/cmake/CMakeFiles/glew_s.dir/all
 app/CMakeFiles/app.dir/all: libs/cal/CMakeFiles/cal.dir/all
 app/CMakeFiles/app.dir/all: libs/glfw-3.2.1/src/CMakeFiles/glfw.dir/all
-app/CMakeFiles/app.dir/all: libs/glew-2.0.0/build/cmake/CMakeFiles/glew_s.dir/all
 	$(MAKE) -f app/CMakeFiles/app.dir/build.make app/CMakeFiles/app.dir/depend
 	$(MAKE) -f app/CMakeFiles/app.dir/build.make app/CMakeFiles/app.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=89 "Built target app"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=68 "Built target app"
 .PHONY : app/CMakeFiles/app.dir/all
 
 # Include target in all.
@@ -96,9 +96,9 @@ all: app/CMakeFiles/app.dir/all
 
 # Build rule for subdir invocation for target.
 app/CMakeFiles/app.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Desktop/CLionProjects/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 7
 	$(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/app.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Desktop/CLionProjects/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 0
 .PHONY : app/CMakeFiles/app.dir/rule
 
 # Convenience name for target.
@@ -138,12 +138,12 @@ sdlapp/preinstall:
 # Target rules for target sdlapp/CMakeFiles/sdlapp.dir
 
 # All Build rule for target.
-sdlapp/CMakeFiles/sdlapp.dir/all: libs/cal/CMakeFiles/cal.dir/all
 sdlapp/CMakeFiles/sdlapp.dir/all: libs/glew-2.0.0/build/cmake/CMakeFiles/glew_s.dir/all
 sdlapp/CMakeFiles/sdlapp.dir/all: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/all
+sdlapp/CMakeFiles/sdlapp.dir/all: libs/cal/CMakeFiles/cal.dir/all
 	$(MAKE) -f sdlapp/CMakeFiles/sdlapp.dir/build.make sdlapp/CMakeFiles/sdlapp.dir/depend
 	$(MAKE) -f sdlapp/CMakeFiles/sdlapp.dir/build.make sdlapp/CMakeFiles/sdlapp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=99 "Built target sdlapp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=91 "Built target sdlapp"
 .PHONY : sdlapp/CMakeFiles/sdlapp.dir/all
 
 # Include target in all.
@@ -153,9 +153,9 @@ all: sdlapp/CMakeFiles/sdlapp.dir/all
 
 # Build rule for subdir invocation for target.
 sdlapp/CMakeFiles/sdlapp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Desktop/CLionProjects/CMakeFiles 46
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 37
 	$(MAKE) -f CMakeFiles/Makefile2 sdlapp/CMakeFiles/sdlapp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Desktop/CLionProjects/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 0
 .PHONY : sdlapp/CMakeFiles/sdlapp.dir/rule
 
 # Convenience name for target.
@@ -228,7 +228,7 @@ libs/cal/preinstall:
 libs/cal/CMakeFiles/cal.dir/all:
 	$(MAKE) -f libs/cal/CMakeFiles/cal.dir/build.make libs/cal/CMakeFiles/cal.dir/depend
 	$(MAKE) -f libs/cal/CMakeFiles/cal.dir/build.make libs/cal/CMakeFiles/cal.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=90 "Built target cal"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=70 "Built target cal"
 .PHONY : libs/cal/CMakeFiles/cal.dir/all
 
 # Include target in all.
@@ -238,9 +238,9 @@ all: libs/cal/CMakeFiles/cal.dir/all
 
 # Build rule for subdir invocation for target.
 libs/cal/CMakeFiles/cal.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Desktop/CLionProjects/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 libs/cal/CMakeFiles/cal.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Desktop/CLionProjects/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 0
 .PHONY : libs/cal/CMakeFiles/cal.dir/rule
 
 # Convenience name for target.
@@ -263,17 +263,23 @@ clean: libs/cal/CMakeFiles/cal.dir/clean
 
 # Convenience name for "all" pass in the directory.
 libs/glfw-3.2.1/all: libs/glfw-3.2.1/src/all
+libs/glfw-3.2.1/all: libs/glfw-3.2.1/examples/all
+libs/glfw-3.2.1/all: libs/glfw-3.2.1/tests/all
 
 .PHONY : libs/glfw-3.2.1/all
 
 # Convenience name for "clean" pass in the directory.
 libs/glfw-3.2.1/clean: libs/glfw-3.2.1/CMakeFiles/uninstall.dir/clean
 libs/glfw-3.2.1/clean: libs/glfw-3.2.1/src/clean
+libs/glfw-3.2.1/clean: libs/glfw-3.2.1/examples/clean
+libs/glfw-3.2.1/clean: libs/glfw-3.2.1/tests/clean
 
 .PHONY : libs/glfw-3.2.1/clean
 
 # Convenience name for "preinstall" pass in the directory.
 libs/glfw-3.2.1/preinstall: libs/glfw-3.2.1/src/preinstall
+libs/glfw-3.2.1/preinstall: libs/glfw-3.2.1/examples/preinstall
+libs/glfw-3.2.1/preinstall: libs/glfw-3.2.1/tests/preinstall
 
 .PHONY : libs/glfw-3.2.1/preinstall
 
@@ -284,14 +290,14 @@ libs/glfw-3.2.1/preinstall: libs/glfw-3.2.1/src/preinstall
 libs/glfw-3.2.1/CMakeFiles/uninstall.dir/all:
 	$(MAKE) -f libs/glfw-3.2.1/CMakeFiles/uninstall.dir/build.make libs/glfw-3.2.1/CMakeFiles/uninstall.dir/depend
 	$(MAKE) -f libs/glfw-3.2.1/CMakeFiles/uninstall.dir/build.make libs/glfw-3.2.1/CMakeFiles/uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num= "Built target uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num= "Built target uninstall"
 .PHONY : libs/glfw-3.2.1/CMakeFiles/uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 libs/glfw-3.2.1/CMakeFiles/uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Desktop/CLionProjects/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 libs/glfw-3.2.1/CMakeFiles/uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Desktop/CLionProjects/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 0
 .PHONY : libs/glfw-3.2.1/CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.
@@ -334,7 +340,7 @@ libs/glfw-3.2.1/src/preinstall:
 libs/glfw-3.2.1/src/CMakeFiles/glfw.dir/all:
 	$(MAKE) -f libs/glfw-3.2.1/src/CMakeFiles/glfw.dir/build.make libs/glfw-3.2.1/src/CMakeFiles/glfw.dir/depend
 	$(MAKE) -f libs/glfw-3.2.1/src/CMakeFiles/glfw.dir/build.make libs/glfw-3.2.1/src/CMakeFiles/glfw.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=93,94,95,96,97 "Built target glfw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=78,79,80,81 "Built target glfw"
 .PHONY : libs/glfw-3.2.1/src/CMakeFiles/glfw.dir/all
 
 # Include target in all.
@@ -344,9 +350,9 @@ all: libs/glfw-3.2.1/src/CMakeFiles/glfw.dir/all
 
 # Build rule for subdir invocation for target.
 libs/glfw-3.2.1/src/CMakeFiles/glfw.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Desktop/CLionProjects/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 libs/glfw-3.2.1/src/CMakeFiles/glfw.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Desktop/CLionProjects/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 0
 .PHONY : libs/glfw-3.2.1/src/CMakeFiles/glfw.dir/rule
 
 # Convenience name for target.
@@ -361,6 +367,1013 @@ libs/glfw-3.2.1/src/CMakeFiles/glfw.dir/clean:
 
 # clean rule for target.
 clean: libs/glfw-3.2.1/src/CMakeFiles/glfw.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory libs/glfw-3.2.1/examples
+
+# Convenience name for "all" pass in the directory.
+libs/glfw-3.2.1/examples/all: libs/glfw-3.2.1/examples/CMakeFiles/heightmap.dir/all
+libs/glfw-3.2.1/examples/all: libs/glfw-3.2.1/examples/CMakeFiles/wave.dir/all
+libs/glfw-3.2.1/examples/all: libs/glfw-3.2.1/examples/CMakeFiles/splitview.dir/all
+libs/glfw-3.2.1/examples/all: libs/glfw-3.2.1/examples/CMakeFiles/simple.dir/all
+libs/glfw-3.2.1/examples/all: libs/glfw-3.2.1/examples/CMakeFiles/particles.dir/all
+libs/glfw-3.2.1/examples/all: libs/glfw-3.2.1/examples/CMakeFiles/gears.dir/all
+libs/glfw-3.2.1/examples/all: libs/glfw-3.2.1/examples/CMakeFiles/boing.dir/all
+
+.PHONY : libs/glfw-3.2.1/examples/all
+
+# Convenience name for "clean" pass in the directory.
+libs/glfw-3.2.1/examples/clean: libs/glfw-3.2.1/examples/CMakeFiles/heightmap.dir/clean
+libs/glfw-3.2.1/examples/clean: libs/glfw-3.2.1/examples/CMakeFiles/wave.dir/clean
+libs/glfw-3.2.1/examples/clean: libs/glfw-3.2.1/examples/CMakeFiles/splitview.dir/clean
+libs/glfw-3.2.1/examples/clean: libs/glfw-3.2.1/examples/CMakeFiles/simple.dir/clean
+libs/glfw-3.2.1/examples/clean: libs/glfw-3.2.1/examples/CMakeFiles/particles.dir/clean
+libs/glfw-3.2.1/examples/clean: libs/glfw-3.2.1/examples/CMakeFiles/gears.dir/clean
+libs/glfw-3.2.1/examples/clean: libs/glfw-3.2.1/examples/CMakeFiles/boing.dir/clean
+
+.PHONY : libs/glfw-3.2.1/examples/clean
+
+# Convenience name for "preinstall" pass in the directory.
+libs/glfw-3.2.1/examples/preinstall:
+
+.PHONY : libs/glfw-3.2.1/examples/preinstall
+
+#=============================================================================
+# Target rules for target libs/glfw-3.2.1/examples/CMakeFiles/heightmap.dir
+
+# All Build rule for target.
+libs/glfw-3.2.1/examples/CMakeFiles/heightmap.dir/all: libs/glfw-3.2.1/src/CMakeFiles/glfw.dir/all
+	$(MAKE) -f libs/glfw-3.2.1/examples/CMakeFiles/heightmap.dir/build.make libs/glfw-3.2.1/examples/CMakeFiles/heightmap.dir/depend
+	$(MAKE) -f libs/glfw-3.2.1/examples/CMakeFiles/heightmap.dir/build.make libs/glfw-3.2.1/examples/CMakeFiles/heightmap.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num= "Built target heightmap"
+.PHONY : libs/glfw-3.2.1/examples/CMakeFiles/heightmap.dir/all
+
+# Include target in all.
+all: libs/glfw-3.2.1/examples/CMakeFiles/heightmap.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+libs/glfw-3.2.1/examples/CMakeFiles/heightmap.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 libs/glfw-3.2.1/examples/CMakeFiles/heightmap.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 0
+.PHONY : libs/glfw-3.2.1/examples/CMakeFiles/heightmap.dir/rule
+
+# Convenience name for target.
+heightmap: libs/glfw-3.2.1/examples/CMakeFiles/heightmap.dir/rule
+
+.PHONY : heightmap
+
+# clean rule for target.
+libs/glfw-3.2.1/examples/CMakeFiles/heightmap.dir/clean:
+	$(MAKE) -f libs/glfw-3.2.1/examples/CMakeFiles/heightmap.dir/build.make libs/glfw-3.2.1/examples/CMakeFiles/heightmap.dir/clean
+.PHONY : libs/glfw-3.2.1/examples/CMakeFiles/heightmap.dir/clean
+
+# clean rule for target.
+clean: libs/glfw-3.2.1/examples/CMakeFiles/heightmap.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target libs/glfw-3.2.1/examples/CMakeFiles/wave.dir
+
+# All Build rule for target.
+libs/glfw-3.2.1/examples/CMakeFiles/wave.dir/all: libs/glfw-3.2.1/src/CMakeFiles/glfw.dir/all
+	$(MAKE) -f libs/glfw-3.2.1/examples/CMakeFiles/wave.dir/build.make libs/glfw-3.2.1/examples/CMakeFiles/wave.dir/depend
+	$(MAKE) -f libs/glfw-3.2.1/examples/CMakeFiles/wave.dir/build.make libs/glfw-3.2.1/examples/CMakeFiles/wave.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num= "Built target wave"
+.PHONY : libs/glfw-3.2.1/examples/CMakeFiles/wave.dir/all
+
+# Include target in all.
+all: libs/glfw-3.2.1/examples/CMakeFiles/wave.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+libs/glfw-3.2.1/examples/CMakeFiles/wave.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 libs/glfw-3.2.1/examples/CMakeFiles/wave.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 0
+.PHONY : libs/glfw-3.2.1/examples/CMakeFiles/wave.dir/rule
+
+# Convenience name for target.
+wave: libs/glfw-3.2.1/examples/CMakeFiles/wave.dir/rule
+
+.PHONY : wave
+
+# clean rule for target.
+libs/glfw-3.2.1/examples/CMakeFiles/wave.dir/clean:
+	$(MAKE) -f libs/glfw-3.2.1/examples/CMakeFiles/wave.dir/build.make libs/glfw-3.2.1/examples/CMakeFiles/wave.dir/clean
+.PHONY : libs/glfw-3.2.1/examples/CMakeFiles/wave.dir/clean
+
+# clean rule for target.
+clean: libs/glfw-3.2.1/examples/CMakeFiles/wave.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target libs/glfw-3.2.1/examples/CMakeFiles/splitview.dir
+
+# All Build rule for target.
+libs/glfw-3.2.1/examples/CMakeFiles/splitview.dir/all: libs/glfw-3.2.1/src/CMakeFiles/glfw.dir/all
+	$(MAKE) -f libs/glfw-3.2.1/examples/CMakeFiles/splitview.dir/build.make libs/glfw-3.2.1/examples/CMakeFiles/splitview.dir/depend
+	$(MAKE) -f libs/glfw-3.2.1/examples/CMakeFiles/splitview.dir/build.make libs/glfw-3.2.1/examples/CMakeFiles/splitview.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num= "Built target splitview"
+.PHONY : libs/glfw-3.2.1/examples/CMakeFiles/splitview.dir/all
+
+# Include target in all.
+all: libs/glfw-3.2.1/examples/CMakeFiles/splitview.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+libs/glfw-3.2.1/examples/CMakeFiles/splitview.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 libs/glfw-3.2.1/examples/CMakeFiles/splitview.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 0
+.PHONY : libs/glfw-3.2.1/examples/CMakeFiles/splitview.dir/rule
+
+# Convenience name for target.
+splitview: libs/glfw-3.2.1/examples/CMakeFiles/splitview.dir/rule
+
+.PHONY : splitview
+
+# clean rule for target.
+libs/glfw-3.2.1/examples/CMakeFiles/splitview.dir/clean:
+	$(MAKE) -f libs/glfw-3.2.1/examples/CMakeFiles/splitview.dir/build.make libs/glfw-3.2.1/examples/CMakeFiles/splitview.dir/clean
+.PHONY : libs/glfw-3.2.1/examples/CMakeFiles/splitview.dir/clean
+
+# clean rule for target.
+clean: libs/glfw-3.2.1/examples/CMakeFiles/splitview.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target libs/glfw-3.2.1/examples/CMakeFiles/simple.dir
+
+# All Build rule for target.
+libs/glfw-3.2.1/examples/CMakeFiles/simple.dir/all: libs/glfw-3.2.1/src/CMakeFiles/glfw.dir/all
+	$(MAKE) -f libs/glfw-3.2.1/examples/CMakeFiles/simple.dir/build.make libs/glfw-3.2.1/examples/CMakeFiles/simple.dir/depend
+	$(MAKE) -f libs/glfw-3.2.1/examples/CMakeFiles/simple.dir/build.make libs/glfw-3.2.1/examples/CMakeFiles/simple.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=93 "Built target simple"
+.PHONY : libs/glfw-3.2.1/examples/CMakeFiles/simple.dir/all
+
+# Include target in all.
+all: libs/glfw-3.2.1/examples/CMakeFiles/simple.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+libs/glfw-3.2.1/examples/CMakeFiles/simple.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 5
+	$(MAKE) -f CMakeFiles/Makefile2 libs/glfw-3.2.1/examples/CMakeFiles/simple.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 0
+.PHONY : libs/glfw-3.2.1/examples/CMakeFiles/simple.dir/rule
+
+# Convenience name for target.
+simple: libs/glfw-3.2.1/examples/CMakeFiles/simple.dir/rule
+
+.PHONY : simple
+
+# clean rule for target.
+libs/glfw-3.2.1/examples/CMakeFiles/simple.dir/clean:
+	$(MAKE) -f libs/glfw-3.2.1/examples/CMakeFiles/simple.dir/build.make libs/glfw-3.2.1/examples/CMakeFiles/simple.dir/clean
+.PHONY : libs/glfw-3.2.1/examples/CMakeFiles/simple.dir/clean
+
+# clean rule for target.
+clean: libs/glfw-3.2.1/examples/CMakeFiles/simple.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target libs/glfw-3.2.1/examples/CMakeFiles/particles.dir
+
+# All Build rule for target.
+libs/glfw-3.2.1/examples/CMakeFiles/particles.dir/all: libs/glfw-3.2.1/src/CMakeFiles/glfw.dir/all
+	$(MAKE) -f libs/glfw-3.2.1/examples/CMakeFiles/particles.dir/build.make libs/glfw-3.2.1/examples/CMakeFiles/particles.dir/depend
+	$(MAKE) -f libs/glfw-3.2.1/examples/CMakeFiles/particles.dir/build.make libs/glfw-3.2.1/examples/CMakeFiles/particles.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=89,90 "Built target particles"
+.PHONY : libs/glfw-3.2.1/examples/CMakeFiles/particles.dir/all
+
+# Include target in all.
+all: libs/glfw-3.2.1/examples/CMakeFiles/particles.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+libs/glfw-3.2.1/examples/CMakeFiles/particles.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 6
+	$(MAKE) -f CMakeFiles/Makefile2 libs/glfw-3.2.1/examples/CMakeFiles/particles.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 0
+.PHONY : libs/glfw-3.2.1/examples/CMakeFiles/particles.dir/rule
+
+# Convenience name for target.
+particles: libs/glfw-3.2.1/examples/CMakeFiles/particles.dir/rule
+
+.PHONY : particles
+
+# clean rule for target.
+libs/glfw-3.2.1/examples/CMakeFiles/particles.dir/clean:
+	$(MAKE) -f libs/glfw-3.2.1/examples/CMakeFiles/particles.dir/build.make libs/glfw-3.2.1/examples/CMakeFiles/particles.dir/clean
+.PHONY : libs/glfw-3.2.1/examples/CMakeFiles/particles.dir/clean
+
+# clean rule for target.
+clean: libs/glfw-3.2.1/examples/CMakeFiles/particles.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target libs/glfw-3.2.1/examples/CMakeFiles/gears.dir
+
+# All Build rule for target.
+libs/glfw-3.2.1/examples/CMakeFiles/gears.dir/all: libs/glfw-3.2.1/src/CMakeFiles/glfw.dir/all
+	$(MAKE) -f libs/glfw-3.2.1/examples/CMakeFiles/gears.dir/build.make libs/glfw-3.2.1/examples/CMakeFiles/gears.dir/depend
+	$(MAKE) -f libs/glfw-3.2.1/examples/CMakeFiles/gears.dir/build.make libs/glfw-3.2.1/examples/CMakeFiles/gears.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num= "Built target gears"
+.PHONY : libs/glfw-3.2.1/examples/CMakeFiles/gears.dir/all
+
+# Include target in all.
+all: libs/glfw-3.2.1/examples/CMakeFiles/gears.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+libs/glfw-3.2.1/examples/CMakeFiles/gears.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 libs/glfw-3.2.1/examples/CMakeFiles/gears.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 0
+.PHONY : libs/glfw-3.2.1/examples/CMakeFiles/gears.dir/rule
+
+# Convenience name for target.
+gears: libs/glfw-3.2.1/examples/CMakeFiles/gears.dir/rule
+
+.PHONY : gears
+
+# clean rule for target.
+libs/glfw-3.2.1/examples/CMakeFiles/gears.dir/clean:
+	$(MAKE) -f libs/glfw-3.2.1/examples/CMakeFiles/gears.dir/build.make libs/glfw-3.2.1/examples/CMakeFiles/gears.dir/clean
+.PHONY : libs/glfw-3.2.1/examples/CMakeFiles/gears.dir/clean
+
+# clean rule for target.
+clean: libs/glfw-3.2.1/examples/CMakeFiles/gears.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target libs/glfw-3.2.1/examples/CMakeFiles/boing.dir
+
+# All Build rule for target.
+libs/glfw-3.2.1/examples/CMakeFiles/boing.dir/all: libs/glfw-3.2.1/src/CMakeFiles/glfw.dir/all
+	$(MAKE) -f libs/glfw-3.2.1/examples/CMakeFiles/boing.dir/build.make libs/glfw-3.2.1/examples/CMakeFiles/boing.dir/depend
+	$(MAKE) -f libs/glfw-3.2.1/examples/CMakeFiles/boing.dir/build.make libs/glfw-3.2.1/examples/CMakeFiles/boing.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=69 "Built target boing"
+.PHONY : libs/glfw-3.2.1/examples/CMakeFiles/boing.dir/all
+
+# Include target in all.
+all: libs/glfw-3.2.1/examples/CMakeFiles/boing.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+libs/glfw-3.2.1/examples/CMakeFiles/boing.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 5
+	$(MAKE) -f CMakeFiles/Makefile2 libs/glfw-3.2.1/examples/CMakeFiles/boing.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 0
+.PHONY : libs/glfw-3.2.1/examples/CMakeFiles/boing.dir/rule
+
+# Convenience name for target.
+boing: libs/glfw-3.2.1/examples/CMakeFiles/boing.dir/rule
+
+.PHONY : boing
+
+# clean rule for target.
+libs/glfw-3.2.1/examples/CMakeFiles/boing.dir/clean:
+	$(MAKE) -f libs/glfw-3.2.1/examples/CMakeFiles/boing.dir/build.make libs/glfw-3.2.1/examples/CMakeFiles/boing.dir/clean
+.PHONY : libs/glfw-3.2.1/examples/CMakeFiles/boing.dir/clean
+
+# clean rule for target.
+clean: libs/glfw-3.2.1/examples/CMakeFiles/boing.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory libs/glfw-3.2.1/tests
+
+# Convenience name for "all" pass in the directory.
+libs/glfw-3.2.1/tests/all: libs/glfw-3.2.1/tests/CMakeFiles/clipboard.dir/all
+libs/glfw-3.2.1/tests/all: libs/glfw-3.2.1/tests/CMakeFiles/title.dir/all
+libs/glfw-3.2.1/tests/all: libs/glfw-3.2.1/tests/CMakeFiles/windows.dir/all
+libs/glfw-3.2.1/tests/all: libs/glfw-3.2.1/tests/CMakeFiles/timeout.dir/all
+libs/glfw-3.2.1/tests/all: libs/glfw-3.2.1/tests/CMakeFiles/threads.dir/all
+libs/glfw-3.2.1/tests/all: libs/glfw-3.2.1/tests/CMakeFiles/gamma.dir/all
+libs/glfw-3.2.1/tests/all: libs/glfw-3.2.1/tests/CMakeFiles/tearing.dir/all
+libs/glfw-3.2.1/tests/all: libs/glfw-3.2.1/tests/CMakeFiles/icon.dir/all
+libs/glfw-3.2.1/tests/all: libs/glfw-3.2.1/tests/CMakeFiles/empty.dir/all
+libs/glfw-3.2.1/tests/all: libs/glfw-3.2.1/tests/CMakeFiles/glfwinfo.dir/all
+libs/glfw-3.2.1/tests/all: libs/glfw-3.2.1/tests/CMakeFiles/msaa.dir/all
+libs/glfw-3.2.1/tests/all: libs/glfw-3.2.1/tests/CMakeFiles/cursor.dir/all
+libs/glfw-3.2.1/tests/all: libs/glfw-3.2.1/tests/CMakeFiles/sharing.dir/all
+libs/glfw-3.2.1/tests/all: libs/glfw-3.2.1/tests/CMakeFiles/monitors.dir/all
+libs/glfw-3.2.1/tests/all: libs/glfw-3.2.1/tests/CMakeFiles/reopen.dir/all
+libs/glfw-3.2.1/tests/all: libs/glfw-3.2.1/tests/CMakeFiles/iconify.dir/all
+libs/glfw-3.2.1/tests/all: libs/glfw-3.2.1/tests/CMakeFiles/joysticks.dir/all
+libs/glfw-3.2.1/tests/all: libs/glfw-3.2.1/tests/CMakeFiles/events.dir/all
+
+.PHONY : libs/glfw-3.2.1/tests/all
+
+# Convenience name for "clean" pass in the directory.
+libs/glfw-3.2.1/tests/clean: libs/glfw-3.2.1/tests/CMakeFiles/clipboard.dir/clean
+libs/glfw-3.2.1/tests/clean: libs/glfw-3.2.1/tests/CMakeFiles/title.dir/clean
+libs/glfw-3.2.1/tests/clean: libs/glfw-3.2.1/tests/CMakeFiles/windows.dir/clean
+libs/glfw-3.2.1/tests/clean: libs/glfw-3.2.1/tests/CMakeFiles/timeout.dir/clean
+libs/glfw-3.2.1/tests/clean: libs/glfw-3.2.1/tests/CMakeFiles/threads.dir/clean
+libs/glfw-3.2.1/tests/clean: libs/glfw-3.2.1/tests/CMakeFiles/gamma.dir/clean
+libs/glfw-3.2.1/tests/clean: libs/glfw-3.2.1/tests/CMakeFiles/tearing.dir/clean
+libs/glfw-3.2.1/tests/clean: libs/glfw-3.2.1/tests/CMakeFiles/icon.dir/clean
+libs/glfw-3.2.1/tests/clean: libs/glfw-3.2.1/tests/CMakeFiles/empty.dir/clean
+libs/glfw-3.2.1/tests/clean: libs/glfw-3.2.1/tests/CMakeFiles/glfwinfo.dir/clean
+libs/glfw-3.2.1/tests/clean: libs/glfw-3.2.1/tests/CMakeFiles/msaa.dir/clean
+libs/glfw-3.2.1/tests/clean: libs/glfw-3.2.1/tests/CMakeFiles/cursor.dir/clean
+libs/glfw-3.2.1/tests/clean: libs/glfw-3.2.1/tests/CMakeFiles/sharing.dir/clean
+libs/glfw-3.2.1/tests/clean: libs/glfw-3.2.1/tests/CMakeFiles/monitors.dir/clean
+libs/glfw-3.2.1/tests/clean: libs/glfw-3.2.1/tests/CMakeFiles/reopen.dir/clean
+libs/glfw-3.2.1/tests/clean: libs/glfw-3.2.1/tests/CMakeFiles/iconify.dir/clean
+libs/glfw-3.2.1/tests/clean: libs/glfw-3.2.1/tests/CMakeFiles/joysticks.dir/clean
+libs/glfw-3.2.1/tests/clean: libs/glfw-3.2.1/tests/CMakeFiles/events.dir/clean
+
+.PHONY : libs/glfw-3.2.1/tests/clean
+
+# Convenience name for "preinstall" pass in the directory.
+libs/glfw-3.2.1/tests/preinstall:
+
+.PHONY : libs/glfw-3.2.1/tests/preinstall
+
+#=============================================================================
+# Target rules for target libs/glfw-3.2.1/tests/CMakeFiles/clipboard.dir
+
+# All Build rule for target.
+libs/glfw-3.2.1/tests/CMakeFiles/clipboard.dir/all: libs/glfw-3.2.1/src/CMakeFiles/glfw.dir/all
+	$(MAKE) -f libs/glfw-3.2.1/tests/CMakeFiles/clipboard.dir/build.make libs/glfw-3.2.1/tests/CMakeFiles/clipboard.dir/depend
+	$(MAKE) -f libs/glfw-3.2.1/tests/CMakeFiles/clipboard.dir/build.make libs/glfw-3.2.1/tests/CMakeFiles/clipboard.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=71 "Built target clipboard"
+.PHONY : libs/glfw-3.2.1/tests/CMakeFiles/clipboard.dir/all
+
+# Include target in all.
+all: libs/glfw-3.2.1/tests/CMakeFiles/clipboard.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+libs/glfw-3.2.1/tests/CMakeFiles/clipboard.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 5
+	$(MAKE) -f CMakeFiles/Makefile2 libs/glfw-3.2.1/tests/CMakeFiles/clipboard.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 0
+.PHONY : libs/glfw-3.2.1/tests/CMakeFiles/clipboard.dir/rule
+
+# Convenience name for target.
+clipboard: libs/glfw-3.2.1/tests/CMakeFiles/clipboard.dir/rule
+
+.PHONY : clipboard
+
+# clean rule for target.
+libs/glfw-3.2.1/tests/CMakeFiles/clipboard.dir/clean:
+	$(MAKE) -f libs/glfw-3.2.1/tests/CMakeFiles/clipboard.dir/build.make libs/glfw-3.2.1/tests/CMakeFiles/clipboard.dir/clean
+.PHONY : libs/glfw-3.2.1/tests/CMakeFiles/clipboard.dir/clean
+
+# clean rule for target.
+clean: libs/glfw-3.2.1/tests/CMakeFiles/clipboard.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target libs/glfw-3.2.1/tests/CMakeFiles/title.dir
+
+# All Build rule for target.
+libs/glfw-3.2.1/tests/CMakeFiles/title.dir/all: libs/glfw-3.2.1/src/CMakeFiles/glfw.dir/all
+	$(MAKE) -f libs/glfw-3.2.1/tests/CMakeFiles/title.dir/build.make libs/glfw-3.2.1/tests/CMakeFiles/title.dir/depend
+	$(MAKE) -f libs/glfw-3.2.1/tests/CMakeFiles/title.dir/build.make libs/glfw-3.2.1/tests/CMakeFiles/title.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=97 "Built target title"
+.PHONY : libs/glfw-3.2.1/tests/CMakeFiles/title.dir/all
+
+# Include target in all.
+all: libs/glfw-3.2.1/tests/CMakeFiles/title.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+libs/glfw-3.2.1/tests/CMakeFiles/title.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 5
+	$(MAKE) -f CMakeFiles/Makefile2 libs/glfw-3.2.1/tests/CMakeFiles/title.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 0
+.PHONY : libs/glfw-3.2.1/tests/CMakeFiles/title.dir/rule
+
+# Convenience name for target.
+title: libs/glfw-3.2.1/tests/CMakeFiles/title.dir/rule
+
+.PHONY : title
+
+# clean rule for target.
+libs/glfw-3.2.1/tests/CMakeFiles/title.dir/clean:
+	$(MAKE) -f libs/glfw-3.2.1/tests/CMakeFiles/title.dir/build.make libs/glfw-3.2.1/tests/CMakeFiles/title.dir/clean
+.PHONY : libs/glfw-3.2.1/tests/CMakeFiles/title.dir/clean
+
+# clean rule for target.
+clean: libs/glfw-3.2.1/tests/CMakeFiles/title.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target libs/glfw-3.2.1/tests/CMakeFiles/windows.dir
+
+# All Build rule for target.
+libs/glfw-3.2.1/tests/CMakeFiles/windows.dir/all: libs/glfw-3.2.1/src/CMakeFiles/glfw.dir/all
+	$(MAKE) -f libs/glfw-3.2.1/tests/CMakeFiles/windows.dir/build.make libs/glfw-3.2.1/tests/CMakeFiles/windows.dir/depend
+	$(MAKE) -f libs/glfw-3.2.1/tests/CMakeFiles/windows.dir/build.make libs/glfw-3.2.1/tests/CMakeFiles/windows.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=99,100 "Built target windows"
+.PHONY : libs/glfw-3.2.1/tests/CMakeFiles/windows.dir/all
+
+# Include target in all.
+all: libs/glfw-3.2.1/tests/CMakeFiles/windows.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+libs/glfw-3.2.1/tests/CMakeFiles/windows.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 6
+	$(MAKE) -f CMakeFiles/Makefile2 libs/glfw-3.2.1/tests/CMakeFiles/windows.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 0
+.PHONY : libs/glfw-3.2.1/tests/CMakeFiles/windows.dir/rule
+
+# Convenience name for target.
+windows: libs/glfw-3.2.1/tests/CMakeFiles/windows.dir/rule
+
+.PHONY : windows
+
+# clean rule for target.
+libs/glfw-3.2.1/tests/CMakeFiles/windows.dir/clean:
+	$(MAKE) -f libs/glfw-3.2.1/tests/CMakeFiles/windows.dir/build.make libs/glfw-3.2.1/tests/CMakeFiles/windows.dir/clean
+.PHONY : libs/glfw-3.2.1/tests/CMakeFiles/windows.dir/clean
+
+# clean rule for target.
+clean: libs/glfw-3.2.1/tests/CMakeFiles/windows.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target libs/glfw-3.2.1/tests/CMakeFiles/timeout.dir
+
+# All Build rule for target.
+libs/glfw-3.2.1/tests/CMakeFiles/timeout.dir/all: libs/glfw-3.2.1/src/CMakeFiles/glfw.dir/all
+	$(MAKE) -f libs/glfw-3.2.1/tests/CMakeFiles/timeout.dir/build.make libs/glfw-3.2.1/tests/CMakeFiles/timeout.dir/depend
+	$(MAKE) -f libs/glfw-3.2.1/tests/CMakeFiles/timeout.dir/build.make libs/glfw-3.2.1/tests/CMakeFiles/timeout.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=96 "Built target timeout"
+.PHONY : libs/glfw-3.2.1/tests/CMakeFiles/timeout.dir/all
+
+# Include target in all.
+all: libs/glfw-3.2.1/tests/CMakeFiles/timeout.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+libs/glfw-3.2.1/tests/CMakeFiles/timeout.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 5
+	$(MAKE) -f CMakeFiles/Makefile2 libs/glfw-3.2.1/tests/CMakeFiles/timeout.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 0
+.PHONY : libs/glfw-3.2.1/tests/CMakeFiles/timeout.dir/rule
+
+# Convenience name for target.
+timeout: libs/glfw-3.2.1/tests/CMakeFiles/timeout.dir/rule
+
+.PHONY : timeout
+
+# clean rule for target.
+libs/glfw-3.2.1/tests/CMakeFiles/timeout.dir/clean:
+	$(MAKE) -f libs/glfw-3.2.1/tests/CMakeFiles/timeout.dir/build.make libs/glfw-3.2.1/tests/CMakeFiles/timeout.dir/clean
+.PHONY : libs/glfw-3.2.1/tests/CMakeFiles/timeout.dir/clean
+
+# clean rule for target.
+clean: libs/glfw-3.2.1/tests/CMakeFiles/timeout.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target libs/glfw-3.2.1/tests/CMakeFiles/threads.dir
+
+# All Build rule for target.
+libs/glfw-3.2.1/tests/CMakeFiles/threads.dir/all: libs/glfw-3.2.1/src/CMakeFiles/glfw.dir/all
+	$(MAKE) -f libs/glfw-3.2.1/tests/CMakeFiles/threads.dir/build.make libs/glfw-3.2.1/tests/CMakeFiles/threads.dir/depend
+	$(MAKE) -f libs/glfw-3.2.1/tests/CMakeFiles/threads.dir/build.make libs/glfw-3.2.1/tests/CMakeFiles/threads.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=95 "Built target threads"
+.PHONY : libs/glfw-3.2.1/tests/CMakeFiles/threads.dir/all
+
+# Include target in all.
+all: libs/glfw-3.2.1/tests/CMakeFiles/threads.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+libs/glfw-3.2.1/tests/CMakeFiles/threads.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 5
+	$(MAKE) -f CMakeFiles/Makefile2 libs/glfw-3.2.1/tests/CMakeFiles/threads.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 0
+.PHONY : libs/glfw-3.2.1/tests/CMakeFiles/threads.dir/rule
+
+# Convenience name for target.
+threads: libs/glfw-3.2.1/tests/CMakeFiles/threads.dir/rule
+
+.PHONY : threads
+
+# clean rule for target.
+libs/glfw-3.2.1/tests/CMakeFiles/threads.dir/clean:
+	$(MAKE) -f libs/glfw-3.2.1/tests/CMakeFiles/threads.dir/build.make libs/glfw-3.2.1/tests/CMakeFiles/threads.dir/clean
+.PHONY : libs/glfw-3.2.1/tests/CMakeFiles/threads.dir/clean
+
+# clean rule for target.
+clean: libs/glfw-3.2.1/tests/CMakeFiles/threads.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target libs/glfw-3.2.1/tests/CMakeFiles/gamma.dir
+
+# All Build rule for target.
+libs/glfw-3.2.1/tests/CMakeFiles/gamma.dir/all: libs/glfw-3.2.1/src/CMakeFiles/glfw.dir/all
+	$(MAKE) -f libs/glfw-3.2.1/tests/CMakeFiles/gamma.dir/build.make libs/glfw-3.2.1/tests/CMakeFiles/gamma.dir/depend
+	$(MAKE) -f libs/glfw-3.2.1/tests/CMakeFiles/gamma.dir/build.make libs/glfw-3.2.1/tests/CMakeFiles/gamma.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=75 "Built target gamma"
+.PHONY : libs/glfw-3.2.1/tests/CMakeFiles/gamma.dir/all
+
+# Include target in all.
+all: libs/glfw-3.2.1/tests/CMakeFiles/gamma.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+libs/glfw-3.2.1/tests/CMakeFiles/gamma.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 5
+	$(MAKE) -f CMakeFiles/Makefile2 libs/glfw-3.2.1/tests/CMakeFiles/gamma.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 0
+.PHONY : libs/glfw-3.2.1/tests/CMakeFiles/gamma.dir/rule
+
+# Convenience name for target.
+gamma: libs/glfw-3.2.1/tests/CMakeFiles/gamma.dir/rule
+
+.PHONY : gamma
+
+# clean rule for target.
+libs/glfw-3.2.1/tests/CMakeFiles/gamma.dir/clean:
+	$(MAKE) -f libs/glfw-3.2.1/tests/CMakeFiles/gamma.dir/build.make libs/glfw-3.2.1/tests/CMakeFiles/gamma.dir/clean
+.PHONY : libs/glfw-3.2.1/tests/CMakeFiles/gamma.dir/clean
+
+# clean rule for target.
+clean: libs/glfw-3.2.1/tests/CMakeFiles/gamma.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target libs/glfw-3.2.1/tests/CMakeFiles/tearing.dir
+
+# All Build rule for target.
+libs/glfw-3.2.1/tests/CMakeFiles/tearing.dir/all: libs/glfw-3.2.1/src/CMakeFiles/glfw.dir/all
+	$(MAKE) -f libs/glfw-3.2.1/tests/CMakeFiles/tearing.dir/build.make libs/glfw-3.2.1/tests/CMakeFiles/tearing.dir/depend
+	$(MAKE) -f libs/glfw-3.2.1/tests/CMakeFiles/tearing.dir/build.make libs/glfw-3.2.1/tests/CMakeFiles/tearing.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=94 "Built target tearing"
+.PHONY : libs/glfw-3.2.1/tests/CMakeFiles/tearing.dir/all
+
+# Include target in all.
+all: libs/glfw-3.2.1/tests/CMakeFiles/tearing.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+libs/glfw-3.2.1/tests/CMakeFiles/tearing.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 5
+	$(MAKE) -f CMakeFiles/Makefile2 libs/glfw-3.2.1/tests/CMakeFiles/tearing.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 0
+.PHONY : libs/glfw-3.2.1/tests/CMakeFiles/tearing.dir/rule
+
+# Convenience name for target.
+tearing: libs/glfw-3.2.1/tests/CMakeFiles/tearing.dir/rule
+
+.PHONY : tearing
+
+# clean rule for target.
+libs/glfw-3.2.1/tests/CMakeFiles/tearing.dir/clean:
+	$(MAKE) -f libs/glfw-3.2.1/tests/CMakeFiles/tearing.dir/build.make libs/glfw-3.2.1/tests/CMakeFiles/tearing.dir/clean
+.PHONY : libs/glfw-3.2.1/tests/CMakeFiles/tearing.dir/clean
+
+# clean rule for target.
+clean: libs/glfw-3.2.1/tests/CMakeFiles/tearing.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target libs/glfw-3.2.1/tests/CMakeFiles/icon.dir
+
+# All Build rule for target.
+libs/glfw-3.2.1/tests/CMakeFiles/icon.dir/all: libs/glfw-3.2.1/src/CMakeFiles/glfw.dir/all
+	$(MAKE) -f libs/glfw-3.2.1/tests/CMakeFiles/icon.dir/build.make libs/glfw-3.2.1/tests/CMakeFiles/icon.dir/depend
+	$(MAKE) -f libs/glfw-3.2.1/tests/CMakeFiles/icon.dir/build.make libs/glfw-3.2.1/tests/CMakeFiles/icon.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=84 "Built target icon"
+.PHONY : libs/glfw-3.2.1/tests/CMakeFiles/icon.dir/all
+
+# Include target in all.
+all: libs/glfw-3.2.1/tests/CMakeFiles/icon.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+libs/glfw-3.2.1/tests/CMakeFiles/icon.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 5
+	$(MAKE) -f CMakeFiles/Makefile2 libs/glfw-3.2.1/tests/CMakeFiles/icon.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 0
+.PHONY : libs/glfw-3.2.1/tests/CMakeFiles/icon.dir/rule
+
+# Convenience name for target.
+icon: libs/glfw-3.2.1/tests/CMakeFiles/icon.dir/rule
+
+.PHONY : icon
+
+# clean rule for target.
+libs/glfw-3.2.1/tests/CMakeFiles/icon.dir/clean:
+	$(MAKE) -f libs/glfw-3.2.1/tests/CMakeFiles/icon.dir/build.make libs/glfw-3.2.1/tests/CMakeFiles/icon.dir/clean
+.PHONY : libs/glfw-3.2.1/tests/CMakeFiles/icon.dir/clean
+
+# clean rule for target.
+clean: libs/glfw-3.2.1/tests/CMakeFiles/icon.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target libs/glfw-3.2.1/tests/CMakeFiles/empty.dir
+
+# All Build rule for target.
+libs/glfw-3.2.1/tests/CMakeFiles/empty.dir/all: libs/glfw-3.2.1/src/CMakeFiles/glfw.dir/all
+	$(MAKE) -f libs/glfw-3.2.1/tests/CMakeFiles/empty.dir/build.make libs/glfw-3.2.1/tests/CMakeFiles/empty.dir/depend
+	$(MAKE) -f libs/glfw-3.2.1/tests/CMakeFiles/empty.dir/build.make libs/glfw-3.2.1/tests/CMakeFiles/empty.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=72 "Built target empty"
+.PHONY : libs/glfw-3.2.1/tests/CMakeFiles/empty.dir/all
+
+# Include target in all.
+all: libs/glfw-3.2.1/tests/CMakeFiles/empty.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+libs/glfw-3.2.1/tests/CMakeFiles/empty.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 5
+	$(MAKE) -f CMakeFiles/Makefile2 libs/glfw-3.2.1/tests/CMakeFiles/empty.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 0
+.PHONY : libs/glfw-3.2.1/tests/CMakeFiles/empty.dir/rule
+
+# Convenience name for target.
+empty: libs/glfw-3.2.1/tests/CMakeFiles/empty.dir/rule
+
+.PHONY : empty
+
+# clean rule for target.
+libs/glfw-3.2.1/tests/CMakeFiles/empty.dir/clean:
+	$(MAKE) -f libs/glfw-3.2.1/tests/CMakeFiles/empty.dir/build.make libs/glfw-3.2.1/tests/CMakeFiles/empty.dir/clean
+.PHONY : libs/glfw-3.2.1/tests/CMakeFiles/empty.dir/clean
+
+# clean rule for target.
+clean: libs/glfw-3.2.1/tests/CMakeFiles/empty.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target libs/glfw-3.2.1/tests/CMakeFiles/glfwinfo.dir
+
+# All Build rule for target.
+libs/glfw-3.2.1/tests/CMakeFiles/glfwinfo.dir/all: libs/glfw-3.2.1/src/CMakeFiles/glfw.dir/all
+	$(MAKE) -f libs/glfw-3.2.1/tests/CMakeFiles/glfwinfo.dir/build.make libs/glfw-3.2.1/tests/CMakeFiles/glfwinfo.dir/depend
+	$(MAKE) -f libs/glfw-3.2.1/tests/CMakeFiles/glfwinfo.dir/build.make libs/glfw-3.2.1/tests/CMakeFiles/glfwinfo.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=82 "Built target glfwinfo"
+.PHONY : libs/glfw-3.2.1/tests/CMakeFiles/glfwinfo.dir/all
+
+# Include target in all.
+all: libs/glfw-3.2.1/tests/CMakeFiles/glfwinfo.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+libs/glfw-3.2.1/tests/CMakeFiles/glfwinfo.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 5
+	$(MAKE) -f CMakeFiles/Makefile2 libs/glfw-3.2.1/tests/CMakeFiles/glfwinfo.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 0
+.PHONY : libs/glfw-3.2.1/tests/CMakeFiles/glfwinfo.dir/rule
+
+# Convenience name for target.
+glfwinfo: libs/glfw-3.2.1/tests/CMakeFiles/glfwinfo.dir/rule
+
+.PHONY : glfwinfo
+
+# clean rule for target.
+libs/glfw-3.2.1/tests/CMakeFiles/glfwinfo.dir/clean:
+	$(MAKE) -f libs/glfw-3.2.1/tests/CMakeFiles/glfwinfo.dir/build.make libs/glfw-3.2.1/tests/CMakeFiles/glfwinfo.dir/clean
+.PHONY : libs/glfw-3.2.1/tests/CMakeFiles/glfwinfo.dir/clean
+
+# clean rule for target.
+clean: libs/glfw-3.2.1/tests/CMakeFiles/glfwinfo.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target libs/glfw-3.2.1/tests/CMakeFiles/msaa.dir
+
+# All Build rule for target.
+libs/glfw-3.2.1/tests/CMakeFiles/msaa.dir/all: libs/glfw-3.2.1/src/CMakeFiles/glfw.dir/all
+	$(MAKE) -f libs/glfw-3.2.1/tests/CMakeFiles/msaa.dir/build.make libs/glfw-3.2.1/tests/CMakeFiles/msaa.dir/depend
+	$(MAKE) -f libs/glfw-3.2.1/tests/CMakeFiles/msaa.dir/build.make libs/glfw-3.2.1/tests/CMakeFiles/msaa.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=88 "Built target msaa"
+.PHONY : libs/glfw-3.2.1/tests/CMakeFiles/msaa.dir/all
+
+# Include target in all.
+all: libs/glfw-3.2.1/tests/CMakeFiles/msaa.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+libs/glfw-3.2.1/tests/CMakeFiles/msaa.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 5
+	$(MAKE) -f CMakeFiles/Makefile2 libs/glfw-3.2.1/tests/CMakeFiles/msaa.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 0
+.PHONY : libs/glfw-3.2.1/tests/CMakeFiles/msaa.dir/rule
+
+# Convenience name for target.
+msaa: libs/glfw-3.2.1/tests/CMakeFiles/msaa.dir/rule
+
+.PHONY : msaa
+
+# clean rule for target.
+libs/glfw-3.2.1/tests/CMakeFiles/msaa.dir/clean:
+	$(MAKE) -f libs/glfw-3.2.1/tests/CMakeFiles/msaa.dir/build.make libs/glfw-3.2.1/tests/CMakeFiles/msaa.dir/clean
+.PHONY : libs/glfw-3.2.1/tests/CMakeFiles/msaa.dir/clean
+
+# clean rule for target.
+clean: libs/glfw-3.2.1/tests/CMakeFiles/msaa.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target libs/glfw-3.2.1/tests/CMakeFiles/cursor.dir
+
+# All Build rule for target.
+libs/glfw-3.2.1/tests/CMakeFiles/cursor.dir/all: libs/glfw-3.2.1/src/CMakeFiles/glfw.dir/all
+	$(MAKE) -f libs/glfw-3.2.1/tests/CMakeFiles/cursor.dir/build.make libs/glfw-3.2.1/tests/CMakeFiles/cursor.dir/depend
+	$(MAKE) -f libs/glfw-3.2.1/tests/CMakeFiles/cursor.dir/build.make libs/glfw-3.2.1/tests/CMakeFiles/cursor.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num= "Built target cursor"
+.PHONY : libs/glfw-3.2.1/tests/CMakeFiles/cursor.dir/all
+
+# Include target in all.
+all: libs/glfw-3.2.1/tests/CMakeFiles/cursor.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+libs/glfw-3.2.1/tests/CMakeFiles/cursor.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 libs/glfw-3.2.1/tests/CMakeFiles/cursor.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 0
+.PHONY : libs/glfw-3.2.1/tests/CMakeFiles/cursor.dir/rule
+
+# Convenience name for target.
+cursor: libs/glfw-3.2.1/tests/CMakeFiles/cursor.dir/rule
+
+.PHONY : cursor
+
+# clean rule for target.
+libs/glfw-3.2.1/tests/CMakeFiles/cursor.dir/clean:
+	$(MAKE) -f libs/glfw-3.2.1/tests/CMakeFiles/cursor.dir/build.make libs/glfw-3.2.1/tests/CMakeFiles/cursor.dir/clean
+.PHONY : libs/glfw-3.2.1/tests/CMakeFiles/cursor.dir/clean
+
+# clean rule for target.
+clean: libs/glfw-3.2.1/tests/CMakeFiles/cursor.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target libs/glfw-3.2.1/tests/CMakeFiles/sharing.dir
+
+# All Build rule for target.
+libs/glfw-3.2.1/tests/CMakeFiles/sharing.dir/all: libs/glfw-3.2.1/src/CMakeFiles/glfw.dir/all
+	$(MAKE) -f libs/glfw-3.2.1/tests/CMakeFiles/sharing.dir/build.make libs/glfw-3.2.1/tests/CMakeFiles/sharing.dir/depend
+	$(MAKE) -f libs/glfw-3.2.1/tests/CMakeFiles/sharing.dir/build.make libs/glfw-3.2.1/tests/CMakeFiles/sharing.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=92 "Built target sharing"
+.PHONY : libs/glfw-3.2.1/tests/CMakeFiles/sharing.dir/all
+
+# Include target in all.
+all: libs/glfw-3.2.1/tests/CMakeFiles/sharing.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+libs/glfw-3.2.1/tests/CMakeFiles/sharing.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 5
+	$(MAKE) -f CMakeFiles/Makefile2 libs/glfw-3.2.1/tests/CMakeFiles/sharing.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 0
+.PHONY : libs/glfw-3.2.1/tests/CMakeFiles/sharing.dir/rule
+
+# Convenience name for target.
+sharing: libs/glfw-3.2.1/tests/CMakeFiles/sharing.dir/rule
+
+.PHONY : sharing
+
+# clean rule for target.
+libs/glfw-3.2.1/tests/CMakeFiles/sharing.dir/clean:
+	$(MAKE) -f libs/glfw-3.2.1/tests/CMakeFiles/sharing.dir/build.make libs/glfw-3.2.1/tests/CMakeFiles/sharing.dir/clean
+.PHONY : libs/glfw-3.2.1/tests/CMakeFiles/sharing.dir/clean
+
+# clean rule for target.
+clean: libs/glfw-3.2.1/tests/CMakeFiles/sharing.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target libs/glfw-3.2.1/tests/CMakeFiles/monitors.dir
+
+# All Build rule for target.
+libs/glfw-3.2.1/tests/CMakeFiles/monitors.dir/all: libs/glfw-3.2.1/src/CMakeFiles/glfw.dir/all
+	$(MAKE) -f libs/glfw-3.2.1/tests/CMakeFiles/monitors.dir/build.make libs/glfw-3.2.1/tests/CMakeFiles/monitors.dir/depend
+	$(MAKE) -f libs/glfw-3.2.1/tests/CMakeFiles/monitors.dir/build.make libs/glfw-3.2.1/tests/CMakeFiles/monitors.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=87 "Built target monitors"
+.PHONY : libs/glfw-3.2.1/tests/CMakeFiles/monitors.dir/all
+
+# Include target in all.
+all: libs/glfw-3.2.1/tests/CMakeFiles/monitors.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+libs/glfw-3.2.1/tests/CMakeFiles/monitors.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 5
+	$(MAKE) -f CMakeFiles/Makefile2 libs/glfw-3.2.1/tests/CMakeFiles/monitors.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 0
+.PHONY : libs/glfw-3.2.1/tests/CMakeFiles/monitors.dir/rule
+
+# Convenience name for target.
+monitors: libs/glfw-3.2.1/tests/CMakeFiles/monitors.dir/rule
+
+.PHONY : monitors
+
+# clean rule for target.
+libs/glfw-3.2.1/tests/CMakeFiles/monitors.dir/clean:
+	$(MAKE) -f libs/glfw-3.2.1/tests/CMakeFiles/monitors.dir/build.make libs/glfw-3.2.1/tests/CMakeFiles/monitors.dir/clean
+.PHONY : libs/glfw-3.2.1/tests/CMakeFiles/monitors.dir/clean
+
+# clean rule for target.
+clean: libs/glfw-3.2.1/tests/CMakeFiles/monitors.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target libs/glfw-3.2.1/tests/CMakeFiles/reopen.dir
+
+# All Build rule for target.
+libs/glfw-3.2.1/tests/CMakeFiles/reopen.dir/all: libs/glfw-3.2.1/src/CMakeFiles/glfw.dir/all
+	$(MAKE) -f libs/glfw-3.2.1/tests/CMakeFiles/reopen.dir/build.make libs/glfw-3.2.1/tests/CMakeFiles/reopen.dir/depend
+	$(MAKE) -f libs/glfw-3.2.1/tests/CMakeFiles/reopen.dir/build.make libs/glfw-3.2.1/tests/CMakeFiles/reopen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num= "Built target reopen"
+.PHONY : libs/glfw-3.2.1/tests/CMakeFiles/reopen.dir/all
+
+# Include target in all.
+all: libs/glfw-3.2.1/tests/CMakeFiles/reopen.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+libs/glfw-3.2.1/tests/CMakeFiles/reopen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 libs/glfw-3.2.1/tests/CMakeFiles/reopen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 0
+.PHONY : libs/glfw-3.2.1/tests/CMakeFiles/reopen.dir/rule
+
+# Convenience name for target.
+reopen: libs/glfw-3.2.1/tests/CMakeFiles/reopen.dir/rule
+
+.PHONY : reopen
+
+# clean rule for target.
+libs/glfw-3.2.1/tests/CMakeFiles/reopen.dir/clean:
+	$(MAKE) -f libs/glfw-3.2.1/tests/CMakeFiles/reopen.dir/build.make libs/glfw-3.2.1/tests/CMakeFiles/reopen.dir/clean
+.PHONY : libs/glfw-3.2.1/tests/CMakeFiles/reopen.dir/clean
+
+# clean rule for target.
+clean: libs/glfw-3.2.1/tests/CMakeFiles/reopen.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target libs/glfw-3.2.1/tests/CMakeFiles/iconify.dir
+
+# All Build rule for target.
+libs/glfw-3.2.1/tests/CMakeFiles/iconify.dir/all: libs/glfw-3.2.1/src/CMakeFiles/glfw.dir/all
+	$(MAKE) -f libs/glfw-3.2.1/tests/CMakeFiles/iconify.dir/build.make libs/glfw-3.2.1/tests/CMakeFiles/iconify.dir/depend
+	$(MAKE) -f libs/glfw-3.2.1/tests/CMakeFiles/iconify.dir/build.make libs/glfw-3.2.1/tests/CMakeFiles/iconify.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=85 "Built target iconify"
+.PHONY : libs/glfw-3.2.1/tests/CMakeFiles/iconify.dir/all
+
+# Include target in all.
+all: libs/glfw-3.2.1/tests/CMakeFiles/iconify.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+libs/glfw-3.2.1/tests/CMakeFiles/iconify.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 5
+	$(MAKE) -f CMakeFiles/Makefile2 libs/glfw-3.2.1/tests/CMakeFiles/iconify.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 0
+.PHONY : libs/glfw-3.2.1/tests/CMakeFiles/iconify.dir/rule
+
+# Convenience name for target.
+iconify: libs/glfw-3.2.1/tests/CMakeFiles/iconify.dir/rule
+
+.PHONY : iconify
+
+# clean rule for target.
+libs/glfw-3.2.1/tests/CMakeFiles/iconify.dir/clean:
+	$(MAKE) -f libs/glfw-3.2.1/tests/CMakeFiles/iconify.dir/build.make libs/glfw-3.2.1/tests/CMakeFiles/iconify.dir/clean
+.PHONY : libs/glfw-3.2.1/tests/CMakeFiles/iconify.dir/clean
+
+# clean rule for target.
+clean: libs/glfw-3.2.1/tests/CMakeFiles/iconify.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target libs/glfw-3.2.1/tests/CMakeFiles/joysticks.dir
+
+# All Build rule for target.
+libs/glfw-3.2.1/tests/CMakeFiles/joysticks.dir/all: libs/glfw-3.2.1/src/CMakeFiles/glfw.dir/all
+	$(MAKE) -f libs/glfw-3.2.1/tests/CMakeFiles/joysticks.dir/build.make libs/glfw-3.2.1/tests/CMakeFiles/joysticks.dir/depend
+	$(MAKE) -f libs/glfw-3.2.1/tests/CMakeFiles/joysticks.dir/build.make libs/glfw-3.2.1/tests/CMakeFiles/joysticks.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=86 "Built target joysticks"
+.PHONY : libs/glfw-3.2.1/tests/CMakeFiles/joysticks.dir/all
+
+# Include target in all.
+all: libs/glfw-3.2.1/tests/CMakeFiles/joysticks.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+libs/glfw-3.2.1/tests/CMakeFiles/joysticks.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 5
+	$(MAKE) -f CMakeFiles/Makefile2 libs/glfw-3.2.1/tests/CMakeFiles/joysticks.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 0
+.PHONY : libs/glfw-3.2.1/tests/CMakeFiles/joysticks.dir/rule
+
+# Convenience name for target.
+joysticks: libs/glfw-3.2.1/tests/CMakeFiles/joysticks.dir/rule
+
+.PHONY : joysticks
+
+# clean rule for target.
+libs/glfw-3.2.1/tests/CMakeFiles/joysticks.dir/clean:
+	$(MAKE) -f libs/glfw-3.2.1/tests/CMakeFiles/joysticks.dir/build.make libs/glfw-3.2.1/tests/CMakeFiles/joysticks.dir/clean
+.PHONY : libs/glfw-3.2.1/tests/CMakeFiles/joysticks.dir/clean
+
+# clean rule for target.
+clean: libs/glfw-3.2.1/tests/CMakeFiles/joysticks.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target libs/glfw-3.2.1/tests/CMakeFiles/events.dir
+
+# All Build rule for target.
+libs/glfw-3.2.1/tests/CMakeFiles/events.dir/all: libs/glfw-3.2.1/src/CMakeFiles/glfw.dir/all
+	$(MAKE) -f libs/glfw-3.2.1/tests/CMakeFiles/events.dir/build.make libs/glfw-3.2.1/tests/CMakeFiles/events.dir/depend
+	$(MAKE) -f libs/glfw-3.2.1/tests/CMakeFiles/events.dir/build.make libs/glfw-3.2.1/tests/CMakeFiles/events.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=73,74 "Built target events"
+.PHONY : libs/glfw-3.2.1/tests/CMakeFiles/events.dir/all
+
+# Include target in all.
+all: libs/glfw-3.2.1/tests/CMakeFiles/events.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+libs/glfw-3.2.1/tests/CMakeFiles/events.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 6
+	$(MAKE) -f CMakeFiles/Makefile2 libs/glfw-3.2.1/tests/CMakeFiles/events.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 0
+.PHONY : libs/glfw-3.2.1/tests/CMakeFiles/events.dir/rule
+
+# Convenience name for target.
+events: libs/glfw-3.2.1/tests/CMakeFiles/events.dir/rule
+
+.PHONY : events
+
+# clean rule for target.
+libs/glfw-3.2.1/tests/CMakeFiles/events.dir/clean:
+	$(MAKE) -f libs/glfw-3.2.1/tests/CMakeFiles/events.dir/build.make libs/glfw-3.2.1/tests/CMakeFiles/events.dir/clean
+.PHONY : libs/glfw-3.2.1/tests/CMakeFiles/events.dir/clean
+
+# clean rule for target.
+clean: libs/glfw-3.2.1/tests/CMakeFiles/events.dir/clean
 
 .PHONY : clean
 
@@ -395,7 +1408,7 @@ libs/glew-2.0.0/build/cmake/preinstall:
 libs/glew-2.0.0/build/cmake/CMakeFiles/visualinfo.dir/all: libs/glew-2.0.0/build/cmake/CMakeFiles/glew.dir/all
 	$(MAKE) -f libs/glew-2.0.0/build/cmake/CMakeFiles/visualinfo.dir/build.make libs/glew-2.0.0/build/cmake/CMakeFiles/visualinfo.dir/depend
 	$(MAKE) -f libs/glew-2.0.0/build/cmake/CMakeFiles/visualinfo.dir/build.make libs/glew-2.0.0/build/cmake/CMakeFiles/visualinfo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=100 "Built target visualinfo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=98 "Built target visualinfo"
 .PHONY : libs/glew-2.0.0/build/cmake/CMakeFiles/visualinfo.dir/all
 
 # Include target in all.
@@ -405,9 +1418,9 @@ all: libs/glew-2.0.0/build/cmake/CMakeFiles/visualinfo.dir/all
 
 # Build rule for subdir invocation for target.
 libs/glew-2.0.0/build/cmake/CMakeFiles/visualinfo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Desktop/CLionProjects/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 libs/glew-2.0.0/build/cmake/CMakeFiles/visualinfo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Desktop/CLionProjects/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 0
 .PHONY : libs/glew-2.0.0/build/cmake/CMakeFiles/visualinfo.dir/rule
 
 # Convenience name for target.
@@ -432,7 +1445,7 @@ clean: libs/glew-2.0.0/build/cmake/CMakeFiles/visualinfo.dir/clean
 libs/glew-2.0.0/build/cmake/CMakeFiles/glew.dir/all:
 	$(MAKE) -f libs/glew-2.0.0/build/cmake/CMakeFiles/glew.dir/build.make libs/glew-2.0.0/build/cmake/CMakeFiles/glew.dir/depend
 	$(MAKE) -f libs/glew-2.0.0/build/cmake/CMakeFiles/glew.dir/build.make libs/glew-2.0.0/build/cmake/CMakeFiles/glew.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=91 "Built target glew"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=76 "Built target glew"
 .PHONY : libs/glew-2.0.0/build/cmake/CMakeFiles/glew.dir/all
 
 # Include target in all.
@@ -442,9 +1455,9 @@ all: libs/glew-2.0.0/build/cmake/CMakeFiles/glew.dir/all
 
 # Build rule for subdir invocation for target.
 libs/glew-2.0.0/build/cmake/CMakeFiles/glew.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Desktop/CLionProjects/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 libs/glew-2.0.0/build/cmake/CMakeFiles/glew.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Desktop/CLionProjects/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 0
 .PHONY : libs/glew-2.0.0/build/cmake/CMakeFiles/glew.dir/rule
 
 # Convenience name for target.
@@ -469,7 +1482,7 @@ clean: libs/glew-2.0.0/build/cmake/CMakeFiles/glew.dir/clean
 libs/glew-2.0.0/build/cmake/CMakeFiles/glewinfo.dir/all: libs/glew-2.0.0/build/cmake/CMakeFiles/glew.dir/all
 	$(MAKE) -f libs/glew-2.0.0/build/cmake/CMakeFiles/glewinfo.dir/build.make libs/glew-2.0.0/build/cmake/CMakeFiles/glewinfo.dir/depend
 	$(MAKE) -f libs/glew-2.0.0/build/cmake/CMakeFiles/glewinfo.dir/build.make libs/glew-2.0.0/build/cmake/CMakeFiles/glewinfo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=92 "Built target glewinfo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num= "Built target glewinfo"
 .PHONY : libs/glew-2.0.0/build/cmake/CMakeFiles/glewinfo.dir/all
 
 # Include target in all.
@@ -479,9 +1492,9 @@ all: libs/glew-2.0.0/build/cmake/CMakeFiles/glewinfo.dir/all
 
 # Build rule for subdir invocation for target.
 libs/glew-2.0.0/build/cmake/CMakeFiles/glewinfo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Desktop/CLionProjects/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 libs/glew-2.0.0/build/cmake/CMakeFiles/glewinfo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Desktop/CLionProjects/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 0
 .PHONY : libs/glew-2.0.0/build/cmake/CMakeFiles/glewinfo.dir/rule
 
 # Convenience name for target.
@@ -506,7 +1519,7 @@ clean: libs/glew-2.0.0/build/cmake/CMakeFiles/glewinfo.dir/clean
 libs/glew-2.0.0/build/cmake/CMakeFiles/glew_s.dir/all:
 	$(MAKE) -f libs/glew-2.0.0/build/cmake/CMakeFiles/glew_s.dir/build.make libs/glew-2.0.0/build/cmake/CMakeFiles/glew_s.dir/depend
 	$(MAKE) -f libs/glew-2.0.0/build/cmake/CMakeFiles/glew_s.dir/build.make libs/glew-2.0.0/build/cmake/CMakeFiles/glew_s.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num= "Built target glew_s"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=77 "Built target glew_s"
 .PHONY : libs/glew-2.0.0/build/cmake/CMakeFiles/glew_s.dir/all
 
 # Include target in all.
@@ -516,9 +1529,9 @@ all: libs/glew-2.0.0/build/cmake/CMakeFiles/glew_s.dir/all
 
 # Build rule for subdir invocation for target.
 libs/glew-2.0.0/build/cmake/CMakeFiles/glew_s.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Desktop/CLionProjects/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 libs/glew-2.0.0/build/cmake/CMakeFiles/glew_s.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Desktop/CLionProjects/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 0
 .PHONY : libs/glew-2.0.0/build/cmake/CMakeFiles/glew_s.dir/rule
 
 # Convenience name for target.
@@ -565,7 +1578,7 @@ libs/SDL2-2.0.7/preinstall:
 libs/SDL2-2.0.7/CMakeFiles/SDL2.dir/all:
 	$(MAKE) -f libs/SDL2-2.0.7/CMakeFiles/SDL2.dir/build.make libs/SDL2-2.0.7/CMakeFiles/SDL2.dir/depend
 	$(MAKE) -f libs/SDL2-2.0.7/CMakeFiles/SDL2.dir/build.make libs/SDL2-2.0.7/CMakeFiles/SDL2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44 "Built target SDL2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33 "Built target SDL2"
 .PHONY : libs/SDL2-2.0.7/CMakeFiles/SDL2.dir/all
 
 # Include target in all.
@@ -575,9 +1588,9 @@ all: libs/SDL2-2.0.7/CMakeFiles/SDL2.dir/all
 
 # Build rule for subdir invocation for target.
 libs/SDL2-2.0.7/CMakeFiles/SDL2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Desktop/CLionProjects/CMakeFiles 44
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 33
 	$(MAKE) -f CMakeFiles/Makefile2 libs/SDL2-2.0.7/CMakeFiles/SDL2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Desktop/CLionProjects/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 0
 .PHONY : libs/SDL2-2.0.7/CMakeFiles/SDL2.dir/rule
 
 # Convenience name for target.
@@ -602,7 +1615,7 @@ clean: libs/SDL2-2.0.7/CMakeFiles/SDL2.dir/clean
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/all:
 	$(MAKE) -f libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/build.make libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/depend
 	$(MAKE) -f libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/build.make libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88 "Built target SDL2-static"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67 "Built target SDL2-static"
 .PHONY : libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/all
 
 # Include target in all.
@@ -612,9 +1625,9 @@ all: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/all
 
 # Build rule for subdir invocation for target.
 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Desktop/CLionProjects/CMakeFiles 44
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 34
 	$(MAKE) -f CMakeFiles/Makefile2 libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Desktop/CLionProjects/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 0
 .PHONY : libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/rule
 
 # Convenience name for target.
@@ -639,7 +1652,7 @@ clean: libs/SDL2-2.0.7/CMakeFiles/SDL2-static.dir/clean
 libs/SDL2-2.0.7/CMakeFiles/SDL2main.dir/all:
 	$(MAKE) -f libs/SDL2-2.0.7/CMakeFiles/SDL2main.dir/build.make libs/SDL2-2.0.7/CMakeFiles/SDL2main.dir/depend
 	$(MAKE) -f libs/SDL2-2.0.7/CMakeFiles/SDL2main.dir/build.make libs/SDL2-2.0.7/CMakeFiles/SDL2main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num= "Built target SDL2main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num= "Built target SDL2main"
 .PHONY : libs/SDL2-2.0.7/CMakeFiles/SDL2main.dir/all
 
 # Include target in all.
@@ -649,9 +1662,9 @@ all: libs/SDL2-2.0.7/CMakeFiles/SDL2main.dir/all
 
 # Build rule for subdir invocation for target.
 libs/SDL2-2.0.7/CMakeFiles/SDL2main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Desktop/CLionProjects/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 libs/SDL2-2.0.7/CMakeFiles/SDL2main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Desktop/CLionProjects/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 0
 .PHONY : libs/SDL2-2.0.7/CMakeFiles/SDL2main.dir/rule
 
 # Convenience name for target.
@@ -715,7 +1728,7 @@ libs/glm-master/glm/preinstall:
 libs/glm-master/glm/CMakeFiles/glm_dummy.dir/all:
 	$(MAKE) -f libs/glm-master/glm/CMakeFiles/glm_dummy.dir/build.make libs/glm-master/glm/CMakeFiles/glm_dummy.dir/depend
 	$(MAKE) -f libs/glm-master/glm/CMakeFiles/glm_dummy.dir/build.make libs/glm-master/glm/CMakeFiles/glm_dummy.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=98 "Built target glm_dummy"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=83 "Built target glm_dummy"
 .PHONY : libs/glm-master/glm/CMakeFiles/glm_dummy.dir/all
 
 # Include target in all.
@@ -725,9 +1738,9 @@ all: libs/glm-master/glm/CMakeFiles/glm_dummy.dir/all
 
 # Build rule for subdir invocation for target.
 libs/glm-master/glm/CMakeFiles/glm_dummy.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Desktop/CLionProjects/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 libs/glm-master/glm/CMakeFiles/glm_dummy.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Desktop/CLionProjects/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 0
 .PHONY : libs/glm-master/glm/CMakeFiles/glm_dummy.dir/rule
 
 # Convenience name for target.

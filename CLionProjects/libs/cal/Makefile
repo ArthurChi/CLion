@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/cjfire/Desktop/CLionProjects
+CMAKE_SOURCE_DIR = /Users/cjfire/Documents/code/CLion/CLionProjects
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/cjfire/Desktop/CLionProjects
+CMAKE_BINARY_DIR = /Users/cjfire/Documents/code/CLion/CLionProjects
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/cjfire/Desktop/CLionProjects && $(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Desktop/CLionProjects/CMakeFiles /Users/cjfire/Desktop/CLionProjects/libs/cal/CMakeFiles/progress.marks
-	cd /Users/cjfire/Desktop/CLionProjects && $(MAKE) -f CMakeFiles/Makefile2 libs/cal/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Desktop/CLionProjects/CMakeFiles 0
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects && $(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles /Users/cjfire/Documents/code/CLion/CLionProjects/libs/cal/CMakeFiles/progress.marks
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects && $(MAKE) -f CMakeFiles/Makefile2 libs/cal/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/cjfire/Desktop/CLionProjects && $(MAKE) -f CMakeFiles/Makefile2 libs/cal/clean
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects && $(MAKE) -f CMakeFiles/Makefile2 libs/cal/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/cjfire/Desktop/CLionProjects && $(MAKE) -f CMakeFiles/Makefile2 libs/cal/preinstall
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects && $(MAKE) -f CMakeFiles/Makefile2 libs/cal/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/cjfire/Desktop/CLionProjects && $(MAKE) -f CMakeFiles/Makefile2 libs/cal/preinstall
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects && $(MAKE) -f CMakeFiles/Makefile2 libs/cal/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/cjfire/Desktop/CLionProjects && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 libs/cal/CMakeFiles/cal.dir/rule:
-	cd /Users/cjfire/Desktop/CLionProjects && $(MAKE) -f CMakeFiles/Makefile2 libs/cal/CMakeFiles/cal.dir/rule
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects && $(MAKE) -f CMakeFiles/Makefile2 libs/cal/CMakeFiles/cal.dir/rule
 .PHONY : libs/cal/CMakeFiles/cal.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ cal: libs/cal/CMakeFiles/cal.dir/rule
 
 # fast build rule for target.
 cal/fast:
-	cd /Users/cjfire/Desktop/CLionProjects && $(MAKE) -f libs/cal/CMakeFiles/cal.dir/build.make libs/cal/CMakeFiles/cal.dir/build
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects && $(MAKE) -f libs/cal/CMakeFiles/cal.dir/build.make libs/cal/CMakeFiles/cal.dir/build
 .PHONY : cal/fast
 
 calculater.o: calculater.cpp.o
@@ -177,7 +177,7 @@ calculater.o: calculater.cpp.o
 
 # target to build an object file
 calculater.cpp.o:
-	cd /Users/cjfire/Desktop/CLionProjects && $(MAKE) -f libs/cal/CMakeFiles/cal.dir/build.make libs/cal/CMakeFiles/cal.dir/calculater.cpp.o
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects && $(MAKE) -f libs/cal/CMakeFiles/cal.dir/build.make libs/cal/CMakeFiles/cal.dir/calculater.cpp.o
 .PHONY : calculater.cpp.o
 
 calculater.i: calculater.cpp.i
@@ -186,7 +186,7 @@ calculater.i: calculater.cpp.i
 
 # target to preprocess a source file
 calculater.cpp.i:
-	cd /Users/cjfire/Desktop/CLionProjects && $(MAKE) -f libs/cal/CMakeFiles/cal.dir/build.make libs/cal/CMakeFiles/cal.dir/calculater.cpp.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects && $(MAKE) -f libs/cal/CMakeFiles/cal.dir/build.make libs/cal/CMakeFiles/cal.dir/calculater.cpp.i
 .PHONY : calculater.cpp.i
 
 calculater.s: calculater.cpp.s
@@ -195,7 +195,7 @@ calculater.s: calculater.cpp.s
 
 # target to generate assembly for a file
 calculater.cpp.s:
-	cd /Users/cjfire/Desktop/CLionProjects && $(MAKE) -f libs/cal/CMakeFiles/cal.dir/build.make libs/cal/CMakeFiles/cal.dir/calculater.cpp.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects && $(MAKE) -f libs/cal/CMakeFiles/cal.dir/build.make libs/cal/CMakeFiles/cal.dir/calculater.cpp.s
 .PHONY : calculater.cpp.s
 
 # Help Target
@@ -225,6 +225,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/cjfire/Desktop/CLionProjects && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

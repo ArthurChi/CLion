@@ -6,5 +6,5 @@ CXX_FLAGS =  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacO
 
 CXX_DEFINES = -DGLEW_STATIC
 
-CXX_INCLUDES = -I/Users/cjfire/Desktop/CLionProjects/libs/cal -I/Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/include -I/Users/cjfire/Desktop/CLionProjects/libs/glew-2.0.0/include 
+CXX_INCLUDES = -I/Users/cjfire/Documents/code/CLion/CLionProjects/libs/cal -I/Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/include -I/Users/cjfire/Documents/code/CLion/CLionProjects/libs/glew-2.0.0/include 
 

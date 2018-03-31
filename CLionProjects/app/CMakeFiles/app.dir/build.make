@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/cjfire/Desktop/CLionProjects
+CMAKE_SOURCE_DIR = /Users/cjfire/Documents/code/CLion/CLionProjects
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/cjfire/Desktop/CLionProjects
+CMAKE_BINARY_DIR = /Users/cjfire/Documents/code/CLion/CLionProjects
 
 # Include any dependencies generated for this target.
 include app/CMakeFiles/app.dir/depend.make
@@ -59,16 +59,16 @@ include app/CMakeFiles/app.dir/flags.make
 
 app/CMakeFiles/app.dir/main.cpp.o: app/CMakeFiles/app.dir/flags.make
 app/CMakeFiles/app.dir/main.cpp.o: app/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object app/CMakeFiles/app.dir/main.cpp.o"
-	cd /Users/cjfire/Desktop/CLionProjects/app && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/app.dir/main.cpp.o -c /Users/cjfire/Desktop/CLionProjects/app/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object app/CMakeFiles/app.dir/main.cpp.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/app && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/app.dir/main.cpp.o -c /Users/cjfire/Documents/code/CLion/CLionProjects/app/main.cpp
 
 app/CMakeFiles/app.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/app.dir/main.cpp.i"
-	cd /Users/cjfire/Desktop/CLionProjects/app && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/app/main.cpp > CMakeFiles/app.dir/main.cpp.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/app && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/app/main.cpp > CMakeFiles/app.dir/main.cpp.i
 
 app/CMakeFiles/app.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/app.dir/main.cpp.s"
-	cd /Users/cjfire/Desktop/CLionProjects/app && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/app/main.cpp -o CMakeFiles/app.dir/main.cpp.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/app && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/app/main.cpp -o CMakeFiles/app.dir/main.cpp.s
 
 app/CMakeFiles/app.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ app/CMakeFiles/app.dir/main.cpp.o.provides.build: app/CMakeFiles/app.dir/main.cp
 
 app/CMakeFiles/app.dir/Shader.cpp.o: app/CMakeFiles/app.dir/flags.make
 app/CMakeFiles/app.dir/Shader.cpp.o: app/Shader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object app/CMakeFiles/app.dir/Shader.cpp.o"
-	cd /Users/cjfire/Desktop/CLionProjects/app && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/app.dir/Shader.cpp.o -c /Users/cjfire/Desktop/CLionProjects/app/Shader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object app/CMakeFiles/app.dir/Shader.cpp.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/app && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/app.dir/Shader.cpp.o -c /Users/cjfire/Documents/code/CLion/CLionProjects/app/Shader.cpp
 
 app/CMakeFiles/app.dir/Shader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/app.dir/Shader.cpp.i"
-	cd /Users/cjfire/Desktop/CLionProjects/app && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/app/Shader.cpp > CMakeFiles/app.dir/Shader.cpp.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/app && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/app/Shader.cpp > CMakeFiles/app.dir/Shader.cpp.i
 
 app/CMakeFiles/app.dir/Shader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/app.dir/Shader.cpp.s"
-	cd /Users/cjfire/Desktop/CLionProjects/app && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/app/Shader.cpp -o CMakeFiles/app.dir/Shader.cpp.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/app && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/app/Shader.cpp -o CMakeFiles/app.dir/Shader.cpp.s
 
 app/CMakeFiles/app.dir/Shader.cpp.o.requires:
 
@@ -120,8 +120,8 @@ app/app: libs/cal/libcal.a
 app/app: libs/glfw-3.2.1/src/libglfw3.a
 app/app: lib/libGLEW.a
 app/app: app/CMakeFiles/app.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable app"
-	cd /Users/cjfire/Desktop/CLionProjects/app && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/app.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable app"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/app && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/app.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 app/CMakeFiles/app.dir/build: app/app
@@ -134,10 +134,10 @@ app/CMakeFiles/app.dir/requires: app/CMakeFiles/app.dir/Shader.cpp.o.requires
 .PHONY : app/CMakeFiles/app.dir/requires
 
 app/CMakeFiles/app.dir/clean:
-	cd /Users/cjfire/Desktop/CLionProjects/app && $(CMAKE_COMMAND) -P CMakeFiles/app.dir/cmake_clean.cmake
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/app && $(CMAKE_COMMAND) -P CMakeFiles/app.dir/cmake_clean.cmake
 .PHONY : app/CMakeFiles/app.dir/clean
 
 app/CMakeFiles/app.dir/depend:
-	cd /Users/cjfire/Desktop/CLionProjects && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/cjfire/Desktop/CLionProjects /Users/cjfire/Desktop/CLionProjects/app /Users/cjfire/Desktop/CLionProjects /Users/cjfire/Desktop/CLionProjects/app /Users/cjfire/Desktop/CLionProjects/app/CMakeFiles/app.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/cjfire/Documents/code/CLion/CLionProjects /Users/cjfire/Documents/code/CLion/CLionProjects/app /Users/cjfire/Documents/code/CLion/CLionProjects /Users/cjfire/Documents/code/CLion/CLionProjects/app /Users/cjfire/Documents/code/CLion/CLionProjects/app/CMakeFiles/app.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : app/CMakeFiles/app.dir/depend
 

@@ -6,6 +6,7 @@
 #include <vector>
 #define STB_IMAGE_IMPLEMENTATION
 #include "stb_image.h"
+#include "Shader.h"
 
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
@@ -25,61 +26,6 @@ struct Size {
 Size SCREEN_SIZE = {
         .x = 1024,
         .y = 768,
-};
-
-class Shader {
-public:
-    Shader(const std::string &vs, const std::string &fs) {
-        this->prog = this->createShader(vs, fs);
-    }
-
-    ~Shader() {
-        glDeleteProgram(prog);
-    }
-
-    void Use() {
-        glUseProgram(prog);
-    }
-
-private:
-    GLint compileShader(const char* shader, GLenum type) {
-        GLint vertexShader = glCreateShader(type);
-        glShaderSource(vertexShader, 1, &shader, NULL);
-        glCompileShader(vertexShader);
-        GLint status;
-        glGetShaderiv(vertexShader, GL_COMPILE_STATUS, &status);
-        if (status == GL_FALSE) {
-            char buf[1024];
-            GLint len;
-            glGetShaderInfoLog(vertexShader, 1024, &len, buf);
-            glDeleteShader(vertexShader);
-            std::cerr<<buf<<std::endl;
-            exit(1);
-        }
-        return vertexShader;
-    }
-
-
-    GLuint createShader(const std::string &vertexShaderSrc, const std::string &fragShaderSrc) {
-        GLint vertexShader = compileShader(vertexShaderSrc.c_str(), GL_VERTEX_SHADER);
-        GLint fragShader = compileShader(fragShaderSrc.c_str(), GL_FRAGMENT_SHADER);
-        GLuint p = glCreateProgram();
-        glAttachShader(p, vertexShader);
-        glAttachShader(p, fragShader);
-        glLinkProgram(p);
-        GLint status;
-        glGetProgramiv(p, GL_LINK_STATUS, &status);
-        if (status == GL_FALSE) {
-            std::cerr<<"link err"<<std::endl;
-            exit(1);
-        }
-        glDeleteShader(vertexShader);
-        glDeleteShader(fragShader);
-        return p;
-    }
-
-public:
-    GLuint prog;
 };
 
 struct Attrib {
@@ -454,9 +400,9 @@ void setup() {
             })";
 
     mesh = new Mesh();
-//    Material *material = new Material(vs ,fs);
-    Material *material = new Material(vs ,samplerfs);
-    material->SetTexture("tex0", "/Users/cjfire/Desktop/CLionProjects/app/flag.png",
+    Material *material = new Material(vs ,fs);
+//    Material *material = new Material(vs ,samplerfs);
+    material->SetTexture("tex0", "./app/flag.png",
                          Texture::Wrap::Clamp);
     mesh->SetMaterial(material);
     mesh->Setup(vertices, indices);

@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/cjfire/Desktop/CLionProjects
+CMAKE_SOURCE_DIR = /Users/cjfire/Documents/code/CLion/CLionProjects
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/cjfire/Desktop/CLionProjects
+CMAKE_BINARY_DIR = /Users/cjfire/Documents/code/CLion/CLionProjects
 
 # Include any dependencies generated for this target.
 include libs/glew-2.0.0/build/cmake/CMakeFiles/glew_s.dir/depend.make
@@ -59,16 +59,16 @@ include libs/glew-2.0.0/build/cmake/CMakeFiles/glew_s.dir/flags.make
 
 libs/glew-2.0.0/build/cmake/CMakeFiles/glew_s.dir/__/__/src/glew.c.o: libs/glew-2.0.0/build/cmake/CMakeFiles/glew_s.dir/flags.make
 libs/glew-2.0.0/build/cmake/CMakeFiles/glew_s.dir/__/__/src/glew.c.o: libs/glew-2.0.0/src/glew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object libs/glew-2.0.0/build/cmake/CMakeFiles/glew_s.dir/__/__/src/glew.c.o"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/glew-2.0.0/build/cmake && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glew_s.dir/__/__/src/glew.c.o   -c /Users/cjfire/Desktop/CLionProjects/libs/glew-2.0.0/src/glew.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object libs/glew-2.0.0/build/cmake/CMakeFiles/glew_s.dir/__/__/src/glew.c.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/glew-2.0.0/build/cmake && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glew_s.dir/__/__/src/glew.c.o   -c /Users/cjfire/Documents/code/CLion/CLionProjects/libs/glew-2.0.0/src/glew.c
 
 libs/glew-2.0.0/build/cmake/CMakeFiles/glew_s.dir/__/__/src/glew.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glew_s.dir/__/__/src/glew.c.i"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/glew-2.0.0/build/cmake && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Desktop/CLionProjects/libs/glew-2.0.0/src/glew.c > CMakeFiles/glew_s.dir/__/__/src/glew.c.i
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/glew-2.0.0/build/cmake && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/libs/glew-2.0.0/src/glew.c > CMakeFiles/glew_s.dir/__/__/src/glew.c.i
 
 libs/glew-2.0.0/build/cmake/CMakeFiles/glew_s.dir/__/__/src/glew.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glew_s.dir/__/__/src/glew.c.s"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/glew-2.0.0/build/cmake && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Desktop/CLionProjects/libs/glew-2.0.0/src/glew.c -o CMakeFiles/glew_s.dir/__/__/src/glew.c.s
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/glew-2.0.0/build/cmake && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/libs/glew-2.0.0/src/glew.c -o CMakeFiles/glew_s.dir/__/__/src/glew.c.s
 
 libs/glew-2.0.0/build/cmake/CMakeFiles/glew_s.dir/__/__/src/glew.c.o.requires:
 
@@ -91,9 +91,9 @@ glew_s_EXTERNAL_OBJECTS =
 lib/libGLEW.a: libs/glew-2.0.0/build/cmake/CMakeFiles/glew_s.dir/__/__/src/glew.c.o
 lib/libGLEW.a: libs/glew-2.0.0/build/cmake/CMakeFiles/glew_s.dir/build.make
 lib/libGLEW.a: libs/glew-2.0.0/build/cmake/CMakeFiles/glew_s.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/cjfire/Desktop/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library ../../../../lib/libGLEW.a"
-	cd /Users/cjfire/Desktop/CLionProjects/libs/glew-2.0.0/build/cmake && $(CMAKE_COMMAND) -P CMakeFiles/glew_s.dir/cmake_clean_target.cmake
-	cd /Users/cjfire/Desktop/CLionProjects/libs/glew-2.0.0/build/cmake && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/glew_s.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library ../../../../lib/libGLEW.a"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/glew-2.0.0/build/cmake && $(CMAKE_COMMAND) -P CMakeFiles/glew_s.dir/cmake_clean_target.cmake
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/glew-2.0.0/build/cmake && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/glew_s.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 libs/glew-2.0.0/build/cmake/CMakeFiles/glew_s.dir/build: lib/libGLEW.a
@@ -105,10 +105,10 @@ libs/glew-2.0.0/build/cmake/CMakeFiles/glew_s.dir/requires: libs/glew-2.0.0/buil
 .PHONY : libs/glew-2.0.0/build/cmake/CMakeFiles/glew_s.dir/requires
 
 libs/glew-2.0.0/build/cmake/CMakeFiles/glew_s.dir/clean:
-	cd /Users/cjfire/Desktop/CLionProjects/libs/glew-2.0.0/build/cmake && $(CMAKE_COMMAND) -P CMakeFiles/glew_s.dir/cmake_clean.cmake
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/libs/glew-2.0.0/build/cmake && $(CMAKE_COMMAND) -P CMakeFiles/glew_s.dir/cmake_clean.cmake
 .PHONY : libs/glew-2.0.0/build/cmake/CMakeFiles/glew_s.dir/clean
 
 libs/glew-2.0.0/build/cmake/CMakeFiles/glew_s.dir/depend:
-	cd /Users/cjfire/Desktop/CLionProjects && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/cjfire/Desktop/CLionProjects /Users/cjfire/Desktop/CLionProjects/libs/glew-2.0.0/build/cmake /Users/cjfire/Desktop/CLionProjects /Users/cjfire/Desktop/CLionProjects/libs/glew-2.0.0/build/cmake /Users/cjfire/Desktop/CLionProjects/libs/glew-2.0.0/build/cmake/CMakeFiles/glew_s.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/cjfire/Documents/code/CLion/CLionProjects /Users/cjfire/Documents/code/CLion/CLionProjects/libs/glew-2.0.0/build/cmake /Users/cjfire/Documents/code/CLion/CLionProjects /Users/cjfire/Documents/code/CLion/CLionProjects/libs/glew-2.0.0/build/cmake /Users/cjfire/Documents/code/CLion/CLionProjects/libs/glew-2.0.0/build/cmake/CMakeFiles/glew_s.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : libs/glew-2.0.0/build/cmake/CMakeFiles/glew_s.dir/depend
 

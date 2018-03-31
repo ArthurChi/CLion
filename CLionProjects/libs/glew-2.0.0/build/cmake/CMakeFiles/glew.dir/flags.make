@@ -6,5 +6,5 @@ C_FLAGS =  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX
 
 C_DEFINES = -DGLEW_BUILD -DGLEW_NO_GLU -Dglew_EXPORTS
 
-C_INCLUDES = -I/Users/cjfire/Desktop/CLionProjects/libs/glew-2.0.0/build/cmake/../../include 
+C_INCLUDES = -I/Users/cjfire/Documents/code/CLion/CLionProjects/libs/glew-2.0.0/build/cmake/../../include 
 

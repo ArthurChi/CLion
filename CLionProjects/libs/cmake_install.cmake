@@ -1,4 +1,4 @@
-# Install script for directory: /Users/cjfire/Desktop/CLionProjects/libs
+# Install script for directory: /Users/cjfire/Documents/code/CLion/CLionProjects/libs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,11 +29,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/cjfire/Desktop/CLionProjects/libs/cal/cmake_install.cmake")
-  include("/Users/cjfire/Desktop/CLionProjects/libs/glfw-3.2.1/cmake_install.cmake")
-  include("/Users/cjfire/Desktop/CLionProjects/libs/glew-2.0.0/build/cmake/cmake_install.cmake")
-  include("/Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/cmake_install.cmake")
-  include("/Users/cjfire/Desktop/CLionProjects/libs/glm-master/cmake_install.cmake")
+  include("/Users/cjfire/Documents/code/CLion/CLionProjects/libs/cal/cmake_install.cmake")
+  include("/Users/cjfire/Documents/code/CLion/CLionProjects/libs/glfw-3.2.1/cmake_install.cmake")
+  include("/Users/cjfire/Documents/code/CLion/CLionProjects/libs/glew-2.0.0/build/cmake/cmake_install.cmake")
+  include("/Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/cmake_install.cmake")
+  include("/Users/cjfire/Documents/code/CLion/CLionProjects/libs/glm-master/cmake_install.cmake")
 
 endif()
 

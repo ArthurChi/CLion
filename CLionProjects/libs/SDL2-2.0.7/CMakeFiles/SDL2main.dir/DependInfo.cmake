@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/src/main/dummy/SDL_dummy_main.c" "/Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/CMakeFiles/SDL2main.dir/src/main/dummy/SDL_dummy_main.c.o"
+  "/Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/src/main/dummy/SDL_dummy_main.c" "/Users/cjfire/Documents/code/CLion/CLionProjects/libs/SDL2-2.0.7/CMakeFiles/SDL2main.dir/src/main/dummy/SDL_dummy_main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "Clang")
 

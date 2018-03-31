@@ -1,4 +1,4 @@
-# Install script for directory: /Users/cjfire/Desktop/CLionProjects/sdlapp
+# Install script for directory: /Users/cjfire/Documents/code/CLion/CLionProjects/sdlapp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

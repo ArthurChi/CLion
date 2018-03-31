@@ -1,4 +1,4 @@
-# Install script for directory: /Users/cjfire/Desktop/CLionProjects/libs/glew-2.0.0/build/cmake
+# Install script for directory: /Users/cjfire/Documents/code/CLion/CLionProjects/libs/glew-2.0.0/build/cmake
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -28,7 +28,7 @@ if(NOT CMAKE_INSTALL_COMPONENT)
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Users/cjfire/Desktop/CLionProjects/lib/libGLEW.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Users/cjfire/Documents/code/CLion/CLionProjects/lib/libGLEW.a")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libGLEW.a" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libGLEW.a")
     execute_process(COMMAND "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libGLEW.a")
@@ -36,11 +36,11 @@ if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMP
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/Users/cjfire/Desktop/CLionProjects/bin/glewinfo")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/Users/cjfire/Documents/code/CLion/CLionProjects/bin/glewinfo")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/glewinfo" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/glewinfo")
     execute_process(COMMAND "/usr/bin/install_name_tool"
-      -change "/Users/cjfire/Desktop/CLionProjects/lib/libGLEW.dylib" "libGLEW.dylib"
+      -change "/Users/cjfire/Documents/code/CLion/CLionProjects/lib/libGLEW.dylib" "libGLEW.dylib"
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/glewinfo")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/glewinfo")
@@ -49,11 +49,11 @@ if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMP
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/Users/cjfire/Desktop/CLionProjects/bin/visualinfo")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/Users/cjfire/Documents/code/CLion/CLionProjects/bin/visualinfo")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/visualinfo" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/visualinfo")
     execute_process(COMMAND "/usr/bin/install_name_tool"
-      -change "/Users/cjfire/Desktop/CLionProjects/lib/libGLEW.dylib" "libGLEW.dylib"
+      -change "/Users/cjfire/Documents/code/CLion/CLionProjects/lib/libGLEW.dylib" "libGLEW.dylib"
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/visualinfo")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/visualinfo")
@@ -62,14 +62,14 @@ if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMP
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/Users/cjfire/Desktop/CLionProjects/libs/glew-2.0.0/build/cmake/../../glew.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/Users/cjfire/Documents/code/CLion/CLionProjects/libs/glew-2.0.0/build/cmake/../../glew.pc")
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/GL" TYPE FILE FILES
-    "/Users/cjfire/Desktop/CLionProjects/libs/glew-2.0.0/build/cmake/../../include/GL/wglew.h"
-    "/Users/cjfire/Desktop/CLionProjects/libs/glew-2.0.0/build/cmake/../../include/GL/glew.h"
-    "/Users/cjfire/Desktop/CLionProjects/libs/glew-2.0.0/build/cmake/../../include/GL/glxew.h"
+    "/Users/cjfire/Documents/code/CLion/CLionProjects/libs/glew-2.0.0/build/cmake/../../include/GL/wglew.h"
+    "/Users/cjfire/Documents/code/CLion/CLionProjects/libs/glew-2.0.0/build/cmake/../../include/GL/glew.h"
+    "/Users/cjfire/Documents/code/CLion/CLionProjects/libs/glew-2.0.0/build/cmake/../../include/GL/glxew.h"
     )
 endif()
 
@@ -77,7 +77,7 @@ if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMP
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/glew/glew-targets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/glew/glew-targets.cmake"
-         "/Users/cjfire/Desktop/CLionProjects/libs/glew-2.0.0/build/cmake/CMakeFiles/Export/lib/cmake/glew/glew-targets.cmake")
+         "/Users/cjfire/Documents/code/CLion/CLionProjects/libs/glew-2.0.0/build/cmake/CMakeFiles/Export/lib/cmake/glew/glew-targets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/glew/glew-targets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -86,16 +86,16 @@ if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMP
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/glew" TYPE FILE FILES "/Users/cjfire/Desktop/CLionProjects/libs/glew-2.0.0/build/cmake/CMakeFiles/Export/lib/cmake/glew/glew-targets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/glew" TYPE FILE FILES "/Users/cjfire/Documents/code/CLion/CLionProjects/libs/glew-2.0.0/build/cmake/CMakeFiles/Export/lib/cmake/glew/glew-targets.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/glew" TYPE FILE FILES "/Users/cjfire/Desktop/CLionProjects/libs/glew-2.0.0/build/cmake/CMakeFiles/Export/lib/cmake/glew/glew-targets-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/glew" TYPE FILE FILES "/Users/cjfire/Documents/code/CLion/CLionProjects/libs/glew-2.0.0/build/cmake/CMakeFiles/Export/lib/cmake/glew/glew-targets-noconfig.cmake")
   endif()
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/glew" TYPE FILE FILES
-    "/Users/cjfire/Desktop/CLionProjects/libs/glew-2.0.0/build/cmake/glew-config.cmake"
-    "/Users/cjfire/Desktop/CLionProjects/libs/glew-2.0.0/build/cmake/CopyImportedTargetProperties.cmake"
+    "/Users/cjfire/Documents/code/CLion/CLionProjects/libs/glew-2.0.0/build/cmake/glew-config.cmake"
+    "/Users/cjfire/Documents/code/CLion/CLionProjects/libs/glew-2.0.0/build/cmake/CopyImportedTargetProperties.cmake"
     )
 endif()
 
