@@ -1,0 +1,1462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1E70DD036130496B8AC69924 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8D3B776E7B9F434ABEF94079 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				3ACF42B194D444E88AD17E06 /* CMake Rules */,
+			);
+			dependencies = (
+				037780A41F6E4D13871F8889 /* PBXTargetDependency */,
+				25E0F41117C84D74B7A95284 /* PBXTargetDependency */,
+				F0311DA509D9464B9626A9F7 /* PBXTargetDependency */,
+				F801D5BE553A42C499BC3E5A /* PBXTargetDependency */,
+				8F3A6DA9481E4517BA9A49A2 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		34F7642203FA409596822A4B /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F2557328775C4BDEAFEAA89C /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				337734F7E0E94971AD4442A7 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		F4EE5CB1933040589707711D /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0F31CE5DAA214D6D9B1B21CA /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				529C61D30A5F44B79052C589 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				B254B87B7EEA465781AB23A1 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0B5D3F8FB40549B7B0E2899B /* /Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/include/GL/glew.h */ = {isa = PBXBuildFile; fileRef = 99503A2528E54A2EA027D587 /* /Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/include/GL/glew.h */; };
+		16E060605A2B4C668780F687 /* /Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/src/glewinfo.c */ = {isa = PBXBuildFile; fileRef = 2C0EA1EB4A2A4807A6EC6EF3 /* /Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/src/glewinfo.c */; };
+		3DCBF47D723B4E21BB8EBAAA /* /Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/include/GL/glxew.h */ = {isa = PBXBuildFile; fileRef = 430437A86D234583ABD50500 /* /Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/include/GL/glxew.h */; };
+		3FBC86CD088F4FF28BAA6B7F /* /Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/src/glew.c */ = {isa = PBXBuildFile; fileRef = 05CFBF012DB24F1D92BB7F2A /* /Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/src/glew.c */; };
+		51788CB953F24820860B7CED /* /Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/build/cmake/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = ECDD98F5D4F94B3F87B8D1CA /* /Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/build/cmake/CMakeLists.txt */; };
+		5656B484D1AE484B95C2155C /* /Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/include/GL/wglew.h */ = {isa = PBXBuildFile; fileRef = 3FB3DC33865E4A41BBC6A4C9 /* /Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/include/GL/wglew.h */; };
+		6A4A759B9C004748A7A8AB0D /* /Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/include/GL/glxew.h */ = {isa = PBXBuildFile; fileRef = DDA798A870194A7EB28F2F2D /* /Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/include/GL/glxew.h */; };
+		70D8875EF33E4C71805255F1 /* /Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/include/GL/glew.h */ = {isa = PBXBuildFile; fileRef = D06407ABEB634F6EB9400340 /* /Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/include/GL/glew.h */; };
+		813788A127D2420C88584ED9 /* /Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/build/cmake/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = AAC1E1967AB44C649ABE4659 /* /Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/build/cmake/CMakeLists.txt */; };
+		81390C5885064E6B9F827656 /* /Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/build/cmake/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 2B46F794050F40538E573AA7 /* /Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/build/cmake/CMakeLists.txt */; };
+		8C5A3B6659D14718A71AC32D /* /Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/src/visualinfo.c */ = {isa = PBXBuildFile; fileRef = 66092828782F4295A29225C3 /* /Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/src/visualinfo.c */; };
+		A42E88EB4AAD46E8A2ED7730 /* /Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/src/glew.c */ = {isa = PBXBuildFile; fileRef = E794F6E850E54EBA8DB79466 /* /Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/src/glew.c */; };
+		AFCBA1256B2D4B7593CD6037 /* /Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/build/cmake/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = AE3C4066F1EB4D85A02A5ADB /* /Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/build/cmake/CMakeLists.txt */; };
+		DC132A8147C2414799B710A4 /* /Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/include/GL/wglew.h */ = {isa = PBXBuildFile; fileRef = 7411F6FFD35046B4A07FD83C /* /Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/include/GL/wglew.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		64B67F066F034EF59791EA58 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		70FF4E4368C143B08660AC14 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		D14540BCDB374AC79B2ECAA9 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		DA940B0B85FC4303A5A84718 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		0041708924CA4659BC0714CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFC1918B07274E0886438939 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E70DD036130496B8AC69924;
+			remoteInfo = ALL_BUILD;
+		};
+		0AD10F9C1DE14E95942B7BCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFC1918B07274E0886438939 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34F7642203FA409596822A4B;
+			remoteInfo = ZERO_CHECK;
+		};
+		25F71F9B04394C039C535A5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFC1918B07274E0886438939 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34F7642203FA409596822A4B;
+			remoteInfo = ZERO_CHECK;
+		};
+		2851837FE98B455AB97BD25E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFC1918B07274E0886438939 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62A837213C5A4ACAB7FB0840;
+			remoteInfo = glewinfo;
+		};
+		368CA40DCAEE41CAB9852822 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFC1918B07274E0886438939 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34F7642203FA409596822A4B;
+			remoteInfo = ZERO_CHECK;
+		};
+		505A4CF39B60415FB751CD53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFC1918B07274E0886438939 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCA81AB9C18E4F91B3DCE3D1;
+			remoteInfo = glew;
+		};
+		853E43C534AC454E908908E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFC1918B07274E0886438939 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCA81AB9C18E4F91B3DCE3D1;
+			remoteInfo = glew;
+		};
+		8EB9399E75174266A99A39C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFC1918B07274E0886438939 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 162921AAEF324617B8299DFC;
+			remoteInfo = visualinfo;
+		};
+		A792B62510E645AC80A5C27C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFC1918B07274E0886438939 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34F7642203FA409596822A4B;
+			remoteInfo = ZERO_CHECK;
+		};
+		B3877037887B4A23AB30E3EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFC1918B07274E0886438939 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09E9F00CAE50438B91438E98;
+			remoteInfo = glew_s;
+		};
+		E9B78E9BEB464831B397D8AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFC1918B07274E0886438939 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34F7642203FA409596822A4B;
+			remoteInfo = ZERO_CHECK;
+		};
+		FF4D50DF9D984A1D8A180305 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFC1918B07274E0886438939 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCA81AB9C18E4F91B3DCE3D1;
+			remoteInfo = glew;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05CFBF012DB24F1D92BB7F2A /* /Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/src/glew.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = glew.c; path = ../../src/glew.c; sourceTree = SOURCE_ROOT; };
+		1087476F87C14BF79E8A44FE /* glew */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libGLEWd.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B46F794050F40538E573AA7 /* /Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/build/cmake/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		2C0EA1EB4A2A4807A6EC6EF3 /* /Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/src/glewinfo.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = glewinfo.c; path = ../../src/glewinfo.c; sourceTree = SOURCE_ROOT; };
+		3FB3DC33865E4A41BBC6A4C9 /* /Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/include/GL/wglew.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = wglew.h; path = ../../include/GL/wglew.h; sourceTree = SOURCE_ROOT; };
+		430437A86D234583ABD50500 /* /Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/include/GL/glxew.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glxew.h; path = ../../include/GL/glxew.h; sourceTree = SOURCE_ROOT; };
+		64A7EF83FD8C47DCBBD341FD /* glew_s */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libGLEWd.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		66092828782F4295A29225C3 /* /Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/src/visualinfo.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = visualinfo.c; path = ../../src/visualinfo.c; sourceTree = SOURCE_ROOT; };
+		7411F6FFD35046B4A07FD83C /* /Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/include/GL/wglew.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = wglew.h; path = ../../include/GL/wglew.h; sourceTree = SOURCE_ROOT; };
+		8F6643A4B3244E03BA88799F /* visualinfo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = visualinfo; sourceTree = BUILT_PRODUCTS_DIR; };
+		99503A2528E54A2EA027D587 /* /Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/include/GL/glew.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glew.h; path = ../../include/GL/glew.h; sourceTree = SOURCE_ROOT; };
+		AAC1E1967AB44C649ABE4659 /* /Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/build/cmake/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		AE3C4066F1EB4D85A02A5ADB /* /Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/build/cmake/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C5B08CC44D6B449881F05562 /* /Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/build/cmake/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		CCBAC6C4B43C445B87C1CA00 /* glewinfo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = glewinfo; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFC706E2AAAF469CBD320717 /* /Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/build/cmake/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D06407ABEB634F6EB9400340 /* /Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/include/GL/glew.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glew.h; path = ../../include/GL/glew.h; sourceTree = SOURCE_ROOT; };
+		DDA798A870194A7EB28F2F2D /* /Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/include/GL/glxew.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glxew.h; path = ../../include/GL/glxew.h; sourceTree = SOURCE_ROOT; };
+		E794F6E850E54EBA8DB79466 /* /Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/src/glew.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = glew.c; path = ../../src/glew.c; sourceTree = SOURCE_ROOT; };
+		ECDD98F5D4F94B3F87B8D1CA /* /Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/build/cmake/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0F8CC07921E741A4A4F43602 /* glew */ = {
+			isa = PBXGroup;
+			children = (
+				7FF21EB554C940CCBB02768D /* Header Files */,
+				322D5FFFB5E143CDBA7D0A69 /* Source Files */,
+				AAC1E1967AB44C649ABE4659 /* /Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/build/cmake/CMakeLists.txt */,
+			);
+			name = glew;
+			sourceTree = "<group>";
+		};
+		1A0BA137A597494F9679A1E3 /* visualinfo */ = {
+			isa = PBXGroup;
+			children = (
+				6F3DEE493DF6495FAAF5FC71 /* Source Files */,
+				2B46F794050F40538E573AA7 /* /Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/build/cmake/CMakeLists.txt */,
+			);
+			name = visualinfo;
+			sourceTree = "<group>";
+		};
+		2BA1590C0639431780850B36 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				FD2826A76143456D8BBF64D7 /* CMake Rules */,
+				C5B08CC44D6B449881F05562 /* /Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/build/cmake/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		322D5FFFB5E143CDBA7D0A69 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				E794F6E850E54EBA8DB79466 /* /Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/src/glew.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		4760C9498A3E455CB6C1F974 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				7143C6A972DB4BAE95726245 /* CMake Rules */,
+				CFC706E2AAAF469CBD320717 /* /Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/build/cmake/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		6F3DEE493DF6495FAAF5FC71 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				66092828782F4295A29225C3 /* /Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/src/visualinfo.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		7143C6A972DB4BAE95726245 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		7F4068A661144283A5231244 /* glew_s */ = {
+			isa = PBXGroup;
+			children = (
+				AC5B44627B4A44CDB52E1455 /* Header Files */,
+				A263134C19DB44EDAC44C7B9 /* Source Files */,
+				ECDD98F5D4F94B3F87B8D1CA /* /Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/build/cmake/CMakeLists.txt */,
+			);
+			name = glew_s;
+			sourceTree = "<group>";
+		};
+		7FF21EB554C940CCBB02768D /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				99503A2528E54A2EA027D587 /* /Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/include/GL/glew.h */,
+				430437A86D234583ABD50500 /* /Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/include/GL/glxew.h */,
+				7411F6FFD35046B4A07FD83C /* /Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/include/GL/wglew.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		92E688EEF74C4B7CAE65530F = {
+			isa = PBXGroup;
+			children = (
+				1A0BA137A597494F9679A1E3 /* visualinfo */,
+				958F7FD8CE064B8890732BE0 /* glewinfo */,
+				7F4068A661144283A5231244 /* glew_s */,
+				0F8CC07921E741A4A4F43602 /* glew */,
+				4760C9498A3E455CB6C1F974 /* ALL_BUILD */,
+				2BA1590C0639431780850B36 /* ZERO_CHECK */,
+				937333156A184469BDF00BCC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		937333156A184469BDF00BCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1087476F87C14BF79E8A44FE /* glew */,
+				64A7EF83FD8C47DCBBD341FD /* glew_s */,
+				CCBAC6C4B43C445B87C1CA00 /* glewinfo */,
+				8F6643A4B3244E03BA88799F /* visualinfo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		958F7FD8CE064B8890732BE0 /* glewinfo */ = {
+			isa = PBXGroup;
+			children = (
+				E1F3EB87AA5F4C24A24BE627 /* Source Files */,
+				AE3C4066F1EB4D85A02A5ADB /* /Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/build/cmake/CMakeLists.txt */,
+			);
+			name = glewinfo;
+			sourceTree = "<group>";
+		};
+		A263134C19DB44EDAC44C7B9 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				05CFBF012DB24F1D92BB7F2A /* /Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/src/glew.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		AC5B44627B4A44CDB52E1455 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				D06407ABEB634F6EB9400340 /* /Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/include/GL/glew.h */,
+				DDA798A870194A7EB28F2F2D /* /Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/include/GL/glxew.h */,
+				3FB3DC33865E4A41BBC6A4C9 /* /Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/include/GL/wglew.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		E1F3EB87AA5F4C24A24BE627 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C0EA1EB4A2A4807A6EC6EF3 /* /Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/src/glewinfo.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		FD2826A76143456D8BBF64D7 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09E9F00CAE50438B91438E98 /* glew_s */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E21216DF3ED341F2B3E96A13 /* Build configuration list for PBXNativeTarget "glew_s" */;
+			buildPhases = (
+				153D9C0FDA5F4EB9B1B22640 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C595E3E99DC44CC680D6D8C6 /* PBXTargetDependency */,
+			);
+			name = glew_s;
+			productName = glew_s;
+			productReference = 64A7EF83FD8C47DCBBD341FD /* glew_s */;
+			productType = "com.apple.product-type.library.static";
+		};
+		162921AAEF324617B8299DFC /* visualinfo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCD05743BC544FC3A8F98BF1 /* Build configuration list for PBXNativeTarget "visualinfo" */;
+			buildPhases = (
+				54D806202E6E4B8CB09377A3 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEC3754F1FE44C069DA6E82D /* PBXTargetDependency */,
+				EA5F7DA3E04F469D98E143C6 /* PBXTargetDependency */,
+			);
+			name = visualinfo;
+			productName = visualinfo;
+			productReference = 8F6643A4B3244E03BA88799F /* visualinfo */;
+			productType = "com.apple.product-type.tool";
+		};
+		62A837213C5A4ACAB7FB0840 /* glewinfo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AC8B073630749789B9EDD2F /* Build configuration list for PBXNativeTarget "glewinfo" */;
+			buildPhases = (
+				73DA784C430C4E9FBBE6CAE2 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62632F15F72F4D488AB1EEDC /* PBXTargetDependency */,
+				94963F68C10C496788206D1B /* PBXTargetDependency */,
+			);
+			name = glewinfo;
+			productName = glewinfo;
+			productReference = CCBAC6C4B43C445B87C1CA00 /* glewinfo */;
+			productType = "com.apple.product-type.tool";
+		};
+		DCA81AB9C18E4F91B3DCE3D1 /* glew */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5445676153C492083DEC4DB /* Build configuration list for PBXNativeTarget "glew" */;
+			buildPhases = (
+				B928C5EE540A4C2FBF0AB990 /* Sources */,
+				C69F491C268B4865B8A08685 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04E8197C1F9847E2B8F20A70 /* PBXTargetDependency */,
+			);
+			name = glew;
+			productName = glew;
+			productReference = 1087476F87C14BF79E8A44FE /* glew */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFC1918B07274E0886438939 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0920;
+			};
+			buildConfigurationList = B19FEC26EE634C2EA6282A30 /* Build configuration list for PBXProject "glew" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				64B67F066F034EF59791EA58 /* Debug */,
+				70FF4E4368C143B08660AC14 /* Release */,
+				DA940B0B85FC4303A5A84718 /* MinSizeRel */,
+				D14540BCDB374AC79B2ECAA9 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 92E688EEF74C4B7CAE65530F;
+			projectDirPath = "../../../../../libs/glew-2.0.0/build/cmake";
+			projectRoot = "";
+			targets = (
+				1E70DD036130496B8AC69924 /* ALL_BUILD */,
+				34F7642203FA409596822A4B /* ZERO_CHECK */,
+				DCA81AB9C18E4F91B3DCE3D1 /* glew */,
+				09E9F00CAE50438B91438E98 /* glew_s */,
+				62A837213C5A4ACAB7FB0840 /* glewinfo */,
+				F4EE5CB1933040589707711D /* install */,
+				162921AAEF324617B8299DFC /* visualinfo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		337734F7E0E94971AD4442A7 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/tom/Downloads/CLionProjects/build/libs/glew-2.0.0/build/cmake -f /Users/tom/Downloads/CLionProjects/build/libs/glew-2.0.0/build/cmake/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		3ACF42B194D444E88AD17E06 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/tom/Downloads/CLionProjects/build/libs/glew-2.0.0/build/cmake -f /Users/tom/Downloads/CLionProjects/build/libs/glew-2.0.0/build/cmake/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		529C61D30A5F44B79052C589 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/tom/Downloads/CLionProjects/build/libs/glew-2.0.0/build/cmake -f /Users/tom/Downloads/CLionProjects/build/libs/glew-2.0.0/build/cmake/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		8072810E756A48FDA083ECD9 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A5F602E103E74AAC9004A5F9 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		B58D398819514C8B88C8C43D = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		C69F491C268B4865B8A08685 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/tom/Downloads/CLionProjects/build/libs/glew-2.0.0/build/cmake -f /Users/tom/Downloads/CLionProjects/build/libs/glew-2.0.0/build/cmake/CMakeScripts/glew_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		153D9C0FDA5F4EB9B1B22640 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FBC86CD088F4FF28BAA6B7F /* /Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/src/glew.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54D806202E6E4B8CB09377A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C5A3B6659D14718A71AC32D /* /Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/src/visualinfo.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73DA784C430C4E9FBBE6CAE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16E060605A2B4C668780F687 /* /Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/src/glewinfo.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B928C5EE540A4C2FBF0AB990 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A42E88EB4AAD46E8A2ED7730 /* /Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/src/glew.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		037780A41F6E4D13871F8889 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34F7642203FA409596822A4B /* ZERO_CHECK */;
+			targetProxy = 368CA40DCAEE41CAB9852822 /* PBXContainerItemProxy */;
+		};
+		04E8197C1F9847E2B8F20A70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34F7642203FA409596822A4B /* ZERO_CHECK */;
+			targetProxy = 0AD10F9C1DE14E95942B7BCE /* PBXContainerItemProxy */;
+		};
+		25E0F41117C84D74B7A95284 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 162921AAEF324617B8299DFC /* visualinfo */;
+			targetProxy = 8EB9399E75174266A99A39C8 /* PBXContainerItemProxy */;
+		};
+		62632F15F72F4D488AB1EEDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34F7642203FA409596822A4B /* ZERO_CHECK */;
+			targetProxy = A792B62510E645AC80A5C27C /* PBXContainerItemProxy */;
+		};
+		8F3A6DA9481E4517BA9A49A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCA81AB9C18E4F91B3DCE3D1 /* glew */;
+			targetProxy = FF4D50DF9D984A1D8A180305 /* PBXContainerItemProxy */;
+		};
+		94963F68C10C496788206D1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCA81AB9C18E4F91B3DCE3D1 /* glew */;
+			targetProxy = 853E43C534AC454E908908E7 /* PBXContainerItemProxy */;
+		};
+		B254B87B7EEA465781AB23A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E70DD036130496B8AC69924 /* ALL_BUILD */;
+			targetProxy = 0041708924CA4659BC0714CA /* PBXContainerItemProxy */;
+		};
+		BEC3754F1FE44C069DA6E82D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34F7642203FA409596822A4B /* ZERO_CHECK */;
+			targetProxy = E9B78E9BEB464831B397D8AD /* PBXContainerItemProxy */;
+		};
+		C595E3E99DC44CC680D6D8C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34F7642203FA409596822A4B /* ZERO_CHECK */;
+			targetProxy = 25F71F9B04394C039C535A5B /* PBXContainerItemProxy */;
+		};
+		EA5F7DA3E04F469D98E143C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCA81AB9C18E4F91B3DCE3D1 /* glew */;
+			targetProxy = 505A4CF39B60415FB751CD53 /* PBXContainerItemProxy */;
+		};
+		F0311DA509D9464B9626A9F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62A837213C5A4ACAB7FB0840 /* glewinfo */;
+			targetProxy = 2851837FE98B455AB97BD25E /* PBXContainerItemProxy */;
+		};
+		F801D5BE553A42C499BC3E5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09E9F00CAE50438B91438E98 /* glew_s */;
+			targetProxy = B3877037887B4A23AB30E3EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		010B577D234645FAA057E842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/tom/Downloads/CLionProjects/build/libs/glew-2.0.0/build/cmake/build";
+			};
+			name = Debug;
+		};
+		0D2261BB508F4455835F115A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/build/cmake/../../include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/tom/Downloads/CLionProjects/build/libs/glew-2.0.0/build/cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		0F0C57AB22ED4AEEB3EE4ED0 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/tom/Downloads/CLionProjects/build/bin/RelWithDebInfo;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_NO_GLU);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/build/cmake/../../include");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "       -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/tom/Downloads/CLionProjects/build/lib/RelWithDebInfo/libGLEW.dylib -framework OpenGL";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = visualinfo;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/tom/Downloads/CLionProjects/build/libs/glew-2.0.0/build/cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		1AA7B530096D4B2F95129F50 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/tom/Downloads/CLionProjects/build/bin/MinSizeRel;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_NO_GLU);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/build/cmake/../../include");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/tom/Downloads/CLionProjects/build/lib/MinSizeRel/libGLEW.dylib -framework OpenGL";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = visualinfo;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/tom/Downloads/CLionProjects/build/libs/glew-2.0.0/build/cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		268C67F493BD454EA96E73D3 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/build/cmake/../../include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/tom/Downloads/CLionProjects/build/libs/glew-2.0.0/build/cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		3D0F2F4C0AEF46F0887EA9B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/build/cmake/../../include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/tom/Downloads/CLionProjects/build/libs/glew-2.0.0/build/cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		503BD6C9714047CCA469FF80 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/tom/Downloads/CLionProjects/build/libs/glew-2.0.0/build/cmake/build";
+			};
+			name = RelWithDebInfo;
+		};
+		57FF99394A49462B9404C984 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/tom/Downloads/CLionProjects/build/lib/RelWithDebInfo;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",glew_EXPORTS,GLEW_BUILD,GLEW_NO_GLU);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/build/cmake/../../include");
+				INSTALL_PATH = /Users/tom/Downloads/CLionProjects/build/lib/RelWithDebInfo;
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CFLAGS = "       -DNDEBUG -fPIC  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names  -framework OpenGL -framework OpenGL";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = GLEW;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/tom/Downloads/CLionProjects/build/libs/glew-2.0.0/build/cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		5D79CFBE968C4895986B5006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/tom/Downloads/CLionProjects/build/lib/Release;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",glew_EXPORTS,GLEW_BUILD,GLEW_NO_GLU);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/build/cmake/../../include");
+				INSTALL_PATH = /Users/tom/Downloads/CLionProjects/build/lib/Release;
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CFLAGS = "    -DNDEBUG -fPIC  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names  -framework OpenGL -framework OpenGL";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = GLEW;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/tom/Downloads/CLionProjects/build/libs/glew-2.0.0/build/cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		6556E6C3438C4C1395CDB418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/build/cmake/../../include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/tom/Downloads/CLionProjects/build/libs/glew-2.0.0/build/cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		65B50FA43697444199D53AF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/tom/Downloads/CLionProjects/build/bin/Release;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_NO_GLU);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/build/cmake/../../include");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/tom/Downloads/CLionProjects/build/lib/Release/libGLEW.dylib -framework OpenGL";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glewinfo;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/tom/Downloads/CLionProjects/build/libs/glew-2.0.0/build/cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		6E3E1C10727A43A58C8558D3 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/tom/Downloads/CLionProjects/build/libs/glew-2.0.0/build/cmake/build";
+			};
+			name = MinSizeRel;
+		};
+		6F62C10DEA2B48488A95E68C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/build/cmake/../../include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/tom/Downloads/CLionProjects/build/libs/glew-2.0.0/build/cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		7077656AE49D4EC0B187FB0F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/tom/Downloads/CLionProjects/build/lib/MinSizeRel;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",glew_EXPORTS,GLEW_BUILD,GLEW_NO_GLU);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/build/cmake/../../include");
+				INSTALL_PATH = /Users/tom/Downloads/CLionProjects/build/lib/MinSizeRel;
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CFLAGS = "    -DNDEBUG -fPIC  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names  -framework OpenGL -framework OpenGL";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = GLEW;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/tom/Downloads/CLionProjects/build/libs/glew-2.0.0/build/cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		74AC8E5B7774489BB5AFD72F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/tom/Downloads/CLionProjects/build/bin/Debug;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_NO_GLU);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/build/cmake/../../include");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "    ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/tom/Downloads/CLionProjects/build/lib/Debug/libGLEWd.dylib -framework OpenGL";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glewinfo;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/tom/Downloads/CLionProjects/build/libs/glew-2.0.0/build/cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		7B29139BE0474D2DB59CC0B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/tom/Downloads/CLionProjects/build/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,GLEW_NO_GLU);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/build/cmake/../../include","/Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/include");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = GLEW;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/tom/Downloads/CLionProjects/build/libs/glew-2.0.0/build/cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		831ED6A1981E407E9C9448B6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/build/cmake/../../include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/tom/Downloads/CLionProjects/build/libs/glew-2.0.0/build/cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		94668A9E04AB42B78EA47319 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/build/cmake/../../include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/tom/Downloads/CLionProjects/build/libs/glew-2.0.0/build/cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		9A336A997D9A4BEFB32E3CD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/build/cmake/../../include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/tom/Downloads/CLionProjects/build/libs/glew-2.0.0/build/cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		9A462D95A98E432791AE66BC /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/build/cmake/../../include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/tom/Downloads/CLionProjects/build/libs/glew-2.0.0/build/cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		9F26AECB92EB41F7944B21BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/tom/Downloads/CLionProjects/build/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,GLEW_NO_GLU);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/build/cmake/../../include","/Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/include");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = GLEWd;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/tom/Downloads/CLionProjects/build/libs/glew-2.0.0/build/cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		A6DB45A9C91A43F3BCDAD91C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/build/cmake/../../include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/tom/Downloads/CLionProjects/build/libs/glew-2.0.0/build/cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		A7D2C523C92148D8BC551C40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/tom/Downloads/CLionProjects/build/lib/Debug;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",glew_EXPORTS,GLEW_BUILD,GLEW_NO_GLU);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/build/cmake/../../include");
+				INSTALL_PATH = /Users/tom/Downloads/CLionProjects/build/lib/Debug;
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CFLAGS = "   -fPIC  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names  -framework OpenGL -framework OpenGL";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = GLEWd;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/tom/Downloads/CLionProjects/build/libs/glew-2.0.0/build/cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		ADBD8A23A6E74C94AF10E987 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/build/cmake/../../include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/tom/Downloads/CLionProjects/build/libs/glew-2.0.0/build/cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		B9495D37C35B409D90EB79E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/tom/Downloads/CLionProjects/build/libs/glew-2.0.0/build/cmake/build";
+			};
+			name = Release;
+		};
+		BEC6946D8E544175BC03CC4B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/tom/Downloads/CLionProjects/build/bin/MinSizeRel;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_NO_GLU);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/build/cmake/../../include");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/tom/Downloads/CLionProjects/build/lib/MinSizeRel/libGLEW.dylib -framework OpenGL";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glewinfo;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/tom/Downloads/CLionProjects/build/libs/glew-2.0.0/build/cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		C5D8104413484F2FB36ADD84 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/tom/Downloads/CLionProjects/build/lib/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,GLEW_NO_GLU);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/build/cmake/../../include","/Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/include");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = GLEW;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/tom/Downloads/CLionProjects/build/libs/glew-2.0.0/build/cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		D7B6AA2270574E3BB5043EF9 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/build/cmake/../../include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/tom/Downloads/CLionProjects/build/libs/glew-2.0.0/build/cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		EC7C13B65D1D4DA9B3334001 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/tom/Downloads/CLionProjects/build/bin/RelWithDebInfo;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_NO_GLU);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/build/cmake/../../include");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "       -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/tom/Downloads/CLionProjects/build/lib/RelWithDebInfo/libGLEW.dylib -framework OpenGL";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glewinfo;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/tom/Downloads/CLionProjects/build/libs/glew-2.0.0/build/cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		EE6CED28709F4F459030B1FB /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/tom/Downloads/CLionProjects/build/lib/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,GLEW_NO_GLU);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/build/cmake/../../include","/Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/include");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = GLEW;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/tom/Downloads/CLionProjects/build/libs/glew-2.0.0/build/cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		EEE5484123E14FF588550D85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/tom/Downloads/CLionProjects/build/bin/Debug;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_NO_GLU);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/build/cmake/../../include");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "    ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/tom/Downloads/CLionProjects/build/lib/Debug/libGLEWd.dylib -framework OpenGL";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = visualinfo;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/tom/Downloads/CLionProjects/build/libs/glew-2.0.0/build/cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		F9AE4355424B4FFFBAFCCAA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/tom/Downloads/CLionProjects/build/bin/Release;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_NO_GLU);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/build/cmake/../../include");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/tom/Downloads/CLionProjects/build/lib/Release/libGLEW.dylib -framework OpenGL";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = visualinfo;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/tom/Downloads/CLionProjects/build/libs/glew-2.0.0/build/cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F31CE5DAA214D6D9B1B21CA /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D0F2F4C0AEF46F0887EA9B3 /* Debug */,
+				9A336A997D9A4BEFB32E3CD3 /* Release */,
+				268C67F493BD454EA96E73D3 /* MinSizeRel */,
+				831ED6A1981E407E9C9448B6 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1AC8B073630749789B9EDD2F /* Build configuration list for PBXNativeTarget "glewinfo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74AC8E5B7774489BB5AFD72F /* Debug */,
+				65B50FA43697444199D53AF8 /* Release */,
+				BEC6946D8E544175BC03CC4B /* MinSizeRel */,
+				EC7C13B65D1D4DA9B3334001 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8D3B776E7B9F434ABEF94079 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6556E6C3438C4C1395CDB418 /* Debug */,
+				6F62C10DEA2B48488A95E68C /* Release */,
+				D7B6AA2270574E3BB5043EF9 /* MinSizeRel */,
+				9A462D95A98E432791AE66BC /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B19FEC26EE634C2EA6282A30 /* Build configuration list for PBXProject "glew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				010B577D234645FAA057E842 /* Debug */,
+				B9495D37C35B409D90EB79E8 /* Release */,
+				6E3E1C10727A43A58C8558D3 /* MinSizeRel */,
+				503BD6C9714047CCA469FF80 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CCD05743BC544FC3A8F98BF1 /* Build configuration list for PBXNativeTarget "visualinfo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE5484123E14FF588550D85 /* Debug */,
+				F9AE4355424B4FFFBAFCCAA0 /* Release */,
+				1AA7B530096D4B2F95129F50 /* MinSizeRel */,
+				0F0C57AB22ED4AEEB3EE4ED0 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E21216DF3ED341F2B3E96A13 /* Build configuration list for PBXNativeTarget "glew_s" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F26AECB92EB41F7944B21BB /* Debug */,
+				7B29139BE0474D2DB59CC0B4 /* Release */,
+				C5D8104413484F2FB36ADD84 /* MinSizeRel */,
+				EE6CED28709F4F459030B1FB /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F2557328775C4BDEAFEAA89C /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADBD8A23A6E74C94AF10E987 /* Debug */,
+				0D2261BB508F4455835F115A /* Release */,
+				94668A9E04AB42B78EA47319 /* MinSizeRel */,
+				A6DB45A9C91A43F3BCDAD91C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F5445676153C492083DEC4DB /* Build configuration list for PBXNativeTarget "glew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7D2C523C92148D8BC551C40 /* Debug */,
+				5D79CFBE968C4895986B5006 /* Release */,
+				7077656AE49D4EC0B187FB0F /* MinSizeRel */,
+				57FF99394A49462B9404C984 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFC1918B07274E0886438939 /* Project object */;
+}

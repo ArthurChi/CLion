@@ -1,0 +1,397 @@
+Performing C SOURCE FILE Test HAVE_GCC_PREFERRED_STACK_BOUNDARY failed with the following output:
+Change Dir: /Users/tom/Downloads/CLionProjects/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_11d05/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_11d05.dir/build.make CMakeFiles/cmTC_11d05.dir/build
+Building C object CMakeFiles/cmTC_11d05.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -idirafter /Users/tom/Downloads/CLionProjects/libs/SDL2-2.0.7/src/video/khronos -DHAVE_GCC_PREFERRED_STACK_BOUNDARY -mpreferred-stack-boundary=2   -o CMakeFiles/cmTC_11d05.dir/src.c.o   -c /Users/tom/Downloads/CLionProjects/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unknown argument: '-mpreferred-stack-boundary=2'
+make[1]: *** [CMakeFiles/cmTC_11d05.dir/src.c.o] Error 1
+make: *** [cmTC_11d05/fast] Error 2
+
+Source file was:
+int x = 0; int main(int argc, char **argv) {}
+Performing C SOURCE FILE Test HAVE_ALTIVEC_H_HDR failed with the following output:
+Change Dir: /Users/tom/Downloads/CLionProjects/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4e63f/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_4e63f.dir/build.make CMakeFiles/cmTC_4e63f.dir/build
+Building C object CMakeFiles/cmTC_4e63f.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -idirafter /Users/tom/Downloads/CLionProjects/libs/SDL2-2.0.7/src/video/khronos -DHAVE_ALTIVEC_H_HDR -maltivec   -o CMakeFiles/cmTC_4e63f.dir/src.c.o   -c /Users/tom/Downloads/CLionProjects/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: invalid argument '-faltivec' only allowed with 'ppc/ppc64/ppc64le'
+make[1]: *** [CMakeFiles/cmTC_4e63f.dir/src.c.o] Error 1
+make: *** [cmTC_4e63f/fast] Error 2
+
+Source file was:
+
+          #include <altivec.h>
+          vector unsigned int vzero() {
+              return vec_splat_u32(0);
+          }
+          int main(int argc, char **argv) { }
+Performing C SOURCE FILE Test HAVE_ALTIVEC failed with the following output:
+Change Dir: /Users/tom/Downloads/CLionProjects/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8f623/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_8f623.dir/build.make CMakeFiles/cmTC_8f623.dir/build
+Building C object CMakeFiles/cmTC_8f623.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -idirafter /Users/tom/Downloads/CLionProjects/libs/SDL2-2.0.7/src/video/khronos -DHAVE_ALTIVEC -maltivec   -o CMakeFiles/cmTC_8f623.dir/src.c.o   -c /Users/tom/Downloads/CLionProjects/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: invalid argument '-faltivec' only allowed with 'ppc/ppc64/ppc64le'
+make[1]: *** [CMakeFiles/cmTC_8f623.dir/src.c.o] Error 1
+make: *** [cmTC_8f623/fast] Error 2
+
+Source file was:
+
+          vector unsigned int vzero() {
+              return vec_splat_u32(0);
+          }
+          int main(int argc, char **argv) { }
+Determining if the include file malloc.h exists failed with the following output:
+Change Dir: /Users/tom/Downloads/CLionProjects/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_60393/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_60393.dir/build.make CMakeFiles/cmTC_60393.dir/build
+Building C object CMakeFiles/cmTC_60393.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -idirafter /Users/tom/Downloads/CLionProjects/libs/SDL2-2.0.7/src/video/khronos    -o CMakeFiles/cmTC_60393.dir/CheckIncludeFile.c.o   -c /Users/tom/Downloads/CLionProjects/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/tom/Downloads/CLionProjects/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_60393.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTC_60393/fast] Error 2
+
+
+Determining if the function _strrev exists failed with the following output:
+Change Dir: /Users/tom/Downloads/CLionProjects/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_92799/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_92799.dir/build.make CMakeFiles/cmTC_92799.dir/build
+Building C object CMakeFiles/cmTC_92799.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -idirafter /Users/tom/Downloads/CLionProjects/libs/SDL2-2.0.7/src/video/khronos -DCHECK_FUNCTION_EXISTS=_strrev   -o CMakeFiles/cmTC_92799.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_92799
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92799.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -idirafter /Users/tom/Downloads/CLionProjects/libs/SDL2-2.0.7/src/video/khronos -DCHECK_FUNCTION_EXISTS=_strrev -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_92799.dir/CheckFunctionExists.c.o  -o cmTC_92799  
+Undefined symbols for architecture x86_64:
+  "__strrev", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_92799] Error 1
+make: *** [cmTC_92799/fast] Error 2
+
+
+Determining if the function _strupr exists failed with the following output:
+Change Dir: /Users/tom/Downloads/CLionProjects/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d1f0a/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d1f0a.dir/build.make CMakeFiles/cmTC_d1f0a.dir/build
+Building C object CMakeFiles/cmTC_d1f0a.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -idirafter /Users/tom/Downloads/CLionProjects/libs/SDL2-2.0.7/src/video/khronos -DCHECK_FUNCTION_EXISTS=_strupr   -o CMakeFiles/cmTC_d1f0a.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d1f0a
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1f0a.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -idirafter /Users/tom/Downloads/CLionProjects/libs/SDL2-2.0.7/src/video/khronos -DCHECK_FUNCTION_EXISTS=_strupr -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d1f0a.dir/CheckFunctionExists.c.o  -o cmTC_d1f0a  
+Undefined symbols for architecture x86_64:
+  "__strupr", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_d1f0a] Error 1
+make: *** [cmTC_d1f0a/fast] Error 2
+
+
+Determining if the function _strlwr exists failed with the following output:
+Change Dir: /Users/tom/Downloads/CLionProjects/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_34a37/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_34a37.dir/build.make CMakeFiles/cmTC_34a37.dir/build
+Building C object CMakeFiles/cmTC_34a37.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -idirafter /Users/tom/Downloads/CLionProjects/libs/SDL2-2.0.7/src/video/khronos -DCHECK_FUNCTION_EXISTS=_strlwr   -o CMakeFiles/cmTC_34a37.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_34a37
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34a37.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -idirafter /Users/tom/Downloads/CLionProjects/libs/SDL2-2.0.7/src/video/khronos -DCHECK_FUNCTION_EXISTS=_strlwr -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_34a37.dir/CheckFunctionExists.c.o  -o cmTC_34a37  
+Undefined symbols for architecture x86_64:
+  "__strlwr", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_34a37] Error 1
+make: *** [cmTC_34a37/fast] Error 2
+
+
+Determining if the function itoa exists failed with the following output:
+Change Dir: /Users/tom/Downloads/CLionProjects/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_95367/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_95367.dir/build.make CMakeFiles/cmTC_95367.dir/build
+Building C object CMakeFiles/cmTC_95367.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -idirafter /Users/tom/Downloads/CLionProjects/libs/SDL2-2.0.7/src/video/khronos -DCHECK_FUNCTION_EXISTS=itoa   -o CMakeFiles/cmTC_95367.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_95367
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95367.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -idirafter /Users/tom/Downloads/CLionProjects/libs/SDL2-2.0.7/src/video/khronos -DCHECK_FUNCTION_EXISTS=itoa -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_95367.dir/CheckFunctionExists.c.o  -o cmTC_95367  
+Undefined symbols for architecture x86_64:
+  "_itoa", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_95367] Error 1
+make: *** [cmTC_95367/fast] Error 2
+
+
+Determining if the function _ltoa exists failed with the following output:
+Change Dir: /Users/tom/Downloads/CLionProjects/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_173f4/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_173f4.dir/build.make CMakeFiles/cmTC_173f4.dir/build
+Building C object CMakeFiles/cmTC_173f4.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -idirafter /Users/tom/Downloads/CLionProjects/libs/SDL2-2.0.7/src/video/khronos -DCHECK_FUNCTION_EXISTS=_ltoa   -o CMakeFiles/cmTC_173f4.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_173f4
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_173f4.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -idirafter /Users/tom/Downloads/CLionProjects/libs/SDL2-2.0.7/src/video/khronos -DCHECK_FUNCTION_EXISTS=_ltoa -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_173f4.dir/CheckFunctionExists.c.o  -o cmTC_173f4  
+Undefined symbols for architecture x86_64:
+  "__ltoa", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_173f4] Error 1
+make: *** [cmTC_173f4/fast] Error 2
+
+
+Determining if the function _uitoa exists failed with the following output:
+Change Dir: /Users/tom/Downloads/CLionProjects/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_51974/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_51974.dir/build.make CMakeFiles/cmTC_51974.dir/build
+Building C object CMakeFiles/cmTC_51974.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -idirafter /Users/tom/Downloads/CLionProjects/libs/SDL2-2.0.7/src/video/khronos -DCHECK_FUNCTION_EXISTS=_uitoa   -o CMakeFiles/cmTC_51974.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_51974
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51974.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -idirafter /Users/tom/Downloads/CLionProjects/libs/SDL2-2.0.7/src/video/khronos -DCHECK_FUNCTION_EXISTS=_uitoa -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_51974.dir/CheckFunctionExists.c.o  -o cmTC_51974  
+Undefined symbols for architecture x86_64:
+  "__uitoa", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_51974] Error 1
+make: *** [cmTC_51974/fast] Error 2
+
+
+Determining if the function _ultoa exists failed with the following output:
+Change Dir: /Users/tom/Downloads/CLionProjects/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2f6c4/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_2f6c4.dir/build.make CMakeFiles/cmTC_2f6c4.dir/build
+Building C object CMakeFiles/cmTC_2f6c4.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -idirafter /Users/tom/Downloads/CLionProjects/libs/SDL2-2.0.7/src/video/khronos -DCHECK_FUNCTION_EXISTS=_ultoa   -o CMakeFiles/cmTC_2f6c4.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2f6c4
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f6c4.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -idirafter /Users/tom/Downloads/CLionProjects/libs/SDL2-2.0.7/src/video/khronos -DCHECK_FUNCTION_EXISTS=_ultoa -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2f6c4.dir/CheckFunctionExists.c.o  -o cmTC_2f6c4  
+Undefined symbols for architecture x86_64:
+  "__ultoa", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_2f6c4] Error 1
+make: *** [cmTC_2f6c4/fast] Error 2
+
+
+Determining if the function _i64toa exists failed with the following output:
+Change Dir: /Users/tom/Downloads/CLionProjects/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f0d2e/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f0d2e.dir/build.make CMakeFiles/cmTC_f0d2e.dir/build
+Building C object CMakeFiles/cmTC_f0d2e.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -idirafter /Users/tom/Downloads/CLionProjects/libs/SDL2-2.0.7/src/video/khronos -DCHECK_FUNCTION_EXISTS=_i64toa   -o CMakeFiles/cmTC_f0d2e.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f0d2e
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0d2e.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -idirafter /Users/tom/Downloads/CLionProjects/libs/SDL2-2.0.7/src/video/khronos -DCHECK_FUNCTION_EXISTS=_i64toa -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f0d2e.dir/CheckFunctionExists.c.o  -o cmTC_f0d2e  
+Undefined symbols for architecture x86_64:
+  "__i64toa", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_f0d2e] Error 1
+make: *** [cmTC_f0d2e/fast] Error 2
+
+
+Determining if the function _ui64toa exists failed with the following output:
+Change Dir: /Users/tom/Downloads/CLionProjects/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5b634/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_5b634.dir/build.make CMakeFiles/cmTC_5b634.dir/build
+Building C object CMakeFiles/cmTC_5b634.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -idirafter /Users/tom/Downloads/CLionProjects/libs/SDL2-2.0.7/src/video/khronos -DCHECK_FUNCTION_EXISTS=_ui64toa   -o CMakeFiles/cmTC_5b634.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5b634
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b634.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -idirafter /Users/tom/Downloads/CLionProjects/libs/SDL2-2.0.7/src/video/khronos -DCHECK_FUNCTION_EXISTS=_ui64toa -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_5b634.dir/CheckFunctionExists.c.o  -o cmTC_5b634  
+Undefined symbols for architecture x86_64:
+  "__ui64toa", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_5b634] Error 1
+make: *** [cmTC_5b634/fast] Error 2
+
+
+Determining if the function _stricmp exists failed with the following output:
+Change Dir: /Users/tom/Downloads/CLionProjects/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_81df8/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_81df8.dir/build.make CMakeFiles/cmTC_81df8.dir/build
+Building C object CMakeFiles/cmTC_81df8.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -idirafter /Users/tom/Downloads/CLionProjects/libs/SDL2-2.0.7/src/video/khronos -DCHECK_FUNCTION_EXISTS=_stricmp   -o CMakeFiles/cmTC_81df8.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_81df8
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81df8.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -idirafter /Users/tom/Downloads/CLionProjects/libs/SDL2-2.0.7/src/video/khronos -DCHECK_FUNCTION_EXISTS=_stricmp -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_81df8.dir/CheckFunctionExists.c.o  -o cmTC_81df8  
+Undefined symbols for architecture x86_64:
+  "__stricmp", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_81df8] Error 1
+make: *** [cmTC_81df8/fast] Error 2
+
+
+Determining if the function _strnicmp exists failed with the following output:
+Change Dir: /Users/tom/Downloads/CLionProjects/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_09f38/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_09f38.dir/build.make CMakeFiles/cmTC_09f38.dir/build
+Building C object CMakeFiles/cmTC_09f38.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -idirafter /Users/tom/Downloads/CLionProjects/libs/SDL2-2.0.7/src/video/khronos -DCHECK_FUNCTION_EXISTS=_strnicmp   -o CMakeFiles/cmTC_09f38.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_09f38
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09f38.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -idirafter /Users/tom/Downloads/CLionProjects/libs/SDL2-2.0.7/src/video/khronos -DCHECK_FUNCTION_EXISTS=_strnicmp -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_09f38.dir/CheckFunctionExists.c.o  -o cmTC_09f38  
+Undefined symbols for architecture x86_64:
+  "__strnicmp", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_09f38] Error 1
+make: *** [cmTC_09f38/fast] Error 2
+
+
+Determining if the function fopen64 exists failed with the following output:
+Change Dir: /Users/tom/Downloads/CLionProjects/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6dc75/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_6dc75.dir/build.make CMakeFiles/cmTC_6dc75.dir/build
+Building C object CMakeFiles/cmTC_6dc75.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -idirafter /Users/tom/Downloads/CLionProjects/libs/SDL2-2.0.7/src/video/khronos -DCHECK_FUNCTION_EXISTS=fopen64   -o CMakeFiles/cmTC_6dc75.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6dc75
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6dc75.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -idirafter /Users/tom/Downloads/CLionProjects/libs/SDL2-2.0.7/src/video/khronos -DCHECK_FUNCTION_EXISTS=fopen64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6dc75.dir/CheckFunctionExists.c.o  -o cmTC_6dc75  
+Undefined symbols for architecture x86_64:
+  "_fopen64", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_6dc75] Error 1
+make: *** [cmTC_6dc75/fast] Error 2
+
+
+Determining if the function fseeko64 exists failed with the following output:
+Change Dir: /Users/tom/Downloads/CLionProjects/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_00802/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_00802.dir/build.make CMakeFiles/cmTC_00802.dir/build
+Building C object CMakeFiles/cmTC_00802.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -idirafter /Users/tom/Downloads/CLionProjects/libs/SDL2-2.0.7/src/video/khronos -DCHECK_FUNCTION_EXISTS=fseeko64   -o CMakeFiles/cmTC_00802.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_00802
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00802.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -idirafter /Users/tom/Downloads/CLionProjects/libs/SDL2-2.0.7/src/video/khronos -DCHECK_FUNCTION_EXISTS=fseeko64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_00802.dir/CheckFunctionExists.c.o  -o cmTC_00802  
+Undefined symbols for architecture x86_64:
+  "_fseeko64", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_00802] Error 1
+make: *** [cmTC_00802/fast] Error 2
+
+
+Determining if the function getauxval exists failed with the following output:
+Change Dir: /Users/tom/Downloads/CLionProjects/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5f4e2/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_5f4e2.dir/build.make CMakeFiles/cmTC_5f4e2.dir/build
+Building C object CMakeFiles/cmTC_5f4e2.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -idirafter /Users/tom/Downloads/CLionProjects/libs/SDL2-2.0.7/src/video/khronos -DCHECK_FUNCTION_EXISTS=getauxval   -o CMakeFiles/cmTC_5f4e2.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5f4e2
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f4e2.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -idirafter /Users/tom/Downloads/CLionProjects/libs/SDL2-2.0.7/src/video/khronos -DCHECK_FUNCTION_EXISTS=getauxval -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_5f4e2.dir/CheckFunctionExists.c.o  -o cmTC_5f4e2  
+Undefined symbols for architecture x86_64:
+  "_getauxval", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_5f4e2] Error 1
+make: *** [cmTC_5f4e2/fast] Error 2
+
+
+Performing C SOURCE FILE Test HAVE_SEM_TIMEDWAIT failed with the following output:
+Change Dir: /Users/tom/Downloads/CLionProjects/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f20a0/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f20a0.dir/build.make CMakeFiles/cmTC_f20a0.dir/build
+Building C object CMakeFiles/cmTC_f20a0.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -idirafter /Users/tom/Downloads/CLionProjects/libs/SDL2-2.0.7/src/video/khronos -DHAVE_SEM_TIMEDWAIT  -D_THREAD_SAFE   -o CMakeFiles/cmTC_f20a0.dir/src.c.o   -c /Users/tom/Downloads/CLionProjects/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+/Users/tom/Downloads/CLionProjects/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:5:19: warning: implicit declaration of function 'sem_timedwait' is invalid in C99 [-Wimplicit-function-declaration]
+                  sem_timedwait(NULL, NULL);
+                  ^
+1 warning generated.
+Linking C executable cmTC_f20a0
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f20a0.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -idirafter /Users/tom/Downloads/CLionProjects/libs/SDL2-2.0.7/src/video/khronos -DHAVE_SEM_TIMEDWAIT  -D_THREAD_SAFE -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f20a0.dir/src.c.o  -o cmTC_f20a0  
+Undefined symbols for architecture x86_64:
+  "_sem_timedwait", referenced from:
+      _main in src.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_f20a0] Error 1
+make: *** [cmTC_f20a0/fast] Error 2
+
+Source file was:
+
+              #include <pthread.h>
+              #include <semaphore.h>
+              int main(int argc, char **argv) {
+                  sem_timedwait(NULL, NULL);
+                  return 0;
+              }
+Performing C SOURCE FILE Test HAVE_PTHREAD_NP_H failed with the following output:
+Change Dir: /Users/tom/Downloads/CLionProjects/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_abec6/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_abec6.dir/build.make CMakeFiles/cmTC_abec6.dir/build
+Building C object CMakeFiles/cmTC_abec6.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -idirafter /Users/tom/Downloads/CLionProjects/libs/SDL2-2.0.7/src/video/khronos -DHAVE_PTHREAD_NP_H  -D_THREAD_SAFE   -o CMakeFiles/cmTC_abec6.dir/src.c.o   -c /Users/tom/Downloads/CLionProjects/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+/Users/tom/Downloads/CLionProjects/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:3:20: fatal error: 'pthread_np.h' file not found
+          #include <pthread_np.h>
+                   ^~~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_abec6.dir/src.c.o] Error 1
+make: *** [cmTC_abec6/fast] Error 2
+
+Source file was:
+
+          #include <pthread.h>
+          #include <pthread_np.h>
+          int main(int argc, char** argv) { return 0; }
+Determining if the function pthread_set_name_np exists failed with the following output:
+Change Dir: /Users/tom/Downloads/CLionProjects/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d97e6/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d97e6.dir/build.make CMakeFiles/cmTC_d97e6.dir/build
+Building C object CMakeFiles/cmTC_d97e6.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -idirafter /Users/tom/Downloads/CLionProjects/libs/SDL2-2.0.7/src/video/khronos -DCHECK_FUNCTION_EXISTS=pthread_set_name_np  -D_THREAD_SAFE   -o CMakeFiles/cmTC_d97e6.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d97e6
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d97e6.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -idirafter /Users/tom/Downloads/CLionProjects/libs/SDL2-2.0.7/src/video/khronos -DCHECK_FUNCTION_EXISTS=pthread_set_name_np  -D_THREAD_SAFE -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d97e6.dir/CheckFunctionExists.c.o  -o cmTC_d97e6  
+Undefined symbols for architecture x86_64:
+  "_pthread_set_name_np", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_d97e6] Error 1
+make: *** [cmTC_d97e6/fast] Error 2
+
+

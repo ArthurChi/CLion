@@ -1,0 +1,806 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1E70DD036130496B8AC69924 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 22150BAE97E648AC817FC59D /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				1AEB7372687647F5AFAD4B88 /* CMake Rules */,
+			);
+			dependencies = (
+				F42CFDAA70564D2BBF3E2B09 /* PBXTargetDependency */,
+				FB788CAF85DD418094BC1C66 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		34F7642203FA409596822A4B /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 90AE4D7419D24FA6B2D9F3E8 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				ACE7A6A61EA543D3B9BADC24 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		F4EE5CB1933040589707711D /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A5967CA891F74A16B8997AEA /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				07DE1E02D41149A4A67DC266 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				93ECCC7A5C4F498DBB54A5F8 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		47FA557CBF0F4D5FBB51291E /* /Users/tom/Downloads/CLionProjects/libs/cal/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 3B2B52D4FB4348D1813E447A /* /Users/tom/Downloads/CLionProjects/libs/cal/CMakeLists.txt */; };
+		C7390B393DBF4F4AA4C5DCBC /* /Users/tom/Downloads/CLionProjects/libs/cal/calculater.h */ = {isa = PBXBuildFile; fileRef = AB265B4E9BB644ADA89EA8FA /* /Users/tom/Downloads/CLionProjects/libs/cal/calculater.h */; };
+		F5BCE3CC95A84163B31FAA7A /* /Users/tom/Downloads/CLionProjects/libs/cal/calculater.cpp */ = {isa = PBXBuildFile; fileRef = BBEBA3B2558F4562BF93E0CB /* /Users/tom/Downloads/CLionProjects/libs/cal/calculater.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		1077C7F1976F45F380BB5114 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		30D622C3425F4E1996CF5E6E /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		67954CFDC5CD4D5BAC00EE03 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		C9D6B2B5B4184437B53DADBC /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		9934D0FB281A4F5AA7F82C3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 053686F9ED2B4C93BE66AAA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34F7642203FA409596822A4B;
+			remoteInfo = ZERO_CHECK;
+		};
+		A3D8CDDA8AC5466A9E85460D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 053686F9ED2B4C93BE66AAA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 185B22D4036742E0AFA4D20D;
+			remoteInfo = cal;
+		};
+		D030A32366C3473388937934 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 053686F9ED2B4C93BE66AAA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E70DD036130496B8AC69924;
+			remoteInfo = ALL_BUILD;
+		};
+		E6B1D41437DF4D05BF36D37E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 053686F9ED2B4C93BE66AAA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34F7642203FA409596822A4B;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B2B52D4FB4348D1813E447A /* /Users/tom/Downloads/CLionProjects/libs/cal/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9A9FA9612FCC474EA7EB3521 /* cal */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libcal.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB265B4E9BB644ADA89EA8FA /* /Users/tom/Downloads/CLionProjects/libs/cal/calculater.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = calculater.h; path = calculater.h; sourceTree = SOURCE_ROOT; };
+		BBEBA3B2558F4562BF93E0CB /* /Users/tom/Downloads/CLionProjects/libs/cal/calculater.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = calculater.cpp; path = calculater.cpp; sourceTree = SOURCE_ROOT; };
+		D0933341814C495EB72865E9 /* /Users/tom/Downloads/CLionProjects/libs/cal/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F8D9C82963B34A0B8FE4025E /* /Users/tom/Downloads/CLionProjects/libs/cal/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		15993FE57BD64D44B1823BC2 /* cal */ = {
+			isa = PBXGroup;
+			children = (
+				BB5D024E31B04654A03F33F0 /* Source Files */,
+				5DCF8275CA5F4E8FA8683B28 /* Header Files */,
+				3B2B52D4FB4348D1813E447A /* /Users/tom/Downloads/CLionProjects/libs/cal/CMakeLists.txt */,
+			);
+			name = cal;
+			sourceTree = "<group>";
+		};
+		19C9AB011E924160B634AEBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A9FA9612FCC474EA7EB3521 /* cal */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		203AFF436F5F4A88B3FF89D7 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		5DCF8275CA5F4E8FA8683B28 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB265B4E9BB644ADA89EA8FA /* /Users/tom/Downloads/CLionProjects/libs/cal/calculater.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		83CB1449510E4A68A028ACBC /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				203AFF436F5F4A88B3FF89D7 /* CMake Rules */,
+				F8D9C82963B34A0B8FE4025E /* /Users/tom/Downloads/CLionProjects/libs/cal/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		BB5D024E31B04654A03F33F0 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBEBA3B2558F4562BF93E0CB /* /Users/tom/Downloads/CLionProjects/libs/cal/calculater.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		C38184931D94428685CACE89 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		E3FDBBF829354C888F129AB9 = {
+			isa = PBXGroup;
+			children = (
+				15993FE57BD64D44B1823BC2 /* cal */,
+				83CB1449510E4A68A028ACBC /* ALL_BUILD */,
+				E7426AB1161A45EC85E86209 /* ZERO_CHECK */,
+				19C9AB011E924160B634AEBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7426AB1161A45EC85E86209 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				C38184931D94428685CACE89 /* CMake Rules */,
+				D0933341814C495EB72865E9 /* /Users/tom/Downloads/CLionProjects/libs/cal/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		185B22D4036742E0AFA4D20D /* cal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16523A4371F049349C754060 /* Build configuration list for PBXNativeTarget "cal" */;
+			buildPhases = (
+				9775AFCC1E8A444F848A3139 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0771E3561E104A1F94A930A6 /* PBXTargetDependency */,
+			);
+			name = cal;
+			productName = cal;
+			productReference = 9A9FA9612FCC474EA7EB3521 /* cal */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		053686F9ED2B4C93BE66AAA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0920;
+			};
+			buildConfigurationList = 16F2B9BA909B4D8F8D7F6929 /* Build configuration list for PBXProject "cal" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				67954CFDC5CD4D5BAC00EE03 /* Debug */,
+				C9D6B2B5B4184437B53DADBC /* Release */,
+				30D622C3425F4E1996CF5E6E /* MinSizeRel */,
+				1077C7F1976F45F380BB5114 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = E3FDBBF829354C888F129AB9;
+			projectDirPath = ../../../libs/cal;
+			projectRoot = "";
+			targets = (
+				1E70DD036130496B8AC69924 /* ALL_BUILD */,
+				34F7642203FA409596822A4B /* ZERO_CHECK */,
+				185B22D4036742E0AFA4D20D /* cal */,
+				F4EE5CB1933040589707711D /* install */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07DE1E02D41149A4A67DC266 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/tom/Downloads/CLionProjects/build/libs/cal -f /Users/tom/Downloads/CLionProjects/build/libs/cal/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		1AEB7372687647F5AFAD4B88 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/tom/Downloads/CLionProjects/build/libs/cal -f /Users/tom/Downloads/CLionProjects/build/libs/cal/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		69835DEB71BF482EABD86558 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		8D2EF4E85C5143DD9A31CA5B = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		ACE7A6A61EA543D3B9BADC24 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/tom/Downloads/CLionProjects/build/libs/cal -f /Users/tom/Downloads/CLionProjects/build/libs/cal/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		E00FC5FA4D6A4FBEB943F35C = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9775AFCC1E8A444F848A3139 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5BCE3CC95A84163B31FAA7A /* /Users/tom/Downloads/CLionProjects/libs/cal/calculater.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0771E3561E104A1F94A930A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34F7642203FA409596822A4B /* ZERO_CHECK */;
+			targetProxy = 9934D0FB281A4F5AA7F82C3F /* PBXContainerItemProxy */;
+		};
+		93ECCC7A5C4F498DBB54A5F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E70DD036130496B8AC69924 /* ALL_BUILD */;
+			targetProxy = D030A32366C3473388937934 /* PBXContainerItemProxy */;
+		};
+		F42CFDAA70564D2BBF3E2B09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34F7642203FA409596822A4B /* ZERO_CHECK */;
+			targetProxy = E6B1D41437DF4D05BF36D37E /* PBXContainerItemProxy */;
+		};
+		FB788CAF85DD418094BC1C66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 185B22D4036742E0AFA4D20D /* cal */;
+			targetProxy = A3D8CDDA8AC5466A9E85460D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		16D576F51FE940D5B479662B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tom/Downloads/CLionProjects/build/libs/cal;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		24FD7EBC8C0F42A393412B26 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/tom/Downloads/CLionProjects/build/libs/cal/build;
+			};
+			name = MinSizeRel;
+		};
+		316084A8369D485CA90C0ED4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/tom/Downloads/CLionProjects/libs/cal);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cal;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tom/Downloads/CLionProjects/build/libs/cal;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		45C261FF6F354ACDB9CE4103 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tom/Downloads/CLionProjects/build/libs/cal;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		53D0ED47AE874BDD8B3E7B28 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/tom/Downloads/CLionProjects/build/libs/cal/build;
+			};
+			name = RelWithDebInfo;
+		};
+		551F8C12C5D4461D8AF3C4F0 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tom/Downloads/CLionProjects/build/libs/cal;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		5EDFCE197CA64835A390F5E0 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tom/Downloads/CLionProjects/build/libs/cal;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		67A56DE7B3C44D1082FA90B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tom/Downloads/CLionProjects/build/libs/cal;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		99008873AD184567ABD0941E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/tom/Downloads/CLionProjects/build/libs/cal/build;
+			};
+			name = Debug;
+		};
+		9FB31C7AD0F54ECFBB4949E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/tom/Downloads/CLionProjects/libs/cal);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cal;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tom/Downloads/CLionProjects/build/libs/cal;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		A3D05D45BB4E4CBAA622966E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/tom/Downloads/CLionProjects/libs/cal);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cal;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tom/Downloads/CLionProjects/build/libs/cal;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		B0D8AB9A2B3C475D9935CCDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tom/Downloads/CLionProjects/build/libs/cal;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		B2D6EAC137E641B8B0DB6098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tom/Downloads/CLionProjects/build/libs/cal;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		C6AEE049DF72424DA1F2DC91 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/tom/Downloads/CLionProjects/libs/cal);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cal;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tom/Downloads/CLionProjects/build/libs/cal;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D492F600FA4E477BBF12F594 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tom/Downloads/CLionProjects/build/libs/cal;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		DACD9E123EBF4329B9372305 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tom/Downloads/CLionProjects/build/libs/cal;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		EEA09F8AED6A4ECD9C8C8B59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/tom/Downloads/CLionProjects/build/libs/cal/build;
+			};
+			name = Release;
+		};
+		F399C46F90454A9697C78587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tom/Downloads/CLionProjects/build/libs/cal;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		F696982447474ACA976288FA /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tom/Downloads/CLionProjects/build/libs/cal;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		FAC79E15A21C455681F0E518 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tom/Downloads/CLionProjects/build/libs/cal;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16523A4371F049349C754060 /* Build configuration list for PBXNativeTarget "cal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FB31C7AD0F54ECFBB4949E0 /* Debug */,
+				316084A8369D485CA90C0ED4 /* Release */,
+				A3D05D45BB4E4CBAA622966E /* MinSizeRel */,
+				C6AEE049DF72424DA1F2DC91 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		16F2B9BA909B4D8F8D7F6929 /* Build configuration list for PBXProject "cal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99008873AD184567ABD0941E /* Debug */,
+				EEA09F8AED6A4ECD9C8C8B59 /* Release */,
+				24FD7EBC8C0F42A393412B26 /* MinSizeRel */,
+				53D0ED47AE874BDD8B3E7B28 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		22150BAE97E648AC817FC59D /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F399C46F90454A9697C78587 /* Debug */,
+				B0D8AB9A2B3C475D9935CCDE /* Release */,
+				5EDFCE197CA64835A390F5E0 /* MinSizeRel */,
+				45C261FF6F354ACDB9CE4103 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		90AE4D7419D24FA6B2D9F3E8 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67A56DE7B3C44D1082FA90B0 /* Debug */,
+				B2D6EAC137E641B8B0DB6098 /* Release */,
+				D492F600FA4E477BBF12F594 /* MinSizeRel */,
+				FAC79E15A21C455681F0E518 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A5967CA891F74A16B8997AEA /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DACD9E123EBF4329B9372305 /* Debug */,
+				16D576F51FE940D5B479662B /* Release */,
+				551F8C12C5D4461D8AF3C4F0 /* MinSizeRel */,
+				F696982447474ACA976288FA /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 053686F9ED2B4C93BE66AAA0 /* Project object */;
+}

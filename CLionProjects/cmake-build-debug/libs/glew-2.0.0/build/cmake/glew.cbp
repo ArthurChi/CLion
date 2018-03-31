@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="glew"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\app\;CMake Files\sdlapp\;CMake Files\libs\;CMake Files\libs\cal\;CMake Files\libs\glfw-3.2.1\;CMake Files\libs\glfw-3.2.1\CMake\;CMake Files\libs\glfw-3.2.1\CMake\modules\;CMake Files\libs\glfw-3.2.1\src\;CMake Files\libs\glew-2.0.0\;CMake Files\libs\glew-2.0.0\build\;CMake Files\libs\glew-2.0.0\build\cmake\;CMake Files\libs\SDL2-2.0.7\;CMake Files\libs\SDL2-2.0.7\cmake\;CMake Files\libs\SDL2-2.0.7\include\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/tom/Downloads/CLionProjects/cmake-build-debug/libs/glew-2.0.0/build/cmake"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tom/Downloads/CLionProjects/cmake-build-debug/libs/glew-2.0.0/build/cmake/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tom/Downloads/CLionProjects/cmake-build-debug/libs/glew-2.0.0/build/cmake/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tom/Downloads/CLionProjects/cmake-build-debug/libs/glew-2.0.0/build/cmake/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tom/Downloads/CLionProjects/cmake-build-debug/libs/glew-2.0.0/build/cmake/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="visualinfo">
+				<Option output="/Users/tom/Downloads/CLionProjects/cmake-build-debug/bin/visualinfo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tom/Downloads/CLionProjects/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLEW_NO_GLU"/>
+					<Add directory="/Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/build/cmake/../../include"/>
+					<Add directory="."/>
+					<Add directory="/usr/local/protobuf/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tom/Downloads/CLionProjects/cmake-build-debug/libs/glew-2.0.0/build/cmake/Makefile&quot;  VERBOSE=1 visualinfo"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tom/Downloads/CLionProjects/cmake-build-debug/libs/glew-2.0.0/build/cmake/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tom/Downloads/CLionProjects/cmake-build-debug/libs/glew-2.0.0/build/cmake/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tom/Downloads/CLionProjects/cmake-build-debug/libs/glew-2.0.0/build/cmake/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="visualinfo/fast">
+				<Option output="/Users/tom/Downloads/CLionProjects/cmake-build-debug/bin/visualinfo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tom/Downloads/CLionProjects/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLEW_NO_GLU"/>
+					<Add directory="/Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/build/cmake/../../include"/>
+					<Add directory="."/>
+					<Add directory="/usr/local/protobuf/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tom/Downloads/CLionProjects/cmake-build-debug/libs/glew-2.0.0/build/cmake/Makefile&quot;  VERBOSE=1 visualinfo/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tom/Downloads/CLionProjects/cmake-build-debug/libs/glew-2.0.0/build/cmake/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tom/Downloads/CLionProjects/cmake-build-debug/libs/glew-2.0.0/build/cmake/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tom/Downloads/CLionProjects/cmake-build-debug/libs/glew-2.0.0/build/cmake/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glew">
+				<Option output="/Users/tom/Downloads/CLionProjects/cmake-build-debug/lib/libGLEWd.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tom/Downloads/CLionProjects/cmake-build-debug/libs/glew-2.0.0/build/cmake"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLEW_BUILD"/>
+					<Add option="-DGLEW_NO_GLU"/>
+					<Add directory="/Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/build/cmake/../../include"/>
+					<Add directory="."/>
+					<Add directory="/usr/local/protobuf/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tom/Downloads/CLionProjects/cmake-build-debug/libs/glew-2.0.0/build/cmake/Makefile&quot;  VERBOSE=1 glew"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tom/Downloads/CLionProjects/cmake-build-debug/libs/glew-2.0.0/build/cmake/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tom/Downloads/CLionProjects/cmake-build-debug/libs/glew-2.0.0/build/cmake/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tom/Downloads/CLionProjects/cmake-build-debug/libs/glew-2.0.0/build/cmake/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glew/fast">
+				<Option output="/Users/tom/Downloads/CLionProjects/cmake-build-debug/lib/libGLEWd.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tom/Downloads/CLionProjects/cmake-build-debug/libs/glew-2.0.0/build/cmake"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLEW_BUILD"/>
+					<Add option="-DGLEW_NO_GLU"/>
+					<Add directory="/Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/build/cmake/../../include"/>
+					<Add directory="."/>
+					<Add directory="/usr/local/protobuf/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tom/Downloads/CLionProjects/cmake-build-debug/libs/glew-2.0.0/build/cmake/Makefile&quot;  VERBOSE=1 glew/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tom/Downloads/CLionProjects/cmake-build-debug/libs/glew-2.0.0/build/cmake/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tom/Downloads/CLionProjects/cmake-build-debug/libs/glew-2.0.0/build/cmake/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tom/Downloads/CLionProjects/cmake-build-debug/libs/glew-2.0.0/build/cmake/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glewinfo">
+				<Option output="/Users/tom/Downloads/CLionProjects/cmake-build-debug/bin/glewinfo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tom/Downloads/CLionProjects/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLEW_NO_GLU"/>
+					<Add directory="/Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/build/cmake/../../include"/>
+					<Add directory="."/>
+					<Add directory="/usr/local/protobuf/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tom/Downloads/CLionProjects/cmake-build-debug/libs/glew-2.0.0/build/cmake/Makefile&quot;  VERBOSE=1 glewinfo"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tom/Downloads/CLionProjects/cmake-build-debug/libs/glew-2.0.0/build/cmake/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tom/Downloads/CLionProjects/cmake-build-debug/libs/glew-2.0.0/build/cmake/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tom/Downloads/CLionProjects/cmake-build-debug/libs/glew-2.0.0/build/cmake/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glewinfo/fast">
+				<Option output="/Users/tom/Downloads/CLionProjects/cmake-build-debug/bin/glewinfo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tom/Downloads/CLionProjects/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLEW_NO_GLU"/>
+					<Add directory="/Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/build/cmake/../../include"/>
+					<Add directory="."/>
+					<Add directory="/usr/local/protobuf/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tom/Downloads/CLionProjects/cmake-build-debug/libs/glew-2.0.0/build/cmake/Makefile&quot;  VERBOSE=1 glewinfo/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tom/Downloads/CLionProjects/cmake-build-debug/libs/glew-2.0.0/build/cmake/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tom/Downloads/CLionProjects/cmake-build-debug/libs/glew-2.0.0/build/cmake/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tom/Downloads/CLionProjects/cmake-build-debug/libs/glew-2.0.0/build/cmake/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glew_s">
+				<Option output="/Users/tom/Downloads/CLionProjects/cmake-build-debug/lib/libGLEWd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tom/Downloads/CLionProjects/cmake-build-debug/libs/glew-2.0.0/build/cmake"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-DGLEW_NO_GLU"/>
+					<Add directory="/Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/build/cmake/../../include"/>
+					<Add directory="/Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/include"/>
+					<Add directory="."/>
+					<Add directory="/usr/local/protobuf/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tom/Downloads/CLionProjects/cmake-build-debug/libs/glew-2.0.0/build/cmake/Makefile&quot;  VERBOSE=1 glew_s"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tom/Downloads/CLionProjects/cmake-build-debug/libs/glew-2.0.0/build/cmake/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tom/Downloads/CLionProjects/cmake-build-debug/libs/glew-2.0.0/build/cmake/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tom/Downloads/CLionProjects/cmake-build-debug/libs/glew-2.0.0/build/cmake/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glew_s/fast">
+				<Option output="/Users/tom/Downloads/CLionProjects/cmake-build-debug/lib/libGLEWd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tom/Downloads/CLionProjects/cmake-build-debug/libs/glew-2.0.0/build/cmake"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-DGLEW_NO_GLU"/>
+					<Add directory="/Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/build/cmake/../../include"/>
+					<Add directory="/Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/include"/>
+					<Add directory="."/>
+					<Add directory="/usr/local/protobuf/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tom/Downloads/CLionProjects/cmake-build-debug/libs/glew-2.0.0/build/cmake/Makefile&quot;  VERBOSE=1 glew_s/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tom/Downloads/CLionProjects/cmake-build-debug/libs/glew-2.0.0/build/cmake/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tom/Downloads/CLionProjects/cmake-build-debug/libs/glew-2.0.0/build/cmake/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tom/Downloads/CLionProjects/cmake-build-debug/libs/glew-2.0.0/build/cmake/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/include/GL/glew.h">
+			<Option target="glew"/>
+			<Option target="glew_s"/>
+		</Unit>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/include/GL/glxew.h">
+			<Option target="glew"/>
+			<Option target="glew_s"/>
+		</Unit>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/include/GL/wglew.h">
+			<Option target="glew"/>
+			<Option target="glew_s"/>
+		</Unit>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/src/glew.c">
+			<Option target="glew"/>
+			<Option target="glew_s"/>
+		</Unit>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/src/glewinfo.c">
+			<Option target="glewinfo"/>
+		</Unit>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/src/visualinfo.c">
+			<Option target="visualinfo"/>
+		</Unit>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/app/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\app\"/>
+		</Unit>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/app/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\app\"/>
+		</Unit>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/sdlapp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\sdlapp\"/>
+		</Unit>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/sdlapp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\sdlapp\"/>
+		</Unit>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/libs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\"/>
+		</Unit>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/libs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\"/>
+		</Unit>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/libs/cal/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\cal\"/>
+		</Unit>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/libs/cal/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\cal\"/>
+		</Unit>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/libs/cal/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\cal\"/>
+		</Unit>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/libs/glfw-3.2.1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\glfw-3.2.1\"/>
+		</Unit>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/libs/glfw-3.2.1/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\libs\glfw-3.2.1\"/>
+		</Unit>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/libs/glfw-3.2.1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\glfw-3.2.1\"/>
+		</Unit>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/libs/glfw-3.2.1/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\libs\glfw-3.2.1\"/>
+		</Unit>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/libs/glfw-3.2.1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\glfw-3.2.1\"/>
+		</Unit>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/libs/glfw-3.2.1/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\libs\glfw-3.2.1\"/>
+		</Unit>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/libs/glfw-3.2.1/CMake/modules/FindVulkan.cmake">
+			<Option virtualFolder="CMake Files\libs\glfw-3.2.1\CMake\modules\"/>
+		</Unit>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/libs/glfw-3.2.1/CMake/modules/FindVulkan.cmake">
+			<Option virtualFolder="CMake Files\libs\glfw-3.2.1\CMake\modules\"/>
+		</Unit>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/libs/glfw-3.2.1/CMake/modules/FindVulkan.cmake">
+			<Option virtualFolder="CMake Files\libs\glfw-3.2.1\CMake\modules\"/>
+		</Unit>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/libs/glfw-3.2.1/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\libs\glfw-3.2.1\src\"/>
+		</Unit>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/libs/glfw-3.2.1/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\libs\glfw-3.2.1\src\"/>
+		</Unit>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/libs/glfw-3.2.1/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\libs\glfw-3.2.1\src\"/>
+		</Unit>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/libs/glfw-3.2.1/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\glfw-3.2.1\src\"/>
+		</Unit>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/libs/glfw-3.2.1/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\libs\glfw-3.2.1\src\"/>
+		</Unit>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/libs/glfw-3.2.1/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\libs\glfw-3.2.1\src\"/>
+		</Unit>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/libs/glfw-3.2.1/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\libs\glfw-3.2.1\src\"/>
+		</Unit>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/libs/glfw-3.2.1/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\glfw-3.2.1\src\"/>
+		</Unit>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/libs/glfw-3.2.1/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\libs\glfw-3.2.1\src\"/>
+		</Unit>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/libs/glfw-3.2.1/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\libs\glfw-3.2.1\src\"/>
+		</Unit>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/libs/glfw-3.2.1/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\libs\glfw-3.2.1\src\"/>
+		</Unit>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/libs/glfw-3.2.1/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\glfw-3.2.1\src\"/>
+		</Unit>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/glew.pc.in">
+			<Option virtualFolder="CMake Files\libs\glew-2.0.0\"/>
+		</Unit>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/glew.pc.in">
+			<Option virtualFolder="CMake Files\libs\glew-2.0.0\"/>
+		</Unit>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/glew.pc.in">
+			<Option virtualFolder="CMake Files\libs\glew-2.0.0\"/>
+		</Unit>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/build/cmake/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\glew-2.0.0\build\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/build/cmake/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\glew-2.0.0\build\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/build/cmake/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\glew-2.0.0\build\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/libs/SDL2-2.0.7/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\SDL2-2.0.7\"/>
+		</Unit>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/libs/SDL2-2.0.7/sdl2.pc.in">
+			<Option virtualFolder="CMake Files\libs\SDL2-2.0.7\"/>
+		</Unit>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/libs/SDL2-2.0.7/sdl2-config.in">
+			<Option virtualFolder="CMake Files\libs\SDL2-2.0.7\"/>
+		</Unit>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/libs/SDL2-2.0.7/sdl2-config.in">
+			<Option virtualFolder="CMake Files\libs\SDL2-2.0.7\"/>
+		</Unit>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/libs/SDL2-2.0.7/SDL2.spec.in">
+			<Option virtualFolder="CMake Files\libs\SDL2-2.0.7\"/>
+		</Unit>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/libs/SDL2-2.0.7/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\SDL2-2.0.7\"/>
+		</Unit>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/libs/SDL2-2.0.7/sdl2.pc.in">
+			<Option virtualFolder="CMake Files\libs\SDL2-2.0.7\"/>
+		</Unit>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/libs/SDL2-2.0.7/sdl2-config.in">
+			<Option virtualFolder="CMake Files\libs\SDL2-2.0.7\"/>
+		</Unit>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/libs/SDL2-2.0.7/sdl2-config.in">
+			<Option virtualFolder="CMake Files\libs\SDL2-2.0.7\"/>
+		</Unit>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/libs/SDL2-2.0.7/SDL2.spec.in">
+			<Option virtualFolder="CMake Files\libs\SDL2-2.0.7\"/>
+		</Unit>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/libs/SDL2-2.0.7/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\SDL2-2.0.7\"/>
+		</Unit>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/libs/SDL2-2.0.7/sdl2.pc.in">
+			<Option virtualFolder="CMake Files\libs\SDL2-2.0.7\"/>
+		</Unit>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/libs/SDL2-2.0.7/sdl2-config.in">
+			<Option virtualFolder="CMake Files\libs\SDL2-2.0.7\"/>
+		</Unit>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/libs/SDL2-2.0.7/sdl2-config.in">
+			<Option virtualFolder="CMake Files\libs\SDL2-2.0.7\"/>
+		</Unit>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/libs/SDL2-2.0.7/SDL2.spec.in">
+			<Option virtualFolder="CMake Files\libs\SDL2-2.0.7\"/>
+		</Unit>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/libs/SDL2-2.0.7/cmake/macros.cmake">
+			<Option virtualFolder="CMake Files\libs\SDL2-2.0.7\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/libs/SDL2-2.0.7/cmake/sdlchecks.cmake">
+			<Option virtualFolder="CMake Files\libs\SDL2-2.0.7\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/libs/SDL2-2.0.7/cmake/macros.cmake">
+			<Option virtualFolder="CMake Files\libs\SDL2-2.0.7\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/libs/SDL2-2.0.7/cmake/sdlchecks.cmake">
+			<Option virtualFolder="CMake Files\libs\SDL2-2.0.7\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/libs/SDL2-2.0.7/cmake/macros.cmake">
+			<Option virtualFolder="CMake Files\libs\SDL2-2.0.7\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/libs/SDL2-2.0.7/cmake/sdlchecks.cmake">
+			<Option virtualFolder="CMake Files\libs\SDL2-2.0.7\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/libs/SDL2-2.0.7/include/SDL_config.h.cmake">
+			<Option virtualFolder="CMake Files\libs\SDL2-2.0.7\include\"/>
+		</Unit>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/libs/SDL2-2.0.7/include/SDL_config.h.cmake">
+			<Option virtualFolder="CMake Files\libs\SDL2-2.0.7\include\"/>
+		</Unit>
+		<Unit filename="/Users/tom/Downloads/CLionProjects/libs/SDL2-2.0.7/include/SDL_config.h.cmake">
+			<Option virtualFolder="CMake Files\libs\SDL2-2.0.7\include\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

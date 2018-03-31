@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../libs/glew-2.0.0/include/GL/glew.h
+stddef.h
+-
+inttypes.h
+-
+stdint.h
+-
+inttypes.h
+-
+Availability.h
+-
+OpenGL/glu.h
+-
+GL/glu.h
+-
+
+/Users/faceu/Desktop/CLionProjects/sdlapp/main.cpp
+iostream
+-
+GL/glew.h
+/Users/faceu/Desktop/CLionProjects/sdlapp/GL/glew.h
+GLFW/glfw3.h
+/Users/faceu/Desktop/CLionProjects/sdlapp/GLFW/glfw3.h
+

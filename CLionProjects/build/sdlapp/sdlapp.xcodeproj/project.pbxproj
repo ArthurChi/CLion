@@ -1,0 +1,795 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1E70DD036130496B8AC69924 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 313F68EB62344948AC76F0E1 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				FF53989E17594EDD9811056F /* CMake Rules */,
+			);
+			dependencies = (
+				E801F39EB35948F58B0F9465 /* PBXTargetDependency */,
+				7686099351094280B2AD8F6C /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		34F7642203FA409596822A4B /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2FF0B634676F478B9CF3E42B /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				D2CA1A7579504BD987DFE1FB /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		F4EE5CB1933040589707711D /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6009FD9E69A64B47B6CA0ABF /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				168C38E3CAC54EA493294DD6 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				EF1CA59335E6402DAF39FED5 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0AD42B1BA6A344589AB59914 /* /Users/tom/Downloads/CLionProjects/sdlapp/main.cpp */ = {isa = PBXBuildFile; fileRef = 22F8755D27424878993FACEC /* /Users/tom/Downloads/CLionProjects/sdlapp/main.cpp */; };
+		FD48ED5C8EB749A99FD9C52C /* /Users/tom/Downloads/CLionProjects/sdlapp/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 736E1FB1570B4620979A29E8 /* /Users/tom/Downloads/CLionProjects/sdlapp/CMakeLists.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		9623921DC1984F3FAB930D89 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		D23965DB74A74CE8BAE17D92 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		E7180758ED494235B0882997 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		EC933FD2F63A4A55B4D42570 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		06A9028C4B6946AE9212DF63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3620ED4FDC14272A370A523 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E70DD036130496B8AC69924;
+			remoteInfo = ALL_BUILD;
+		};
+		5A9F0953A7B94CAE9C394D24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3620ED4FDC14272A370A523 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34F7642203FA409596822A4B;
+			remoteInfo = ZERO_CHECK;
+		};
+		5E18B2AC6FDE420896447163 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3620ED4FDC14272A370A523 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34F7642203FA409596822A4B;
+			remoteInfo = ZERO_CHECK;
+		};
+		69EF1F60325341449E69526D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3620ED4FDC14272A370A523 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23CF49E7E1D147F5944FEDE5;
+			remoteInfo = sdlapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DC7814C4AFC4505A84CE2F9 /* /Users/tom/Downloads/CLionProjects/sdlapp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		22F8755D27424878993FACEC /* /Users/tom/Downloads/CLionProjects/sdlapp/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		6D1D108021434549A0BFAEBA /* sdlapp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = sdlapp; sourceTree = BUILT_PRODUCTS_DIR; };
+		736E1FB1570B4620979A29E8 /* /Users/tom/Downloads/CLionProjects/sdlapp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		86226F7392C54D9DA2103D02 /* /Users/tom/Downloads/CLionProjects/sdlapp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0A32953FCDDB4A0B8310591E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D1D108021434549A0BFAEBA /* sdlapp */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B009DB90BD8499D906795CA /* sdlapp */ = {
+			isa = PBXGroup;
+			children = (
+				C025A533DFE24238B016D02B /* Source Files */,
+				736E1FB1570B4620979A29E8 /* /Users/tom/Downloads/CLionProjects/sdlapp/CMakeLists.txt */,
+			);
+			name = sdlapp;
+			sourceTree = "<group>";
+		};
+		1474335D931745869FB10F10 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		514D9A2EA9E84A4899FC0CE1 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				1474335D931745869FB10F10 /* CMake Rules */,
+				0DC7814C4AFC4505A84CE2F9 /* /Users/tom/Downloads/CLionProjects/sdlapp/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		96BD50E491C94663A079F607 = {
+			isa = PBXGroup;
+			children = (
+				0B009DB90BD8499D906795CA /* sdlapp */,
+				514D9A2EA9E84A4899FC0CE1 /* ALL_BUILD */,
+				DA63EBAD74E84C18832F3BDD /* ZERO_CHECK */,
+				0A32953FCDDB4A0B8310591E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A81F3AB22257441689788DF5 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		C025A533DFE24238B016D02B /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				22F8755D27424878993FACEC /* /Users/tom/Downloads/CLionProjects/sdlapp/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		DA63EBAD74E84C18832F3BDD /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				A81F3AB22257441689788DF5 /* CMake Rules */,
+				86226F7392C54D9DA2103D02 /* /Users/tom/Downloads/CLionProjects/sdlapp/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23CF49E7E1D147F5944FEDE5 /* sdlapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F76D27B28F34B798BC9887C /* Build configuration list for PBXNativeTarget "sdlapp" */;
+			buildPhases = (
+				431126B2889F40A5839D5D54 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				381320606A5B4E5BB5264C6C /* PBXTargetDependency */,
+			);
+			name = sdlapp;
+			productName = sdlapp;
+			productReference = 6D1D108021434549A0BFAEBA /* sdlapp */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3620ED4FDC14272A370A523 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0920;
+			};
+			buildConfigurationList = A8279C47EE844C358153DE93 /* Build configuration list for PBXProject "sdlapp" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				D23965DB74A74CE8BAE17D92 /* Debug */,
+				9623921DC1984F3FAB930D89 /* Release */,
+				EC933FD2F63A4A55B4D42570 /* MinSizeRel */,
+				E7180758ED494235B0882997 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 96BD50E491C94663A079F607;
+			projectDirPath = ../../sdlapp;
+			projectRoot = "";
+			targets = (
+				1E70DD036130496B8AC69924 /* ALL_BUILD */,
+				34F7642203FA409596822A4B /* ZERO_CHECK */,
+				F4EE5CB1933040589707711D /* install */,
+				23CF49E7E1D147F5944FEDE5 /* sdlapp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		168C38E3CAC54EA493294DD6 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/tom/Downloads/CLionProjects/build/sdlapp -f /Users/tom/Downloads/CLionProjects/build/sdlapp/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		29D74F5AB3E748129F926A1A = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		4A27C1FA06D2445184B704BE = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		D2CA1A7579504BD987DFE1FB /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/tom/Downloads/CLionProjects/build/sdlapp -f /Users/tom/Downloads/CLionProjects/build/sdlapp/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		DCAF9CB3CF824D06A8B88698 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		FF53989E17594EDD9811056F /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/tom/Downloads/CLionProjects/build/sdlapp -f /Users/tom/Downloads/CLionProjects/build/sdlapp/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		431126B2889F40A5839D5D54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AD42B1BA6A344589AB59914 /* /Users/tom/Downloads/CLionProjects/sdlapp/main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		381320606A5B4E5BB5264C6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34F7642203FA409596822A4B /* ZERO_CHECK */;
+			targetProxy = 5E18B2AC6FDE420896447163 /* PBXContainerItemProxy */;
+		};
+		7686099351094280B2AD8F6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34F7642203FA409596822A4B /* ZERO_CHECK */;
+			targetProxy = 5A9F0953A7B94CAE9C394D24 /* PBXContainerItemProxy */;
+		};
+		E801F39EB35948F58B0F9465 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23CF49E7E1D147F5944FEDE5 /* sdlapp */;
+			targetProxy = 69EF1F60325341449E69526D /* PBXContainerItemProxy */;
+		};
+		EF1CA59335E6402DAF39FED5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E70DD036130496B8AC69924 /* ALL_BUILD */;
+			targetProxy = 06A9028C4B6946AE9212DF63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D49E7F1727E4C9AA64BB4E3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tom/Downloads/CLionProjects/build/sdlapp;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		2116B30C0F2545EA87583FD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tom/Downloads/CLionProjects/build/sdlapp;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		236692004C3D499A843137A5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/tom/Downloads/CLionProjects/libs/cal,"/Users/tom/Downloads/CLionProjects/libs/SDL2-2.0.7/include","/Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/include");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/tom/Downloads/CLionProjects/build/libs/cal/RelWithDebInfo/libcal.a /Users/tom/Downloads/CLionProjects/build/libs/SDL2-2.0.7/RelWithDebInfo/libSDL2.a -framework OpenGL -framework OpenGL /Users/tom/Downloads/CLionProjects/build/lib/RelWithDebInfo/libGLEW.a -lm -liconv -framework CoreVideo -framework Cocoa -framework IOKit -framework ForceFeedback -framework Carbon -framework CoreAudio -framework AudioToolbox -Wl,-undefined,error -framework OpenGL";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = sdlapp;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tom/Downloads/CLionProjects/build/sdlapp;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		3E8B4016CD5A45A2B8773AAE /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/tom/Downloads/CLionProjects/build/sdlapp/build;
+			};
+			name = MinSizeRel;
+		};
+		3EFAF90DFD0B47EDB34472A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tom/Downloads/CLionProjects/build/sdlapp;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		453C25B3E7AE4A86B48605AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tom/Downloads/CLionProjects/build/sdlapp;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		4672328129E74F5189A50843 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/tom/Downloads/CLionProjects/build/sdlapp/build;
+			};
+			name = Release;
+		};
+		60EB3BA75884407D859B7FCD /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tom/Downloads/CLionProjects/build/sdlapp;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		67AEB1B0E61E4C75839ACD52 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tom/Downloads/CLionProjects/build/sdlapp;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		7F223695A26B4D87BED4E786 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tom/Downloads/CLionProjects/build/sdlapp;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		9B8B088489704BE8A078B0FF /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tom/Downloads/CLionProjects/build/sdlapp;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		9C2C447279FB4719AA38BB81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/tom/Downloads/CLionProjects/libs/cal,"/Users/tom/Downloads/CLionProjects/libs/SDL2-2.0.7/include","/Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/include");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/tom/Downloads/CLionProjects/build/libs/cal/Debug/libcal.a /Users/tom/Downloads/CLionProjects/build/libs/SDL2-2.0.7/Debug/libSDL2d.a -framework OpenGL -framework OpenGL /Users/tom/Downloads/CLionProjects/build/lib/Debug/libGLEWd.a -lm -liconv -framework CoreVideo -framework Cocoa -framework IOKit -framework ForceFeedback -framework Carbon -framework CoreAudio -framework AudioToolbox -Wl,-undefined,error -framework OpenGL";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = sdlapp;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tom/Downloads/CLionProjects/build/sdlapp;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		B26CF54C74114857AC6C2D9D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tom/Downloads/CLionProjects/build/sdlapp;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		B90327B4BE3542ACA0192B8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/tom/Downloads/CLionProjects/libs/cal,"/Users/tom/Downloads/CLionProjects/libs/SDL2-2.0.7/include","/Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/include");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/tom/Downloads/CLionProjects/build/libs/cal/Release/libcal.a /Users/tom/Downloads/CLionProjects/build/libs/SDL2-2.0.7/Release/libSDL2.a -framework OpenGL -framework OpenGL /Users/tom/Downloads/CLionProjects/build/lib/Release/libGLEW.a -lm -liconv -framework CoreVideo -framework Cocoa -framework IOKit -framework ForceFeedback -framework Carbon -framework CoreAudio -framework AudioToolbox -Wl,-undefined,error -framework OpenGL";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = sdlapp;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tom/Downloads/CLionProjects/build/sdlapp;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		B9639BB032754DCCBFF89D9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/tom/Downloads/CLionProjects/build/sdlapp/build;
+			};
+			name = Debug;
+		};
+		D73C05BB61B54CF09F9EF254 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tom/Downloads/CLionProjects/build/sdlapp;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		D9A49FE767104AFA802F9C83 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/tom/Downloads/CLionProjects/build/sdlapp/build;
+			};
+			name = RelWithDebInfo;
+		};
+		E8E758E68DC740C4BD7F36C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tom/Downloads/CLionProjects/build/sdlapp;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		EB88A29C5F134EB8AD12160A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/tom/Downloads/CLionProjects/libs/cal,"/Users/tom/Downloads/CLionProjects/libs/SDL2-2.0.7/include","/Users/tom/Downloads/CLionProjects/libs/glew-2.0.0/include");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/tom/Downloads/CLionProjects/build/libs/cal/MinSizeRel/libcal.a /Users/tom/Downloads/CLionProjects/build/libs/SDL2-2.0.7/MinSizeRel/libSDL2.a -framework OpenGL -framework OpenGL /Users/tom/Downloads/CLionProjects/build/lib/MinSizeRel/libGLEW.a -lm -liconv -framework CoreVideo -framework Cocoa -framework IOKit -framework ForceFeedback -framework Carbon -framework CoreAudio -framework AudioToolbox -Wl,-undefined,error -framework OpenGL";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = sdlapp;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tom/Downloads/CLionProjects/build/sdlapp;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		FE3A9D56EBE94B11B4106E16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tom/Downloads/CLionProjects/build/sdlapp;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F76D27B28F34B798BC9887C /* Build configuration list for PBXNativeTarget "sdlapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C2C447279FB4719AA38BB81 /* Debug */,
+				B90327B4BE3542ACA0192B8D /* Release */,
+				EB88A29C5F134EB8AD12160A /* MinSizeRel */,
+				236692004C3D499A843137A5 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2FF0B634676F478B9CF3E42B /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8E758E68DC740C4BD7F36C0 /* Debug */,
+				2116B30C0F2545EA87583FD7 /* Release */,
+				67AEB1B0E61E4C75839ACD52 /* MinSizeRel */,
+				9B8B088489704BE8A078B0FF /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		313F68EB62344948AC76F0E1 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE3A9D56EBE94B11B4106E16 /* Debug */,
+				D73C05BB61B54CF09F9EF254 /* Release */,
+				60EB3BA75884407D859B7FCD /* MinSizeRel */,
+				7F223695A26B4D87BED4E786 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6009FD9E69A64B47B6CA0ABF /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				453C25B3E7AE4A86B48605AB /* Debug */,
+				3EFAF90DFD0B47EDB34472A3 /* Release */,
+				B26CF54C74114857AC6C2D9D /* MinSizeRel */,
+				0D49E7F1727E4C9AA64BB4E3 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A8279C47EE844C358153DE93 /* Build configuration list for PBXProject "sdlapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9639BB032754DCCBFF89D9A /* Debug */,
+				4672328129E74F5189A50843 /* Release */,
+				3E8B4016CD5A45A2B8773AAE /* MinSizeRel */,
+				D9A49FE767104AFA802F9C83 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3620ED4FDC14272A370A523 /* Project object */;
+}

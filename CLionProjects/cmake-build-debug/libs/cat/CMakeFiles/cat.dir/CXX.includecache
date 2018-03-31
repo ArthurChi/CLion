@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/tom/Downloads/CLionProjects/libs/cat/cat.cpp
+cat.h
+/Users/tom/Downloads/CLionProjects/libs/cat/cat.h
+
+/Users/tom/Downloads/CLionProjects/libs/cat/cat.h
+

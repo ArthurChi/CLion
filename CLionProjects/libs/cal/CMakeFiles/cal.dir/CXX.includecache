@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/cjfire/Desktop/CLionProjects/libs/cal/calculater.cpp
+calculater.h
+/Users/cjfire/Desktop/CLionProjects/libs/cal/calculater.h
+
+/Users/cjfire/Desktop/CLionProjects/libs/cal/calculater.h
+

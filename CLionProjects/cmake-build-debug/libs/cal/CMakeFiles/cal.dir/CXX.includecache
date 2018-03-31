@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/tom/Downloads/CLionProjects/libs/cal/calculater.cpp
+calculater.h
+/Users/tom/Downloads/CLionProjects/libs/cal/calculater.h
+
+/Users/tom/Downloads/CLionProjects/libs/cal/calculater.h
+

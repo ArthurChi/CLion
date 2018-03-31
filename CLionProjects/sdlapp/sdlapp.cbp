@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="sdlapp"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\app\;CMake Files\sdlapp\;CMake Files\libs\;CMake Files\libs\cal\;CMake Files\libs\glfw-3.2.1\;CMake Files\libs\glfw-3.2.1\CMake\;CMake Files\libs\glfw-3.2.1\CMake\modules\;CMake Files\libs\glfw-3.2.1\src\;CMake Files\libs\glew-2.0.0\;CMake Files\libs\glew-2.0.0\build\;CMake Files\libs\glew-2.0.0\build\cmake\;CMake Files\libs\SDL2-2.0.7\;CMake Files\libs\SDL2-2.0.7\cmake\;CMake Files\libs\SDL2-2.0.7\include\;CMake Files\libs\glm-master\;CMake Files\libs\glm-master\cmake\;CMake Files\libs\glm-master\glm\;CMake Files\libs\glm-master\test\;CMake Files\libs\glm-master\test\bug\;CMake Files\libs\glm-master\test\core\;CMake Files\libs\glm-master\test\gtc\;CMake Files\libs\glm-master\test\gtx\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/cjfire/Desktop/CLionProjects/sdlapp"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/cjfire/Desktop/CLionProjects/sdlapp/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/cjfire/Desktop/CLionProjects/sdlapp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/cjfire/Desktop/CLionProjects/sdlapp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/cjfire/Desktop/CLionProjects/sdlapp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sdlapp">
+				<Option output="/Users/cjfire/Desktop/CLionProjects/sdlapp/sdlapp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/cjfire/Desktop/CLionProjects/sdlapp"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="/Users/cjfire/Desktop/CLionProjects/libs/cal"/>
+					<Add directory="/Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/include"/>
+					<Add directory="/Users/cjfire/Desktop/CLionProjects/libs/glew-2.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/cjfire/Desktop/CLionProjects/sdlapp/Makefile&quot;  VERBOSE=1 sdlapp"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/cjfire/Desktop/CLionProjects/sdlapp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/cjfire/Desktop/CLionProjects/sdlapp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/cjfire/Desktop/CLionProjects/sdlapp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sdlapp/fast">
+				<Option output="/Users/cjfire/Desktop/CLionProjects/sdlapp/sdlapp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/cjfire/Desktop/CLionProjects/sdlapp"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="/Users/cjfire/Desktop/CLionProjects/libs/cal"/>
+					<Add directory="/Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/include"/>
+					<Add directory="/Users/cjfire/Desktop/CLionProjects/libs/glew-2.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/cjfire/Desktop/CLionProjects/sdlapp/Makefile&quot;  VERBOSE=1 sdlapp/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/cjfire/Desktop/CLionProjects/sdlapp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/cjfire/Desktop/CLionProjects/sdlapp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/cjfire/Desktop/CLionProjects/sdlapp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/sdlapp/main.cpp">
+			<Option target="sdlapp"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/app/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\app\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/app/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\app\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/sdlapp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\sdlapp\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/sdlapp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\sdlapp\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/cal/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\cal\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/cal/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\cal\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/cal/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\cal\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/glfw-3.2.1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\glfw-3.2.1\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/glfw-3.2.1/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\libs\glfw-3.2.1\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/glfw-3.2.1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\glfw-3.2.1\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/glfw-3.2.1/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\libs\glfw-3.2.1\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/glfw-3.2.1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\glfw-3.2.1\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/glfw-3.2.1/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\libs\glfw-3.2.1\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/glfw-3.2.1/CMake/modules/FindVulkan.cmake">
+			<Option virtualFolder="CMake Files\libs\glfw-3.2.1\CMake\modules\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/glfw-3.2.1/CMake/modules/FindVulkan.cmake">
+			<Option virtualFolder="CMake Files\libs\glfw-3.2.1\CMake\modules\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/glfw-3.2.1/CMake/modules/FindVulkan.cmake">
+			<Option virtualFolder="CMake Files\libs\glfw-3.2.1\CMake\modules\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/glfw-3.2.1/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\libs\glfw-3.2.1\src\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/glfw-3.2.1/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\libs\glfw-3.2.1\src\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/glfw-3.2.1/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\libs\glfw-3.2.1\src\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/glfw-3.2.1/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\glfw-3.2.1\src\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/glfw-3.2.1/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\libs\glfw-3.2.1\src\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/glfw-3.2.1/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\libs\glfw-3.2.1\src\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/glfw-3.2.1/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\libs\glfw-3.2.1\src\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/glfw-3.2.1/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\glfw-3.2.1\src\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/glfw-3.2.1/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\libs\glfw-3.2.1\src\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/glfw-3.2.1/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\libs\glfw-3.2.1\src\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/glfw-3.2.1/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\libs\glfw-3.2.1\src\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/glfw-3.2.1/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\glfw-3.2.1\src\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/glew-2.0.0/glew.pc.in">
+			<Option virtualFolder="CMake Files\libs\glew-2.0.0\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/glew-2.0.0/glew.pc.in">
+			<Option virtualFolder="CMake Files\libs\glew-2.0.0\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/glew-2.0.0/glew.pc.in">
+			<Option virtualFolder="CMake Files\libs\glew-2.0.0\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/glew-2.0.0/build/cmake/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\glew-2.0.0\build\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/glew-2.0.0/build/cmake/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\glew-2.0.0\build\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/glew-2.0.0/build/cmake/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\glew-2.0.0\build\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\SDL2-2.0.7\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/sdl2.pc.in">
+			<Option virtualFolder="CMake Files\libs\SDL2-2.0.7\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/sdl2-config.in">
+			<Option virtualFolder="CMake Files\libs\SDL2-2.0.7\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/sdl2-config.in">
+			<Option virtualFolder="CMake Files\libs\SDL2-2.0.7\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/SDL2.spec.in">
+			<Option virtualFolder="CMake Files\libs\SDL2-2.0.7\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\SDL2-2.0.7\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/sdl2.pc.in">
+			<Option virtualFolder="CMake Files\libs\SDL2-2.0.7\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/sdl2-config.in">
+			<Option virtualFolder="CMake Files\libs\SDL2-2.0.7\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/sdl2-config.in">
+			<Option virtualFolder="CMake Files\libs\SDL2-2.0.7\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/SDL2.spec.in">
+			<Option virtualFolder="CMake Files\libs\SDL2-2.0.7\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\SDL2-2.0.7\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/sdl2.pc.in">
+			<Option virtualFolder="CMake Files\libs\SDL2-2.0.7\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/sdl2-config.in">
+			<Option virtualFolder="CMake Files\libs\SDL2-2.0.7\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/sdl2-config.in">
+			<Option virtualFolder="CMake Files\libs\SDL2-2.0.7\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/SDL2.spec.in">
+			<Option virtualFolder="CMake Files\libs\SDL2-2.0.7\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/cmake/macros.cmake">
+			<Option virtualFolder="CMake Files\libs\SDL2-2.0.7\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/cmake/sdlchecks.cmake">
+			<Option virtualFolder="CMake Files\libs\SDL2-2.0.7\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/cmake/macros.cmake">
+			<Option virtualFolder="CMake Files\libs\SDL2-2.0.7\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/cmake/sdlchecks.cmake">
+			<Option virtualFolder="CMake Files\libs\SDL2-2.0.7\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/cmake/macros.cmake">
+			<Option virtualFolder="CMake Files\libs\SDL2-2.0.7\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/cmake/sdlchecks.cmake">
+			<Option virtualFolder="CMake Files\libs\SDL2-2.0.7\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/include/SDL_config.h.cmake">
+			<Option virtualFolder="CMake Files\libs\SDL2-2.0.7\include\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/include/SDL_config.h.cmake">
+			<Option virtualFolder="CMake Files\libs\SDL2-2.0.7\include\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/SDL2-2.0.7/include/SDL_config.h.cmake">
+			<Option virtualFolder="CMake Files\libs\SDL2-2.0.7\include\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/glm-master/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\glm-master\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/glm-master/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\glm-master\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/glm-master/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\glm-master\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/glm-master/cmake/GNUInstallDirs.cmake">
+			<Option virtualFolder="CMake Files\libs\glm-master\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/glm-master/cmake/CMakePackageConfigHelpers.cmake">
+			<Option virtualFolder="CMake Files\libs\glm-master\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/glm-master/cmake/glmBuildConfig.cmake.in">
+			<Option virtualFolder="CMake Files\libs\glm-master\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/glm-master/cmake/glmConfig.cmake.in">
+			<Option virtualFolder="CMake Files\libs\glm-master\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/glm-master/cmake/glm.pc.in">
+			<Option virtualFolder="CMake Files\libs\glm-master\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/glm-master/cmake/GNUInstallDirs.cmake">
+			<Option virtualFolder="CMake Files\libs\glm-master\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/glm-master/cmake/CMakePackageConfigHelpers.cmake">
+			<Option virtualFolder="CMake Files\libs\glm-master\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/glm-master/cmake/glmBuildConfig.cmake.in">
+			<Option virtualFolder="CMake Files\libs\glm-master\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/glm-master/cmake/glmConfig.cmake.in">
+			<Option virtualFolder="CMake Files\libs\glm-master\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/glm-master/cmake/glm.pc.in">
+			<Option virtualFolder="CMake Files\libs\glm-master\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/glm-master/cmake/GNUInstallDirs.cmake">
+			<Option virtualFolder="CMake Files\libs\glm-master\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/glm-master/cmake/CMakePackageConfigHelpers.cmake">
+			<Option virtualFolder="CMake Files\libs\glm-master\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/glm-master/cmake/glmBuildConfig.cmake.in">
+			<Option virtualFolder="CMake Files\libs\glm-master\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/glm-master/cmake/glmConfig.cmake.in">
+			<Option virtualFolder="CMake Files\libs\glm-master\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/glm-master/cmake/glm.pc.in">
+			<Option virtualFolder="CMake Files\libs\glm-master\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/glm-master/glm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\glm-master\glm\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/glm-master/glm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\glm-master\glm\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/glm-master/glm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\glm-master\glm\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/glm-master/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\glm-master\test\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/glm-master/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\glm-master\test\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/glm-master/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\glm-master\test\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/glm-master/test/bug/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\glm-master\test\bug\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/glm-master/test/bug/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\glm-master\test\bug\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/glm-master/test/bug/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\glm-master\test\bug\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/glm-master/test/core/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\glm-master\test\core\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/glm-master/test/core/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\glm-master\test\core\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/glm-master/test/core/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\glm-master\test\core\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/glm-master/test/gtc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\glm-master\test\gtc\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/glm-master/test/gtc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\glm-master\test\gtc\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/glm-master/test/gtc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\glm-master\test\gtc\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/glm-master/test/gtx/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\glm-master\test\gtx\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/glm-master/test/gtx/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\glm-master\test\gtx\"/>
+		</Unit>
+		<Unit filename="/Users/cjfire/Desktop/CLionProjects/libs/glm-master/test/gtx/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\glm-master\test\gtx\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
