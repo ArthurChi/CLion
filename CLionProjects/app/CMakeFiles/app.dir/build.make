@@ -105,22 +105,126 @@ app/CMakeFiles/app.dir/Shader.cpp.o.provides: app/CMakeFiles/app.dir/Shader.cpp.
 app/CMakeFiles/app.dir/Shader.cpp.o.provides.build: app/CMakeFiles/app.dir/Shader.cpp.o
 
 
+app/CMakeFiles/app.dir/Material.cpp.o: app/CMakeFiles/app.dir/flags.make
+app/CMakeFiles/app.dir/Material.cpp.o: app/Material.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object app/CMakeFiles/app.dir/Material.cpp.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/app && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/app.dir/Material.cpp.o -c /Users/cjfire/Documents/code/CLion/CLionProjects/app/Material.cpp
+
+app/CMakeFiles/app.dir/Material.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/app.dir/Material.cpp.i"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/app && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/app/Material.cpp > CMakeFiles/app.dir/Material.cpp.i
+
+app/CMakeFiles/app.dir/Material.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/app.dir/Material.cpp.s"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/app && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/app/Material.cpp -o CMakeFiles/app.dir/Material.cpp.s
+
+app/CMakeFiles/app.dir/Material.cpp.o.requires:
+
+.PHONY : app/CMakeFiles/app.dir/Material.cpp.o.requires
+
+app/CMakeFiles/app.dir/Material.cpp.o.provides: app/CMakeFiles/app.dir/Material.cpp.o.requires
+	$(MAKE) -f app/CMakeFiles/app.dir/build.make app/CMakeFiles/app.dir/Material.cpp.o.provides.build
+.PHONY : app/CMakeFiles/app.dir/Material.cpp.o.provides
+
+app/CMakeFiles/app.dir/Material.cpp.o.provides.build: app/CMakeFiles/app.dir/Material.cpp.o
+
+
+app/CMakeFiles/app.dir/Texture.cpp.o: app/CMakeFiles/app.dir/flags.make
+app/CMakeFiles/app.dir/Texture.cpp.o: app/Texture.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object app/CMakeFiles/app.dir/Texture.cpp.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/app && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/app.dir/Texture.cpp.o -c /Users/cjfire/Documents/code/CLion/CLionProjects/app/Texture.cpp
+
+app/CMakeFiles/app.dir/Texture.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/app.dir/Texture.cpp.i"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/app && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/app/Texture.cpp > CMakeFiles/app.dir/Texture.cpp.i
+
+app/CMakeFiles/app.dir/Texture.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/app.dir/Texture.cpp.s"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/app && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/app/Texture.cpp -o CMakeFiles/app.dir/Texture.cpp.s
+
+app/CMakeFiles/app.dir/Texture.cpp.o.requires:
+
+.PHONY : app/CMakeFiles/app.dir/Texture.cpp.o.requires
+
+app/CMakeFiles/app.dir/Texture.cpp.o.provides: app/CMakeFiles/app.dir/Texture.cpp.o.requires
+	$(MAKE) -f app/CMakeFiles/app.dir/build.make app/CMakeFiles/app.dir/Texture.cpp.o.provides.build
+.PHONY : app/CMakeFiles/app.dir/Texture.cpp.o.provides
+
+app/CMakeFiles/app.dir/Texture.cpp.o.provides.build: app/CMakeFiles/app.dir/Texture.cpp.o
+
+
+app/CMakeFiles/app.dir/VertexDecl.cpp.o: app/CMakeFiles/app.dir/flags.make
+app/CMakeFiles/app.dir/VertexDecl.cpp.o: app/VertexDecl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object app/CMakeFiles/app.dir/VertexDecl.cpp.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/app && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/app.dir/VertexDecl.cpp.o -c /Users/cjfire/Documents/code/CLion/CLionProjects/app/VertexDecl.cpp
+
+app/CMakeFiles/app.dir/VertexDecl.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/app.dir/VertexDecl.cpp.i"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/app && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/app/VertexDecl.cpp > CMakeFiles/app.dir/VertexDecl.cpp.i
+
+app/CMakeFiles/app.dir/VertexDecl.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/app.dir/VertexDecl.cpp.s"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/app && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/app/VertexDecl.cpp -o CMakeFiles/app.dir/VertexDecl.cpp.s
+
+app/CMakeFiles/app.dir/VertexDecl.cpp.o.requires:
+
+.PHONY : app/CMakeFiles/app.dir/VertexDecl.cpp.o.requires
+
+app/CMakeFiles/app.dir/VertexDecl.cpp.o.provides: app/CMakeFiles/app.dir/VertexDecl.cpp.o.requires
+	$(MAKE) -f app/CMakeFiles/app.dir/build.make app/CMakeFiles/app.dir/VertexDecl.cpp.o.provides.build
+.PHONY : app/CMakeFiles/app.dir/VertexDecl.cpp.o.provides
+
+app/CMakeFiles/app.dir/VertexDecl.cpp.o.provides.build: app/CMakeFiles/app.dir/VertexDecl.cpp.o
+
+
+app/CMakeFiles/app.dir/Mesh.cpp.o: app/CMakeFiles/app.dir/flags.make
+app/CMakeFiles/app.dir/Mesh.cpp.o: app/Mesh.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object app/CMakeFiles/app.dir/Mesh.cpp.o"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/app && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/app.dir/Mesh.cpp.o -c /Users/cjfire/Documents/code/CLion/CLionProjects/app/Mesh.cpp
+
+app/CMakeFiles/app.dir/Mesh.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/app.dir/Mesh.cpp.i"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/app && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cjfire/Documents/code/CLion/CLionProjects/app/Mesh.cpp > CMakeFiles/app.dir/Mesh.cpp.i
+
+app/CMakeFiles/app.dir/Mesh.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/app.dir/Mesh.cpp.s"
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects/app && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cjfire/Documents/code/CLion/CLionProjects/app/Mesh.cpp -o CMakeFiles/app.dir/Mesh.cpp.s
+
+app/CMakeFiles/app.dir/Mesh.cpp.o.requires:
+
+.PHONY : app/CMakeFiles/app.dir/Mesh.cpp.o.requires
+
+app/CMakeFiles/app.dir/Mesh.cpp.o.provides: app/CMakeFiles/app.dir/Mesh.cpp.o.requires
+	$(MAKE) -f app/CMakeFiles/app.dir/build.make app/CMakeFiles/app.dir/Mesh.cpp.o.provides.build
+.PHONY : app/CMakeFiles/app.dir/Mesh.cpp.o.provides
+
+app/CMakeFiles/app.dir/Mesh.cpp.o.provides.build: app/CMakeFiles/app.dir/Mesh.cpp.o
+
+
 # Object files for target app
 app_OBJECTS = \
 "CMakeFiles/app.dir/main.cpp.o" \
-"CMakeFiles/app.dir/Shader.cpp.o"
+"CMakeFiles/app.dir/Shader.cpp.o" \
+"CMakeFiles/app.dir/Material.cpp.o" \
+"CMakeFiles/app.dir/Texture.cpp.o" \
+"CMakeFiles/app.dir/VertexDecl.cpp.o" \
+"CMakeFiles/app.dir/Mesh.cpp.o"
 
 # External object files for target app
 app_EXTERNAL_OBJECTS =
 
 app/app: app/CMakeFiles/app.dir/main.cpp.o
 app/app: app/CMakeFiles/app.dir/Shader.cpp.o
+app/app: app/CMakeFiles/app.dir/Material.cpp.o
+app/app: app/CMakeFiles/app.dir/Texture.cpp.o
+app/app: app/CMakeFiles/app.dir/VertexDecl.cpp.o
+app/app: app/CMakeFiles/app.dir/Mesh.cpp.o
 app/app: app/CMakeFiles/app.dir/build.make
 app/app: libs/cal/libcal.a
 app/app: libs/glfw-3.2.1/src/libglfw3.a
 app/app: lib/libGLEW.a
 app/app: app/CMakeFiles/app.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable app"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/cjfire/Documents/code/CLion/CLionProjects/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable app"
 	cd /Users/cjfire/Documents/code/CLion/CLionProjects/app && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/app.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -130,6 +234,10 @@ app/CMakeFiles/app.dir/build: app/app
 
 app/CMakeFiles/app.dir/requires: app/CMakeFiles/app.dir/main.cpp.o.requires
 app/CMakeFiles/app.dir/requires: app/CMakeFiles/app.dir/Shader.cpp.o.requires
+app/CMakeFiles/app.dir/requires: app/CMakeFiles/app.dir/Material.cpp.o.requires
+app/CMakeFiles/app.dir/requires: app/CMakeFiles/app.dir/Texture.cpp.o.requires
+app/CMakeFiles/app.dir/requires: app/CMakeFiles/app.dir/VertexDecl.cpp.o.requires
+app/CMakeFiles/app.dir/requires: app/CMakeFiles/app.dir/Mesh.cpp.o.requires
 
 .PHONY : app/CMakeFiles/app.dir/requires
 

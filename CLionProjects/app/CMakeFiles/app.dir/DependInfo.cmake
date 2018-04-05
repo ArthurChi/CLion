@@ -4,7 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/cjfire/Documents/code/CLion/CLionProjects/app/Material.cpp" "/Users/cjfire/Documents/code/CLion/CLionProjects/app/CMakeFiles/app.dir/Material.cpp.o"
+  "/Users/cjfire/Documents/code/CLion/CLionProjects/app/Mesh.cpp" "/Users/cjfire/Documents/code/CLion/CLionProjects/app/CMakeFiles/app.dir/Mesh.cpp.o"
   "/Users/cjfire/Documents/code/CLion/CLionProjects/app/Shader.cpp" "/Users/cjfire/Documents/code/CLion/CLionProjects/app/CMakeFiles/app.dir/Shader.cpp.o"
+  "/Users/cjfire/Documents/code/CLion/CLionProjects/app/Texture.cpp" "/Users/cjfire/Documents/code/CLion/CLionProjects/app/CMakeFiles/app.dir/Texture.cpp.o"
+  "/Users/cjfire/Documents/code/CLion/CLionProjects/app/VertexDecl.cpp" "/Users/cjfire/Documents/code/CLion/CLionProjects/app/CMakeFiles/app.dir/VertexDecl.cpp.o"
   "/Users/cjfire/Documents/code/CLion/CLionProjects/app/main.cpp" "/Users/cjfire/Documents/code/CLion/CLionProjects/app/CMakeFiles/app.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

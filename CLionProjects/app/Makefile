@@ -171,6 +171,60 @@ app/fast:
 	cd /Users/cjfire/Documents/code/CLion/CLionProjects && $(MAKE) -f app/CMakeFiles/app.dir/build.make app/CMakeFiles/app.dir/build
 .PHONY : app/fast
 
+Material.o: Material.cpp.o
+
+.PHONY : Material.o
+
+# target to build an object file
+Material.cpp.o:
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects && $(MAKE) -f app/CMakeFiles/app.dir/build.make app/CMakeFiles/app.dir/Material.cpp.o
+.PHONY : Material.cpp.o
+
+Material.i: Material.cpp.i
+
+.PHONY : Material.i
+
+# target to preprocess a source file
+Material.cpp.i:
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects && $(MAKE) -f app/CMakeFiles/app.dir/build.make app/CMakeFiles/app.dir/Material.cpp.i
+.PHONY : Material.cpp.i
+
+Material.s: Material.cpp.s
+
+.PHONY : Material.s
+
+# target to generate assembly for a file
+Material.cpp.s:
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects && $(MAKE) -f app/CMakeFiles/app.dir/build.make app/CMakeFiles/app.dir/Material.cpp.s
+.PHONY : Material.cpp.s
+
+Mesh.o: Mesh.cpp.o
+
+.PHONY : Mesh.o
+
+# target to build an object file
+Mesh.cpp.o:
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects && $(MAKE) -f app/CMakeFiles/app.dir/build.make app/CMakeFiles/app.dir/Mesh.cpp.o
+.PHONY : Mesh.cpp.o
+
+Mesh.i: Mesh.cpp.i
+
+.PHONY : Mesh.i
+
+# target to preprocess a source file
+Mesh.cpp.i:
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects && $(MAKE) -f app/CMakeFiles/app.dir/build.make app/CMakeFiles/app.dir/Mesh.cpp.i
+.PHONY : Mesh.cpp.i
+
+Mesh.s: Mesh.cpp.s
+
+.PHONY : Mesh.s
+
+# target to generate assembly for a file
+Mesh.cpp.s:
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects && $(MAKE) -f app/CMakeFiles/app.dir/build.make app/CMakeFiles/app.dir/Mesh.cpp.s
+.PHONY : Mesh.cpp.s
+
 Shader.o: Shader.cpp.o
 
 .PHONY : Shader.o
@@ -197,6 +251,60 @@ Shader.s: Shader.cpp.s
 Shader.cpp.s:
 	cd /Users/cjfire/Documents/code/CLion/CLionProjects && $(MAKE) -f app/CMakeFiles/app.dir/build.make app/CMakeFiles/app.dir/Shader.cpp.s
 .PHONY : Shader.cpp.s
+
+Texture.o: Texture.cpp.o
+
+.PHONY : Texture.o
+
+# target to build an object file
+Texture.cpp.o:
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects && $(MAKE) -f app/CMakeFiles/app.dir/build.make app/CMakeFiles/app.dir/Texture.cpp.o
+.PHONY : Texture.cpp.o
+
+Texture.i: Texture.cpp.i
+
+.PHONY : Texture.i
+
+# target to preprocess a source file
+Texture.cpp.i:
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects && $(MAKE) -f app/CMakeFiles/app.dir/build.make app/CMakeFiles/app.dir/Texture.cpp.i
+.PHONY : Texture.cpp.i
+
+Texture.s: Texture.cpp.s
+
+.PHONY : Texture.s
+
+# target to generate assembly for a file
+Texture.cpp.s:
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects && $(MAKE) -f app/CMakeFiles/app.dir/build.make app/CMakeFiles/app.dir/Texture.cpp.s
+.PHONY : Texture.cpp.s
+
+VertexDecl.o: VertexDecl.cpp.o
+
+.PHONY : VertexDecl.o
+
+# target to build an object file
+VertexDecl.cpp.o:
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects && $(MAKE) -f app/CMakeFiles/app.dir/build.make app/CMakeFiles/app.dir/VertexDecl.cpp.o
+.PHONY : VertexDecl.cpp.o
+
+VertexDecl.i: VertexDecl.cpp.i
+
+.PHONY : VertexDecl.i
+
+# target to preprocess a source file
+VertexDecl.cpp.i:
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects && $(MAKE) -f app/CMakeFiles/app.dir/build.make app/CMakeFiles/app.dir/VertexDecl.cpp.i
+.PHONY : VertexDecl.cpp.i
+
+VertexDecl.s: VertexDecl.cpp.s
+
+.PHONY : VertexDecl.s
+
+# target to generate assembly for a file
+VertexDecl.cpp.s:
+	cd /Users/cjfire/Documents/code/CLion/CLionProjects && $(MAKE) -f app/CMakeFiles/app.dir/build.make app/CMakeFiles/app.dir/VertexDecl.cpp.s
+.PHONY : VertexDecl.cpp.s
 
 main.o: main.cpp.o
 
@@ -238,9 +346,21 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... app"
+	@echo "... Material.o"
+	@echo "... Material.i"
+	@echo "... Material.s"
+	@echo "... Mesh.o"
+	@echo "... Mesh.i"
+	@echo "... Mesh.s"
 	@echo "... Shader.o"
 	@echo "... Shader.i"
 	@echo "... Shader.s"
+	@echo "... Texture.o"
+	@echo "... Texture.i"
+	@echo "... Texture.s"
+	@echo "... VertexDecl.o"
+	@echo "... VertexDecl.i"
+	@echo "... VertexDecl.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

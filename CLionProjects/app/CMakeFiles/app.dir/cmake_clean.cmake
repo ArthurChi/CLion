@@ -1,6 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/app.dir/main.cpp.o"
   "CMakeFiles/app.dir/Shader.cpp.o"
+  "CMakeFiles/app.dir/Material.cpp.o"
+  "CMakeFiles/app.dir/Texture.cpp.o"
+  "CMakeFiles/app.dir/VertexDecl.cpp.o"
+  "CMakeFiles/app.dir/Mesh.cpp.o"
   "app.pdb"
   "app"
 )
